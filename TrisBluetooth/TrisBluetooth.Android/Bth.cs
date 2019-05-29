@@ -109,7 +109,7 @@ namespace TrisBluetooth.Droid
                                 {
                                     if (buffer.Ready())
                                     {
-                                        //										string barcode =  buffer
+                                        //string barcode =  buffer
                                         //string barcode = buffer.
 
                                         //string barcode = await buffer.ReadLineAsync();

@@ -18,6 +18,9 @@ namespace TrisBluetooth
             cerca.SetBinding(Picker.SelectedItemProperty, "SelectedBthDevice");
             cerca.SetBinding(VisualElement.IsEnabledProperty, "IsPickerEnabled");
 
+            Entry entrySleepTime = new Entry() { Keyboard = Keyboard.Numeric, Placeholder = "Sleep time" };
+            entrySleepTime.SetBinding(Entry.TextProperty, "SleepTime");
+
             Button buttonConnect = new Button() { Text = "Connect" };
             buttonConnect.SetBinding(Button.CommandProperty, "ConnectCommand");
             buttonConnect.SetBinding(VisualElement.IsEnabledProperty, "IsConnectEnabled");
@@ -28,13 +31,16 @@ namespace TrisBluetooth
 
             StackLayout slButtons = new StackLayout() { Orientation = StackOrientation.Horizontal, Children = { buttonDisconnect, buttonConnect } };
 
-            
+            ListView lv = new ListView();
+            lv.SetBinding(ListView.ItemsSourceProperty, "ListOfBarcodes");
+            lv.ItemTemplate = new DataTemplate(typeof(TextCell));
+            lv.ItemTemplate.SetBinding(TextCell.TextProperty, ".");
 
             int topPadding = 0;
             if (Device.RuntimePlatform == Device.iOS)
                 topPadding = 20;
 
-            StackLayout sl = new StackLayout { Children = { cerca, slButtons, lv }, Padding = new Thickness(0, topPadding, 0, 0) };
+            StackLayout sl = new StackLayout { Children = { cerca, entrySleepTime, slButtons, lv }, Padding = new Thickness(0, topPadding, 0, 0) };
             Content = sl;
         }
         protected override bool OnBackButtonPressed()
