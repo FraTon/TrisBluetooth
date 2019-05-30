@@ -74,10 +74,9 @@ namespace TrisBluetooth.Droid
                     // Get the BluetoothDevice object from the Intent
                     BluetoothDevice device = (BluetoothDevice)intent.GetParcelableExtra(BluetoothDevice.ExtraDevice);
                     // If it's already paired, skip it, because it's been listed already
-                    if (device.BondState != Bond.Bonded)
-                    {
-                        System.Console.WriteLine("Trovato: " + device.Name + "   " + device.Address);
-                    }
+
+                    System.Console.WriteLine("Trovato: " + device.Name + "   " + device.Address);
+
                     // When discovery is finished, change the Activity title
                 }
 
