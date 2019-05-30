@@ -6,7 +6,7 @@ namespace TrisBluetooth
 {
     public interface IBluetooth
     {
-        void Start(string name, int sleepTime, bool readAsCharArray);
+        void StartDiscovery();
         void Cancel();
         ObservableCollection<string> PairedDevices();
       

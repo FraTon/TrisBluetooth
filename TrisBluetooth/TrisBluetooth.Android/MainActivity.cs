@@ -17,11 +17,13 @@ namespace TrisBluetooth.Droid
     [Activity(Label = "TrisBluetooth", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
-        private BluetoothDeviceReceiver _receiver;
+        private DeviceDiscoveredReceiver receiver;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            LoadApplication(new App());
 
             const int locationPermissionsRequestCode = 1000;
 
@@ -47,11 +49,39 @@ namespace TrisBluetooth.Droid
             }
 
             // Register for broadcasts when a device is discovered
-            _receiver = new BluetoothDeviceReceiver();
+            receiver = new DeviceDiscoveredReceiver();
+            var filter = new IntentFilter(BluetoothDevice.ActionFound);
+            RegisterReceiver(receiver, filter);
 
-            RegisterReceiver(_receiver, new IntentFilter(BluetoothDevice.ActionFound));
+            // Register for broadcasts when discovery has finished
+            filter = new IntentFilter(BluetoothAdapter.ActionDiscoveryFinished);
+            RegisterReceiver(receiver, filter);
 
-           // BluetoothDeviceReceiver.Adapter.StartDiscovery();
+        }
+
+
+
+        public class DeviceDiscoveredReceiver : BroadcastReceiver
+        {
+
+            public override void OnReceive(Context context, Intent intent)
+            {
+                string action = intent.Action;
+
+                // When discovery finds a device
+                if (action == BluetoothDevice.ActionFound)
+                {
+                    // Get the BluetoothDevice object from the Intent
+                    BluetoothDevice device = (BluetoothDevice)intent.GetParcelableExtra(BluetoothDevice.ExtraDevice);
+                    // If it's already paired, skip it, because it's been listed already
+                    if (device.BondState != Bond.Bonded)
+                    {
+                        System.Console.WriteLine("Trovato: " + device.Name + "   " + device.Address);
+                    }
+                    // When discovery is finished, change the Activity title
+                }
+
+            }
         }
     }
 }
