@@ -23,24 +23,20 @@ namespace TrisBluetooth.Droid
     public class Bth : IBluetooth
     {
 
-        private CancellationTokenSource _ct { get; set; }
-
-        const int RequestResolveError = 1000;
-
         public Bth()
         {
         }
-
+       
         // Start the "reading" loop 
         public void Start(string name, int sleepTime = 200, bool readAsCharArray = false)
         {
 
-            Task.Run(async () => loop(name, sleepTime, readAsCharArray));
+           // Task.Run(async () => loop(name, sleepTime, readAsCharArray));
         }
 
 
 
-        private async Task loop(string name, int sleepTime, bool readAsCharArray)
+      /*  private async Task loop(string name, int sleepTime, bool readAsCharArray)
         {
             BluetoothDevice device = null;
             BluetoothAdapter adapter = BluetoothAdapter.DefaultAdapter;
@@ -180,15 +176,15 @@ namespace TrisBluetooth.Droid
 
             System.Diagnostics.Debug.WriteLine("Exit the external loop");
         }
-
+        */
         // Cancel the Reading loop
         public void Cancel()
         {
-            if (_ct != null)
+           /* if (_ct != null)
             {
                 System.Diagnostics.Debug.WriteLine("Send a cancel to task!");
                 _ct.Cancel();
-            }
+            }*/
         }
 
         public ObservableCollection<string> PairedDevices()
@@ -201,6 +197,6 @@ namespace TrisBluetooth.Droid
 
             return devices;
         }
-
+        
     }
 }
