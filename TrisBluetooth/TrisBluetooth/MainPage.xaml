@@ -4,7 +4,24 @@
              xmlns:local="clr-namespace:TrisBluetooth"
              x:Class="TrisBluetooth.MainPage">
 
+
     <StackLayout>
+        
+        <ListView x:Name="MainListView"  
+             HasUnevenRows="True"  
+             ItemTapped="MainListView_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="{Binding Name}" />
+                            <Label Text="{Binding Mac}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
         <Button Text="Cerca"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"

@@ -11,6 +11,7 @@ using Android.Support.V4.App;
 using Android;
 using Android.Support.V4.Content;
 using Android.Content;
+using Xamarin.Forms;
 
 namespace TrisBluetooth.Droid
 {
@@ -74,9 +75,8 @@ namespace TrisBluetooth.Droid
                     // Get the BluetoothDevice object from the Intent
                     BluetoothDevice device = (BluetoothDevice)intent.GetParcelableExtra(BluetoothDevice.ExtraDevice);
                     // If it's already paired, skip it, because it's been listed already
-
                     System.Console.WriteLine("Trovato: " + device.Name + "   " + device.Address);
-
+                    MessagingCenter.Send<Object, string>(this, "ParsedSmsReceived", device.Name + " " + device.Address);
                     // When discovery is finished, change the Activity title
                 }
 
