@@ -13,22 +13,24 @@ namespace TrisBluetooth
 
         public ObservableCollection<ListViewTemplate> data = new ObservableCollection<ListViewTemplate>();
 
-        private bool search = true;
 
         public MainPage()
         {
             InitializeComponent();
-            data.Add(new ListViewTemplate("Droga", "One"));
-            data.Add(new ListViewTemplate("Sesso", "Two"));
             MainListView.ItemsSource = data;
 
-            MessagingCenter.Subscribe<Object, string>(this, "ParsedSmsReceived",
+            MessagingCenter.Subscribe<Object, String[]>(this, "ParsedSmsReceived",
             (sender, arg) =>
             {
-                string message = arg;
-                data.Add(new ListViewTemplate(message, " "));
+                string[] description = arg;
+                string name = description[0];
+                string mac = description[1];
+
+                data.Add(new ListViewTemplate(name, mac));
                 MainListView.ItemsSource = data;
             });
+
+
 
         }
 
@@ -41,26 +43,14 @@ namespace TrisBluetooth
         async private void MainListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var Selected = e.Item as ListViewTemplate;
-
-            switch (Selected.Mac)
-            {
-                case "One":
-                    System.Console.WriteLine("Cliccato: " + Selected.Mac);
-                    break;
-                case "Two":
-                    data.Add( new ListViewTemplate("Pippo", "Three"));
-                    MainListView.ItemsSource = data;
-                    break;
-                case "Three":
-                    break;
-                case "Four":
-                    break;
-            }
-
-       ((ListView)sender).SelectedItem = null;
-
+            DependencyService.Get<IBluetooth>().CreateBond(Selected.Mac);
 
         }
 
+        private void Gioca(object sender, EventArgs e)
+        {
+            var page = new Gioca();
+            Navigation.PushAsync(page);
+        }
     }
 }

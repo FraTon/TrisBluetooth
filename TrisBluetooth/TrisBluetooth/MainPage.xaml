@@ -6,6 +6,11 @@
 
 
     <StackLayout>
+
+        <Button Text="Cerca"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Cerca" />
         
         <ListView x:Name="MainListView"  
              HasUnevenRows="True"  
@@ -22,10 +27,10 @@
             </ListView.ItemTemplate>
         </ListView>
         
-        <Button Text="Cerca"
+        <Button Text="Gioca"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
-                Clicked="Cerca" />
+                Clicked="Gioca" />
     </StackLayout>
 
 </ContentPage>

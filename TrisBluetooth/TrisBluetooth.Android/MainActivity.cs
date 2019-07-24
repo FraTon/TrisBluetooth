@@ -12,13 +12,15 @@ using Android;
 using Android.Support.V4.Content;
 using Android.Content;
 using Xamarin.Forms;
+using System.Collections;
 
 namespace TrisBluetooth.Droid
 {
     [Activity(Label = "TrisBluetooth", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
-        private DeviceDiscoveredReceiver receiver;
+        private DeviceDiscoveredReceiver receiver = new DeviceDiscoveredReceiver();
+        public static ArrayList devices = new ArrayList();
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -61,7 +63,6 @@ namespace TrisBluetooth.Droid
         }
 
 
-
         public class DeviceDiscoveredReceiver : BroadcastReceiver
         {
 
@@ -74,10 +75,10 @@ namespace TrisBluetooth.Droid
                 {
                     // Get the BluetoothDevice object from the Intent
                     BluetoothDevice device = (BluetoothDevice)intent.GetParcelableExtra(BluetoothDevice.ExtraDevice);
-                    // If it's already paired, skip it, because it's been listed already
                     System.Console.WriteLine("Trovato: " + device.Name + "   " + device.Address);
-                    MessagingCenter.Send<Object, string>(this, "ParsedSmsReceived", device.Name + " " + device.Address);
-                    // When discovery is finished, change the Activity title
+                    devices.Add(device);
+                    String[] Description = { device.Name, device.Address };
+                    MessagingCenter.Send<Object, String[]>(this, "ParsedSmsReceived", Description);
                 }
 
             }

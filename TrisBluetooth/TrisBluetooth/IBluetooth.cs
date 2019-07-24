@@ -7,8 +7,11 @@ namespace TrisBluetooth
     public interface IBluetooth
     {
         void StartDiscovery();
+
         void Cancel();
-        ObservableCollection<string> PairedDevices();
-      
+
+        void CreateConnection(Object device);
+
+        void CreateBond(String Mac);
     }
 }

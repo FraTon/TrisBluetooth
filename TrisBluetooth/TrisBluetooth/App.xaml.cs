@@ -10,8 +10,10 @@ namespace TrisBluetooth
         public App()
         {
             InitializeComponent();
+            
+            var navigationPage = new NavigationPage(new MainPage());
+            MainPage = navigationPage;
 
-            MainPage = new MainPage();
         }
 
         protected override void OnStart()

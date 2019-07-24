@@ -32,21 +32,40 @@ namespace TrisBluetooth.Droid
 
         public void Cancel()
         {
-            throw new NotImplementedException();
+            System.Console.WriteLine("Ricerca disattivata");
+            mBluetoothAdapter.CancelDiscovery();
         }
 
-        public ObservableCollection<string> PairedDevices()
+        public void CreateConnection(Object device)
         {
-            throw new NotImplementedException();
+
         }
 
-        // Start the "reading" loop 
+        public void CreateBond(String Mac)
+        {
+            this.Cancel();
+            foreach (BluetoothDevice device in MainActivity.devices)
+            {
+                if (device.Address.Equals(Mac))
+                {
+                    device.CreateBond();
+                    Thread.Sleep(1000);
+                    break;
+                }
+            }
+        }
+
         public void StartDiscovery()
         {
-            System.Console.WriteLine("Cerca attivata");
+            System.Console.WriteLine("Ricerca attivata");
             mBluetoothAdapter.StartDiscovery();
+
         }
 
-       
-        }
+
+
+
+
+
+    }
 }
