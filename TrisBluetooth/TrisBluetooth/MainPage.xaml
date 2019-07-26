@@ -30,6 +30,7 @@
         <Button Text="Gioca"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
+                IsVisible="False"
                 Clicked="Gioca" />
     </StackLayout>
 

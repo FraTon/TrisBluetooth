@@ -10,8 +10,7 @@ namespace TrisBluetooth
 
         void Cancel();
 
-        void CreateConnection(Object device);
-
         void CreateBond(String Mac);
+
     }
 }

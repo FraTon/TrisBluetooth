@@ -12,6 +12,7 @@ namespace TrisBluetooth
     {
 
         public ObservableCollection<ListViewTemplate> data = new ObservableCollection<ListViewTemplate>();
+        Button gioca;
 
 
         public MainPage()
@@ -30,7 +31,7 @@ namespace TrisBluetooth
                 MainListView.ItemsSource = data;
             });
 
-
+            gioca = FindByName("gioca") as Button;
 
         }
 
@@ -45,7 +46,7 @@ namespace TrisBluetooth
         {
             var Selected = e.Item as ListViewTemplate;
             DependencyService.Get<IBluetooth>().CreateBond(Selected.Mac);
-
+            gioca.IsVisible = true;
         }
 
         private void Gioca(object sender, EventArgs e)

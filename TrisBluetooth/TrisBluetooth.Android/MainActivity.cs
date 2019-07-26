@@ -118,6 +118,7 @@ namespace TrisBluetooth.Droid
             discoverableIntent.PutExtra(BluetoothAdapter.ExtraDiscoverableDuration, 30);
             StartActivity(discoverableIntent);
         }
+
     }
 
 
