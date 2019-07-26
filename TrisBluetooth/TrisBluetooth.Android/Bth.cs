@@ -49,7 +49,6 @@ namespace TrisBluetooth.Droid
                 if (device.Address.Equals(Mac))
                 {
                     device.CreateBond();
-                    Thread.Sleep(1000);
                     break;
                 }
             }
@@ -61,11 +60,6 @@ namespace TrisBluetooth.Droid
             mBluetoothAdapter.StartDiscovery();
 
         }
-
-
-
-
-
 
     }
 }

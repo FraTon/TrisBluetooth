@@ -19,7 +19,7 @@ namespace TrisBluetooth
             InitializeComponent();
             MainListView.ItemsSource = data;
 
-            MessagingCenter.Subscribe<Object, String[]>(this, "ParsedSmsReceived",
+            MessagingCenter.Subscribe<Object, String[]>(this, "SaveDevices",
             (sender, arg) =>
             {
                 string[] description = arg;
@@ -36,6 +36,7 @@ namespace TrisBluetooth
 
         async void Cerca(object sender, EventArgs args)
         {
+            MessagingCenter.Send<Object, char>(this, "setDiscoverability", 'd');
             DependencyService.Get<IBluetooth>().StartDiscovery();
         }
 
