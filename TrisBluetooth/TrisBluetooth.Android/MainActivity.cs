@@ -13,10 +13,13 @@ using Android.Support.V4.Content;
 using Android.Content;
 using Xamarin.Forms;
 using System.Collections;
+using System.Threading;
+using Java.Util;
+using System.IO;
 
 namespace TrisBluetooth.Droid
 {
-    [Activity(Label = "TrisBluetooth", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "TrisBluetooth", Icon = "@mipmap/icona", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
 
@@ -44,13 +47,23 @@ namespace TrisBluetooth.Droid
         }
 
         //Array list che contiene i Device trovati
-        public static ArrayList devices = new ArrayList();
+        public static System.Collections.ArrayList devices = new System.Collections.ArrayList();
+
+        // Thread per gestire la connessione
+        AcceptThread server;
+        ConnectThread client;
+
+        // UUID con cui fare la connessione
+        static readonly UUID MY_UUID =
+    UUID.FromString("8ce255c0-200a-11e0-ac64-0800200c9a66");
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
+
+            Window.SetStatusBarColor(Android.Graphics.Color.Rgb(255, 100, 60));
 
             //Questa funzione controlla se il dispositivo ha i permessi necessari
             checkPermission();
@@ -60,6 +73,7 @@ namespace TrisBluetooth.Droid
 
             //Questa funzione registra le caselle per lo scambio di messaggi fra la parte android e cross-platform
             setMailBoxes();
+
 
         }
 
@@ -106,8 +120,28 @@ namespace TrisBluetooth.Droid
             MessagingCenter.Subscribe<Object, char>(this, "setDiscoverability",
                 (sender, arg) =>
                 {
+                    System.Console.WriteLine("Richiesta  di Discoverability");
                     AbilitaDiscoverabilty();
                 });
+
+            MessagingCenter.Subscribe<Object, String>(this, "C-S",
+                (sender, arg) =>
+                {
+                    String ruolo = arg;
+
+                    if (ruolo.Equals("Server"))
+                    {
+                        System.Console.WriteLine("Richiesta  di Server");
+                        server = new AcceptThread();
+                        server.run();
+                    } else
+                    {
+                        System.Console.WriteLine("Richiesta  di Client");
+                        client = new ConnectThread(Bth.serverDevice, MY_UUID);
+                        client.run();
+                    }
+                });
+
         }
 
         //abilita la discoverability, se bt è spento lo accende
@@ -117,8 +151,153 @@ namespace TrisBluetooth.Droid
                     new Intent(BluetoothAdapter.ActionRequestDiscoverable);
             discoverableIntent.PutExtra(BluetoothAdapter.ExtraDiscoverableDuration, 30);
             StartActivity(discoverableIntent);
+            System.Console.WriteLine("Discoverability Attivata");
         }
 
+
+
+        //Classe per Gestire il Client
+        public class ConnectThread: Java.Lang.Thread
+        {
+            private readonly BluetoothSocket mmSocket;
+            private readonly BluetoothDevice mmDevice;
+
+
+            public ConnectThread(BluetoothDevice device, UUID myUuid)
+            {
+                // Use a temporary object that is later assigned to mmSocket
+                // because mmSocket is final.
+                BluetoothSocket tmp = null;
+                mmDevice = device;
+
+                try
+                {
+                    // Get a BluetoothSocket to connect with the given BluetoothDevice.
+                    // MY_UUID is the app's UUID string, also used in the server code.
+                    tmp = device.CreateRfcommSocketToServiceRecord(myUuid);
+                }
+                catch (IOException e)
+                {
+                    System.Console.WriteLine("Errore: " + e);
+                }
+                mmSocket = tmp;
+            }
+
+            public void run()
+            {
+                // Cancel discovery because it otherwise slows down the connection.
+                Bth.mBluetoothAdapter.CancelDiscovery();
+
+                try
+                {
+                    // Connect to the remote device through the socket. This call blocks
+                    // until it succeeds or throws an exception.
+                    System.Console.WriteLine("Tentativo di Conessione come Client");
+                    mmSocket.Connect();
+                }
+                catch (IOException connectException)
+                {
+                    System.Console.WriteLine("Errore: " + connectException);
+                    // Unable to connect; close the socket and return.
+                    try
+                    {
+                        mmSocket.Close();
+                    }
+                    catch (IOException closeException)
+                    {
+                        System.Console.WriteLine("Errore: " + closeException);
+                    }
+                    return;
+                }
+
+                System.Console.WriteLine("Connesso come Client");
+
+
+
+                // The connection attempt succeeded. Perform work associated with
+                // the connection in a separate thread.
+                // connected(mmSocket);
+            }
+
+            // Closes the client socket and causes the thread to finish.
+            public void cancel()
+            {
+                try
+                {
+                    mmSocket.Close();
+                }
+                catch (IOException e)
+                {
+                    System.Console.WriteLine("Errore: " + e);
+                }
+            }
+        }
+
+        //classe per gestire il Server
+        public class AcceptThread : Java.Lang.Thread
+        {
+            private readonly BluetoothServerSocket mmServerSocket;
+
+
+            public AcceptThread()
+            {
+                // Use a temporary object that is later assigned to mmServerSocket
+                // because mmServerSocket is final.
+                BluetoothServerSocket tmp = null;
+                try
+                {
+                    // MY_UUID is the app's UUID string, also used by the client code.
+                    tmp = Bth.mBluetoothAdapter.ListenUsingRfcommWithServiceRecord("NAME", MY_UUID);
+
+                }
+                catch (IOException e)
+                {
+                    System.Console.WriteLine("Errore: " + e);
+                }
+                mmServerSocket = tmp;
+            }
+
+            public void run()
+            {
+                BluetoothSocket socket = null;
+                // Keep listening until exception occurs or a socket is returned.
+                while (true)
+                {
+                    try
+                    {
+                        System.Console.WriteLine("Tentativo di Conessione come Server");
+
+                        socket = mmServerSocket.Accept();
+
+                    }
+                    catch (IOException e)
+                    {
+                        System.Console.WriteLine("Errore: " + e);
+                        break;
+                    }
+                    System.Console.WriteLine("Connesso come Server");
+
+                    if (socket != null)
+                    {
+                        //connected(socket);
+                    }
+                }
+            }
+
+            // Closes the connect socket and causes the thread to finish.
+            public void cancel()
+            {
+                try
+                {
+                    mmServerSocket.Close();
+                }
+                catch (IOException e)
+                {
+                    System.Console.WriteLine("Errore: " + e);
+                }
+            }
+
+        }
     }
 
 
