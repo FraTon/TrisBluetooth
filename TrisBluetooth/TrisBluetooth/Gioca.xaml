@@ -93,7 +93,7 @@
                 <Image Source="cerchio" Grid.Row="0" Grid.Column="0" Aspect="AspectFit" />
                 <Button Text="X"  Grid.Row="0" Grid.Column="0" TextColor="White" BackgroundColor="Transparent" Clicked="Client"/>
                 <Image Source="button" Grid.Row="0" Grid.Column="1" Aspect="AspectFit"/>
-                <Button Text="Rivincita"  Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent" TextColor="Black"/>
+                <Button Text="Rivincita"  Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent" TextColor="Black" Clicked="Rivincita"/>
                 <Image Source="cerchio" Grid.Row="0" Grid.Column="2" Aspect="AspectFit"/>
                 <Button Text="O"  Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="Transparent" Clicked="Server"/>
             </Grid>

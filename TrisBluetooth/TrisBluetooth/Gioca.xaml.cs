@@ -32,5 +32,9 @@ namespace TrisBluetooth
             MessagingCenter.Send<Object, String>(this, "C-S", "Server");
         }
 
+        public void Rivincita(object sender, EventArgs args)
+        {
+            MessagingCenter.Send<Object, String>(this, "message", "Droga");
+        }
     }
 }

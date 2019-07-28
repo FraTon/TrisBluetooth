@@ -16,12 +16,17 @@ using System.Collections;
 using System.Threading;
 using Java.Util;
 using System.IO;
+using Java.IO;
+using System.Text;
+using Java.Nio.Charset;
 
 namespace TrisBluetooth.Droid
 {
     [Activity(Label = "TrisBluetooth", Icon = "@mipmap/icona", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
+
+        static ConnectedThread mConnectedThread;
 
         // Broadcast receiver per quando si scoprono nuovi dispositivi
         private DeviceDiscoveredReceiver receiver = new DeviceDiscoveredReceiver();
@@ -143,6 +148,13 @@ namespace TrisBluetooth.Droid
                     }
                 });
 
+            MessagingCenter.Subscribe<Object, string>(this, "message",
+                (sender, arg) =>
+                {
+                    System.Console.WriteLine("Richiesta rivincita");
+                    mConnectedThread.write(arg);
+                });
+
         }
 
         //abilita la discoverability, se bt è spento lo accende
@@ -177,7 +189,7 @@ namespace TrisBluetooth.Droid
                     // MY_UUID is the app's UUID string, also used in the server code.
                     tmp = device.CreateRfcommSocketToServiceRecord(myUuid);
                 }
-                catch (IOException e)
+                catch (Java.IO.IOException e)
                 {
                     System.Console.WriteLine("Errore: " + e);
                 }
@@ -196,7 +208,7 @@ namespace TrisBluetooth.Droid
                     System.Console.WriteLine("Tentativo di Conessione come Client");
                     mmSocket.Connect();
                 }
-                catch (IOException connectException)
+                catch (Java.IO.IOException connectException)
                 {
                     System.Console.WriteLine("Errore: " + connectException);
                     // Unable to connect; close the socket and return.
@@ -204,7 +216,7 @@ namespace TrisBluetooth.Droid
                     {
                         mmSocket.Close();
                     }
-                    catch (IOException closeException)
+                    catch (Java.IO.IOException closeException)
                     {
                         System.Console.WriteLine("Errore: " + closeException);
                     }
@@ -217,7 +229,8 @@ namespace TrisBluetooth.Droid
 
                 // The connection attempt succeeded. Perform work associated with
                 // the connection in a separate thread.
-                // connected(mmSocket);
+                mConnectedThread = new ConnectedThread(mmSocket);
+                mConnectedThread.Start();
             }
 
             // Closes the client socket and causes the thread to finish.
@@ -227,7 +240,7 @@ namespace TrisBluetooth.Droid
                 {
                     mmSocket.Close();
                 }
-                catch (IOException e)
+                catch (Java.IO.IOException e)
                 {
                     System.Console.WriteLine("Errore: " + e);
                 }
@@ -251,7 +264,7 @@ namespace TrisBluetooth.Droid
                     tmp = Bth.mBluetoothAdapter.ListenUsingRfcommWithServiceRecord("NAME", MY_UUID);
 
                 }
-                catch (IOException e)
+                catch (Java.IO.IOException e)
                 {
                     System.Console.WriteLine("Errore: " + e);
                 }
@@ -271,7 +284,7 @@ namespace TrisBluetooth.Droid
                         socket = mmServerSocket.Accept();
 
                     }
-                    catch (IOException e)
+                    catch (Java.IO.IOException e)
                     {
                         System.Console.WriteLine("Errore: " + e);
                         break;
@@ -280,7 +293,8 @@ namespace TrisBluetooth.Droid
 
                     if (socket != null)
                     {
-                        //connected(socket);
+                        mConnectedThread = new ConnectedThread(socket);
+                        mConnectedThread.Start();
                     }
                 }
             }
@@ -292,13 +306,104 @@ namespace TrisBluetooth.Droid
                 {
                     mmServerSocket.Close();
                 }
-                catch (IOException e)
+                catch (Java.IO.IOException e)
                 {
                     System.Console.WriteLine("Errore: " + e);
                 }
             }
 
         }
+        //questa classe gestisce lo scambio di messaggi
+        private class ConnectedThread : Java.Lang.Thread
+        {
+            private Handler handler;
+
+            private readonly BluetoothSocket mmSocket;
+            private readonly InputStream mmInStream;
+            private readonly OutputStream mmOutStream;
+            private byte[] mmBuffer; // mmBuffer store for the stream
+
+            public ConnectedThread(BluetoothSocket socket)
+            {
+                mmSocket = socket;
+                InputStream tmpIn = null;
+                OutputStream tmpOut = null;
+
+
+                // Get the input and output streams; using temp objects because
+                // member streams are final.
+                try
+                {
+                    tmpIn = ((Android.Runtime.InputStreamInvoker)socket.InputStream).BaseInputStream;
+                }
+                catch (System.IO.IOException e)
+                {
+                }
+                try
+                {
+                    tmpOut = ((Android.Runtime.OutputStreamInvoker)socket.OutputStream).BaseOutputStream;
+                }
+                catch (Java.IO.IOException e)
+                {
+                }
+
+                mmInStream = tmpIn;
+                mmOutStream = tmpOut;
+            }
+
+
+            public void run()
+            {
+                mmBuffer = new byte[1024];
+                int numBytes; // bytes returned from read()
+
+                // Keep listening to the InputStream until an exception occurs.
+                while (true)
+                {
+                    try
+                    {
+                        // Read from the InputStream.
+                        numBytes = mmInStream.Read(mmBuffer);
+                        // Send the obtained bytes to the UI activity.
+                        string message = Encoding.UTF8.GetString(mmBuffer, 0, numBytes);
+                        System.Console.WriteLine(message);
+                    }
+                    catch (Java.IO.IOException e)
+                    {
+                        break;
+                    }
+                }
+
+            }
+
+
+            // Call this from the main activity to send data to the remote device.
+            public void write(byte[] bytes)
+            {
+                string text = System.Text.Encoding.Default.GetString(bytes);
+                try
+                {
+                    mmOutStream.Write(bytes);
+                }
+                catch (Java.IO.IOException e)
+                {
+                    //reset();
+                }
+
+            }
+                // Call this method from the main activity to shut down the connection.
+                public void cancel()
+                {
+                    try
+                    {
+                        mmSocket.Close();
+                    }
+                    catch (Java.IO.IOException e)
+                    {
+                    }
+                }
+            }
+
     }
 
 
