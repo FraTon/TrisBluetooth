@@ -12,8 +12,8 @@ namespace TrisBluetooth
     {
 
         public ObservableCollection<ListViewTemplate> data = new ObservableCollection<ListViewTemplate>();
-        Button gioca;
-
+        Button play;
+        Image playImage;
 
         public MainPage()
         {
@@ -30,11 +30,10 @@ namespace TrisBluetooth
                 data.Add(new ListViewTemplate(name, mac));
                 MainListView.ItemsSource = data;
             });
-
-            gioca = FindByName("gioca") as Button;
-
+            play = FindByName("gioca") as Button;
+            playImage = FindByName("giocaImage") as Image;
         }
-
+        
         async void Cerca(object sender, EventArgs args)
         {
             MessagingCenter.Send<Object, char>(this, "setDiscoverability", 'd');
@@ -46,13 +45,19 @@ namespace TrisBluetooth
         {
             var Selected = e.Item as ListViewTemplate;
             DependencyService.Get<IBluetooth>().CreateBond(Selected.Mac);
-            gioca.IsVisible = true;
+            play.IsVisible = true;
+            playImage.IsVisible = true;
         }
 
         private void Gioca(object sender, EventArgs e)
         {
             var page = new Gioca();
             Navigation.PushAsync(page);
+        }
+
+        public void Info(object sender, EventArgs e)
+        {
+            Application.Current.MainPage.DisplayAlert("Istruzioni", "1) Cliccare il pulsante Cerca e attendere la ricerca dei dispositivi bluetooth \n2) Selezionare il device del tuo avversario \n3) Cliccare Gioca", "OK");
         }
     }
 }

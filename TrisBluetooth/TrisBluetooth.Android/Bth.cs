@@ -30,7 +30,7 @@ namespace TrisBluetooth.Droid
 
         public Bth()
         {
-                mBluetoothAdapter = BluetoothAdapter.DefaultAdapter;
+            mBluetoothAdapter = BluetoothAdapter.DefaultAdapter;
 
         }
 

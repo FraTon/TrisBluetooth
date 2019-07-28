@@ -26,6 +26,1631 @@ namespace TrisBluetooth.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::RoxVideo.Resource.Animation.abc_fade_in = global::TrisBluetooth.Droid.Resource.Animation.abc_fade_in;
+			global::RoxVideo.Resource.Animation.abc_fade_out = global::TrisBluetooth.Droid.Resource.Animation.abc_fade_out;
+			global::RoxVideo.Resource.Animation.abc_grow_fade_in_from_bottom = global::TrisBluetooth.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::RoxVideo.Resource.Animation.abc_popup_enter = global::TrisBluetooth.Droid.Resource.Animation.abc_popup_enter;
+			global::RoxVideo.Resource.Animation.abc_popup_exit = global::TrisBluetooth.Droid.Resource.Animation.abc_popup_exit;
+			global::RoxVideo.Resource.Animation.abc_shrink_fade_out_from_bottom = global::TrisBluetooth.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::RoxVideo.Resource.Animation.abc_slide_in_bottom = global::TrisBluetooth.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::RoxVideo.Resource.Animation.abc_slide_in_top = global::TrisBluetooth.Droid.Resource.Animation.abc_slide_in_top;
+			global::RoxVideo.Resource.Animation.abc_slide_out_bottom = global::TrisBluetooth.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::RoxVideo.Resource.Animation.abc_slide_out_top = global::TrisBluetooth.Droid.Resource.Animation.abc_slide_out_top;
+			global::RoxVideo.Resource.Animation.design_bottom_sheet_slide_in = global::TrisBluetooth.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::RoxVideo.Resource.Animation.design_bottom_sheet_slide_out = global::TrisBluetooth.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::RoxVideo.Resource.Animation.design_snackbar_in = global::TrisBluetooth.Droid.Resource.Animation.design_snackbar_in;
+			global::RoxVideo.Resource.Animation.design_snackbar_out = global::TrisBluetooth.Droid.Resource.Animation.design_snackbar_out;
+			global::RoxVideo.Resource.Attribute.actionBarDivider = global::TrisBluetooth.Droid.Resource.Attribute.actionBarDivider;
+			global::RoxVideo.Resource.Attribute.actionBarItemBackground = global::TrisBluetooth.Droid.Resource.Attribute.actionBarItemBackground;
+			global::RoxVideo.Resource.Attribute.actionBarPopupTheme = global::TrisBluetooth.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::RoxVideo.Resource.Attribute.actionBarSize = global::TrisBluetooth.Droid.Resource.Attribute.actionBarSize;
+			global::RoxVideo.Resource.Attribute.actionBarSplitStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::RoxVideo.Resource.Attribute.actionBarStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionBarStyle;
+			global::RoxVideo.Resource.Attribute.actionBarTabBarStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::RoxVideo.Resource.Attribute.actionBarTabStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionBarTabStyle;
+			global::RoxVideo.Resource.Attribute.actionBarTabTextStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::RoxVideo.Resource.Attribute.actionBarTheme = global::TrisBluetooth.Droid.Resource.Attribute.actionBarTheme;
+			global::RoxVideo.Resource.Attribute.actionBarWidgetTheme = global::TrisBluetooth.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::RoxVideo.Resource.Attribute.actionButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionButtonStyle;
+			global::RoxVideo.Resource.Attribute.actionDropDownStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionDropDownStyle;
+			global::RoxVideo.Resource.Attribute.actionLayout = global::TrisBluetooth.Droid.Resource.Attribute.actionLayout;
+			global::RoxVideo.Resource.Attribute.actionMenuTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::RoxVideo.Resource.Attribute.actionMenuTextColor = global::TrisBluetooth.Droid.Resource.Attribute.actionMenuTextColor;
+			global::RoxVideo.Resource.Attribute.actionModeBackground = global::TrisBluetooth.Droid.Resource.Attribute.actionModeBackground;
+			global::RoxVideo.Resource.Attribute.actionModeCloseButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::RoxVideo.Resource.Attribute.actionModeCloseDrawable = global::TrisBluetooth.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::RoxVideo.Resource.Attribute.actionModeCopyDrawable = global::TrisBluetooth.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::RoxVideo.Resource.Attribute.actionModeCutDrawable = global::TrisBluetooth.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::RoxVideo.Resource.Attribute.actionModeFindDrawable = global::TrisBluetooth.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::RoxVideo.Resource.Attribute.actionModePasteDrawable = global::TrisBluetooth.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::RoxVideo.Resource.Attribute.actionModePopupWindowStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::RoxVideo.Resource.Attribute.actionModeSelectAllDrawable = global::TrisBluetooth.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::RoxVideo.Resource.Attribute.actionModeShareDrawable = global::TrisBluetooth.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::RoxVideo.Resource.Attribute.actionModeSplitBackground = global::TrisBluetooth.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::RoxVideo.Resource.Attribute.actionModeStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionModeStyle;
+			global::RoxVideo.Resource.Attribute.actionModeWebSearchDrawable = global::TrisBluetooth.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::RoxVideo.Resource.Attribute.actionOverflowButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::RoxVideo.Resource.Attribute.actionOverflowMenuStyle = global::TrisBluetooth.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::RoxVideo.Resource.Attribute.actionProviderClass = global::TrisBluetooth.Droid.Resource.Attribute.actionProviderClass;
+			global::RoxVideo.Resource.Attribute.actionViewClass = global::TrisBluetooth.Droid.Resource.Attribute.actionViewClass;
+			global::RoxVideo.Resource.Attribute.activityChooserViewStyle = global::TrisBluetooth.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::RoxVideo.Resource.Attribute.alertDialogButtonGroupStyle = global::TrisBluetooth.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::RoxVideo.Resource.Attribute.alertDialogCenterButtons = global::TrisBluetooth.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::RoxVideo.Resource.Attribute.alertDialogStyle = global::TrisBluetooth.Droid.Resource.Attribute.alertDialogStyle;
+			global::RoxVideo.Resource.Attribute.alertDialogTheme = global::TrisBluetooth.Droid.Resource.Attribute.alertDialogTheme;
+			global::RoxVideo.Resource.Attribute.allowStacking = global::TrisBluetooth.Droid.Resource.Attribute.allowStacking;
+			global::RoxVideo.Resource.Attribute.arrowHeadLength = global::TrisBluetooth.Droid.Resource.Attribute.arrowHeadLength;
+			global::RoxVideo.Resource.Attribute.arrowShaftLength = global::TrisBluetooth.Droid.Resource.Attribute.arrowShaftLength;
+			global::RoxVideo.Resource.Attribute.autoCompleteTextViewStyle = global::TrisBluetooth.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::RoxVideo.Resource.Attribute.background = global::TrisBluetooth.Droid.Resource.Attribute.background;
+			global::RoxVideo.Resource.Attribute.backgroundSplit = global::TrisBluetooth.Droid.Resource.Attribute.backgroundSplit;
+			global::RoxVideo.Resource.Attribute.backgroundStacked = global::TrisBluetooth.Droid.Resource.Attribute.backgroundStacked;
+			global::RoxVideo.Resource.Attribute.backgroundTint = global::TrisBluetooth.Droid.Resource.Attribute.backgroundTint;
+			global::RoxVideo.Resource.Attribute.backgroundTintMode = global::TrisBluetooth.Droid.Resource.Attribute.backgroundTintMode;
+			global::RoxVideo.Resource.Attribute.barLength = global::TrisBluetooth.Droid.Resource.Attribute.barLength;
+			global::RoxVideo.Resource.Attribute.behavior_hideable = global::TrisBluetooth.Droid.Resource.Attribute.behavior_hideable;
+			global::RoxVideo.Resource.Attribute.behavior_overlapTop = global::TrisBluetooth.Droid.Resource.Attribute.behavior_overlapTop;
+			global::RoxVideo.Resource.Attribute.behavior_peekHeight = global::TrisBluetooth.Droid.Resource.Attribute.behavior_peekHeight;
+			global::RoxVideo.Resource.Attribute.borderWidth = global::TrisBluetooth.Droid.Resource.Attribute.borderWidth;
+			global::RoxVideo.Resource.Attribute.borderlessButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::RoxVideo.Resource.Attribute.bottomSheetDialogTheme = global::TrisBluetooth.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::RoxVideo.Resource.Attribute.bottomSheetStyle = global::TrisBluetooth.Droid.Resource.Attribute.bottomSheetStyle;
+			global::RoxVideo.Resource.Attribute.buttonBarButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::RoxVideo.Resource.Attribute.buttonBarNegativeButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::RoxVideo.Resource.Attribute.buttonBarNeutralButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::RoxVideo.Resource.Attribute.buttonBarPositiveButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::RoxVideo.Resource.Attribute.buttonBarStyle = global::TrisBluetooth.Droid.Resource.Attribute.buttonBarStyle;
+			global::RoxVideo.Resource.Attribute.buttonPanelSideLayout = global::TrisBluetooth.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::RoxVideo.Resource.Attribute.buttonStyle = global::TrisBluetooth.Droid.Resource.Attribute.buttonStyle;
+			global::RoxVideo.Resource.Attribute.buttonStyleSmall = global::TrisBluetooth.Droid.Resource.Attribute.buttonStyleSmall;
+			global::RoxVideo.Resource.Attribute.buttonTint = global::TrisBluetooth.Droid.Resource.Attribute.buttonTint;
+			global::RoxVideo.Resource.Attribute.buttonTintMode = global::TrisBluetooth.Droid.Resource.Attribute.buttonTintMode;
+			global::RoxVideo.Resource.Attribute.cardBackgroundColor = global::TrisBluetooth.Droid.Resource.Attribute.cardBackgroundColor;
+			global::RoxVideo.Resource.Attribute.cardCornerRadius = global::TrisBluetooth.Droid.Resource.Attribute.cardCornerRadius;
+			global::RoxVideo.Resource.Attribute.cardElevation = global::TrisBluetooth.Droid.Resource.Attribute.cardElevation;
+			global::RoxVideo.Resource.Attribute.cardMaxElevation = global::TrisBluetooth.Droid.Resource.Attribute.cardMaxElevation;
+			global::RoxVideo.Resource.Attribute.cardPreventCornerOverlap = global::TrisBluetooth.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::RoxVideo.Resource.Attribute.cardUseCompatPadding = global::TrisBluetooth.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::RoxVideo.Resource.Attribute.checkboxStyle = global::TrisBluetooth.Droid.Resource.Attribute.checkboxStyle;
+			global::RoxVideo.Resource.Attribute.checkedTextViewStyle = global::TrisBluetooth.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::RoxVideo.Resource.Attribute.closeIcon = global::TrisBluetooth.Droid.Resource.Attribute.closeIcon;
+			global::RoxVideo.Resource.Attribute.closeItemLayout = global::TrisBluetooth.Droid.Resource.Attribute.closeItemLayout;
+			global::RoxVideo.Resource.Attribute.collapseContentDescription = global::TrisBluetooth.Droid.Resource.Attribute.collapseContentDescription;
+			global::RoxVideo.Resource.Attribute.collapseIcon = global::TrisBluetooth.Droid.Resource.Attribute.collapseIcon;
+			global::RoxVideo.Resource.Attribute.collapsedTitleGravity = global::TrisBluetooth.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::RoxVideo.Resource.Attribute.collapsedTitleTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::RoxVideo.Resource.Attribute.color = global::TrisBluetooth.Droid.Resource.Attribute.color;
+			global::RoxVideo.Resource.Attribute.colorAccent = global::TrisBluetooth.Droid.Resource.Attribute.colorAccent;
+			global::RoxVideo.Resource.Attribute.colorButtonNormal = global::TrisBluetooth.Droid.Resource.Attribute.colorButtonNormal;
+			global::RoxVideo.Resource.Attribute.colorControlActivated = global::TrisBluetooth.Droid.Resource.Attribute.colorControlActivated;
+			global::RoxVideo.Resource.Attribute.colorControlHighlight = global::TrisBluetooth.Droid.Resource.Attribute.colorControlHighlight;
+			global::RoxVideo.Resource.Attribute.colorControlNormal = global::TrisBluetooth.Droid.Resource.Attribute.colorControlNormal;
+			global::RoxVideo.Resource.Attribute.colorPrimary = global::TrisBluetooth.Droid.Resource.Attribute.colorPrimary;
+			global::RoxVideo.Resource.Attribute.colorPrimaryDark = global::TrisBluetooth.Droid.Resource.Attribute.colorPrimaryDark;
+			global::RoxVideo.Resource.Attribute.colorSwitchThumbNormal = global::TrisBluetooth.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::RoxVideo.Resource.Attribute.commitIcon = global::TrisBluetooth.Droid.Resource.Attribute.commitIcon;
+			global::RoxVideo.Resource.Attribute.contentInsetEnd = global::TrisBluetooth.Droid.Resource.Attribute.contentInsetEnd;
+			global::RoxVideo.Resource.Attribute.contentInsetLeft = global::TrisBluetooth.Droid.Resource.Attribute.contentInsetLeft;
+			global::RoxVideo.Resource.Attribute.contentInsetRight = global::TrisBluetooth.Droid.Resource.Attribute.contentInsetRight;
+			global::RoxVideo.Resource.Attribute.contentInsetStart = global::TrisBluetooth.Droid.Resource.Attribute.contentInsetStart;
+			global::RoxVideo.Resource.Attribute.contentPadding = global::TrisBluetooth.Droid.Resource.Attribute.contentPadding;
+			global::RoxVideo.Resource.Attribute.contentPaddingBottom = global::TrisBluetooth.Droid.Resource.Attribute.contentPaddingBottom;
+			global::RoxVideo.Resource.Attribute.contentPaddingLeft = global::TrisBluetooth.Droid.Resource.Attribute.contentPaddingLeft;
+			global::RoxVideo.Resource.Attribute.contentPaddingRight = global::TrisBluetooth.Droid.Resource.Attribute.contentPaddingRight;
+			global::RoxVideo.Resource.Attribute.contentPaddingTop = global::TrisBluetooth.Droid.Resource.Attribute.contentPaddingTop;
+			global::RoxVideo.Resource.Attribute.contentScrim = global::TrisBluetooth.Droid.Resource.Attribute.contentScrim;
+			global::RoxVideo.Resource.Attribute.controlBackground = global::TrisBluetooth.Droid.Resource.Attribute.controlBackground;
+			global::RoxVideo.Resource.Attribute.counterEnabled = global::TrisBluetooth.Droid.Resource.Attribute.counterEnabled;
+			global::RoxVideo.Resource.Attribute.counterMaxLength = global::TrisBluetooth.Droid.Resource.Attribute.counterMaxLength;
+			global::RoxVideo.Resource.Attribute.counterOverflowTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::RoxVideo.Resource.Attribute.counterTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.counterTextAppearance;
+			global::RoxVideo.Resource.Attribute.customNavigationLayout = global::TrisBluetooth.Droid.Resource.Attribute.customNavigationLayout;
+			global::RoxVideo.Resource.Attribute.defaultQueryHint = global::TrisBluetooth.Droid.Resource.Attribute.defaultQueryHint;
+			global::RoxVideo.Resource.Attribute.dialogPreferredPadding = global::TrisBluetooth.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::RoxVideo.Resource.Attribute.dialogTheme = global::TrisBluetooth.Droid.Resource.Attribute.dialogTheme;
+			global::RoxVideo.Resource.Attribute.displayOptions = global::TrisBluetooth.Droid.Resource.Attribute.displayOptions;
+			global::RoxVideo.Resource.Attribute.divider = global::TrisBluetooth.Droid.Resource.Attribute.divider;
+			global::RoxVideo.Resource.Attribute.dividerHorizontal = global::TrisBluetooth.Droid.Resource.Attribute.dividerHorizontal;
+			global::RoxVideo.Resource.Attribute.dividerPadding = global::TrisBluetooth.Droid.Resource.Attribute.dividerPadding;
+			global::RoxVideo.Resource.Attribute.dividerVertical = global::TrisBluetooth.Droid.Resource.Attribute.dividerVertical;
+			global::RoxVideo.Resource.Attribute.drawableSize = global::TrisBluetooth.Droid.Resource.Attribute.drawableSize;
+			global::RoxVideo.Resource.Attribute.drawerArrowStyle = global::TrisBluetooth.Droid.Resource.Attribute.drawerArrowStyle;
+			global::RoxVideo.Resource.Attribute.dropDownListViewStyle = global::TrisBluetooth.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::RoxVideo.Resource.Attribute.dropdownListPreferredItemHeight = global::TrisBluetooth.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::RoxVideo.Resource.Attribute.editTextBackground = global::TrisBluetooth.Droid.Resource.Attribute.editTextBackground;
+			global::RoxVideo.Resource.Attribute.editTextColor = global::TrisBluetooth.Droid.Resource.Attribute.editTextColor;
+			global::RoxVideo.Resource.Attribute.editTextStyle = global::TrisBluetooth.Droid.Resource.Attribute.editTextStyle;
+			global::RoxVideo.Resource.Attribute.elevation = global::TrisBluetooth.Droid.Resource.Attribute.elevation;
+			global::RoxVideo.Resource.Attribute.errorEnabled = global::TrisBluetooth.Droid.Resource.Attribute.errorEnabled;
+			global::RoxVideo.Resource.Attribute.errorTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.errorTextAppearance;
+			global::RoxVideo.Resource.Attribute.expandActivityOverflowButtonDrawable = global::TrisBluetooth.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::RoxVideo.Resource.Attribute.expanded = global::TrisBluetooth.Droid.Resource.Attribute.expanded;
+			global::RoxVideo.Resource.Attribute.expandedTitleGravity = global::TrisBluetooth.Droid.Resource.Attribute.expandedTitleGravity;
+			global::RoxVideo.Resource.Attribute.expandedTitleMargin = global::TrisBluetooth.Droid.Resource.Attribute.expandedTitleMargin;
+			global::RoxVideo.Resource.Attribute.expandedTitleMarginBottom = global::TrisBluetooth.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::RoxVideo.Resource.Attribute.expandedTitleMarginEnd = global::TrisBluetooth.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::RoxVideo.Resource.Attribute.expandedTitleMarginStart = global::TrisBluetooth.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::RoxVideo.Resource.Attribute.expandedTitleMarginTop = global::TrisBluetooth.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::RoxVideo.Resource.Attribute.expandedTitleTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::RoxVideo.Resource.Attribute.externalRouteEnabledDrawable = global::TrisBluetooth.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::RoxVideo.Resource.Attribute.fabSize = global::TrisBluetooth.Droid.Resource.Attribute.fabSize;
+			global::RoxVideo.Resource.Attribute.foregroundInsidePadding = global::TrisBluetooth.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::RoxVideo.Resource.Attribute.gapBetweenBars = global::TrisBluetooth.Droid.Resource.Attribute.gapBetweenBars;
+			global::RoxVideo.Resource.Attribute.goIcon = global::TrisBluetooth.Droid.Resource.Attribute.goIcon;
+			global::RoxVideo.Resource.Attribute.headerLayout = global::TrisBluetooth.Droid.Resource.Attribute.headerLayout;
+			global::RoxVideo.Resource.Attribute.height = global::TrisBluetooth.Droid.Resource.Attribute.height;
+			global::RoxVideo.Resource.Attribute.hideOnContentScroll = global::TrisBluetooth.Droid.Resource.Attribute.hideOnContentScroll;
+			global::RoxVideo.Resource.Attribute.hintAnimationEnabled = global::TrisBluetooth.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::RoxVideo.Resource.Attribute.hintEnabled = global::TrisBluetooth.Droid.Resource.Attribute.hintEnabled;
+			global::RoxVideo.Resource.Attribute.hintTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.hintTextAppearance;
+			global::RoxVideo.Resource.Attribute.homeAsUpIndicator = global::TrisBluetooth.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::RoxVideo.Resource.Attribute.homeLayout = global::TrisBluetooth.Droid.Resource.Attribute.homeLayout;
+			global::RoxVideo.Resource.Attribute.icon = global::TrisBluetooth.Droid.Resource.Attribute.icon;
+			global::RoxVideo.Resource.Attribute.iconifiedByDefault = global::TrisBluetooth.Droid.Resource.Attribute.iconifiedByDefault;
+			global::RoxVideo.Resource.Attribute.imageButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.imageButtonStyle;
+			global::RoxVideo.Resource.Attribute.indeterminateProgressStyle = global::TrisBluetooth.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::RoxVideo.Resource.Attribute.initialActivityCount = global::TrisBluetooth.Droid.Resource.Attribute.initialActivityCount;
+			global::RoxVideo.Resource.Attribute.insetForeground = global::TrisBluetooth.Droid.Resource.Attribute.insetForeground;
+			global::RoxVideo.Resource.Attribute.isLightTheme = global::TrisBluetooth.Droid.Resource.Attribute.isLightTheme;
+			global::RoxVideo.Resource.Attribute.itemBackground = global::TrisBluetooth.Droid.Resource.Attribute.itemBackground;
+			global::RoxVideo.Resource.Attribute.itemIconTint = global::TrisBluetooth.Droid.Resource.Attribute.itemIconTint;
+			global::RoxVideo.Resource.Attribute.itemPadding = global::TrisBluetooth.Droid.Resource.Attribute.itemPadding;
+			global::RoxVideo.Resource.Attribute.itemTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.itemTextAppearance;
+			global::RoxVideo.Resource.Attribute.itemTextColor = global::TrisBluetooth.Droid.Resource.Attribute.itemTextColor;
+			global::RoxVideo.Resource.Attribute.keylines = global::TrisBluetooth.Droid.Resource.Attribute.keylines;
+			global::RoxVideo.Resource.Attribute.layout = global::TrisBluetooth.Droid.Resource.Attribute.layout;
+			global::RoxVideo.Resource.Attribute.layoutManager = global::TrisBluetooth.Droid.Resource.Attribute.layoutManager;
+			global::RoxVideo.Resource.Attribute.layout_anchor = global::TrisBluetooth.Droid.Resource.Attribute.layout_anchor;
+			global::RoxVideo.Resource.Attribute.layout_anchorGravity = global::TrisBluetooth.Droid.Resource.Attribute.layout_anchorGravity;
+			global::RoxVideo.Resource.Attribute.layout_behavior = global::TrisBluetooth.Droid.Resource.Attribute.layout_behavior;
+			global::RoxVideo.Resource.Attribute.layout_collapseMode = global::TrisBluetooth.Droid.Resource.Attribute.layout_collapseMode;
+			global::RoxVideo.Resource.Attribute.layout_collapseParallaxMultiplier = global::TrisBluetooth.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::RoxVideo.Resource.Attribute.layout_keyline = global::TrisBluetooth.Droid.Resource.Attribute.layout_keyline;
+			global::RoxVideo.Resource.Attribute.layout_scrollFlags = global::TrisBluetooth.Droid.Resource.Attribute.layout_scrollFlags;
+			global::RoxVideo.Resource.Attribute.layout_scrollInterpolator = global::TrisBluetooth.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::RoxVideo.Resource.Attribute.listChoiceBackgroundIndicator = global::TrisBluetooth.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::RoxVideo.Resource.Attribute.listDividerAlertDialog = global::TrisBluetooth.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::RoxVideo.Resource.Attribute.listItemLayout = global::TrisBluetooth.Droid.Resource.Attribute.listItemLayout;
+			global::RoxVideo.Resource.Attribute.listLayout = global::TrisBluetooth.Droid.Resource.Attribute.listLayout;
+			global::RoxVideo.Resource.Attribute.listPopupWindowStyle = global::TrisBluetooth.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::RoxVideo.Resource.Attribute.listPreferredItemHeight = global::TrisBluetooth.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::RoxVideo.Resource.Attribute.listPreferredItemHeightLarge = global::TrisBluetooth.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::RoxVideo.Resource.Attribute.listPreferredItemHeightSmall = global::TrisBluetooth.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::RoxVideo.Resource.Attribute.listPreferredItemPaddingLeft = global::TrisBluetooth.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::RoxVideo.Resource.Attribute.listPreferredItemPaddingRight = global::TrisBluetooth.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::RoxVideo.Resource.Attribute.logo = global::TrisBluetooth.Droid.Resource.Attribute.logo;
+			global::RoxVideo.Resource.Attribute.logoDescription = global::TrisBluetooth.Droid.Resource.Attribute.logoDescription;
+			global::RoxVideo.Resource.Attribute.maxActionInlineWidth = global::TrisBluetooth.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::RoxVideo.Resource.Attribute.maxButtonHeight = global::TrisBluetooth.Droid.Resource.Attribute.maxButtonHeight;
+			global::RoxVideo.Resource.Attribute.measureWithLargestChild = global::TrisBluetooth.Droid.Resource.Attribute.measureWithLargestChild;
+			global::RoxVideo.Resource.Attribute.mediaRouteAudioTrackDrawable = global::TrisBluetooth.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::RoxVideo.Resource.Attribute.mediaRouteButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::RoxVideo.Resource.Attribute.mediaRouteCloseDrawable = global::TrisBluetooth.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::RoxVideo.Resource.Attribute.mediaRouteDefaultIconDrawable = global::TrisBluetooth.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::RoxVideo.Resource.Attribute.mediaRoutePauseDrawable = global::TrisBluetooth.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::RoxVideo.Resource.Attribute.mediaRoutePlayDrawable = global::TrisBluetooth.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::RoxVideo.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::TrisBluetooth.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::RoxVideo.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::TrisBluetooth.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::RoxVideo.Resource.Attribute.mediaRouteTvIconDrawable = global::TrisBluetooth.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::RoxVideo.Resource.Attribute.menu = global::TrisBluetooth.Droid.Resource.Attribute.menu;
+			global::RoxVideo.Resource.Attribute.multiChoiceItemLayout = global::TrisBluetooth.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::RoxVideo.Resource.Attribute.navigationContentDescription = global::TrisBluetooth.Droid.Resource.Attribute.navigationContentDescription;
+			global::RoxVideo.Resource.Attribute.navigationIcon = global::TrisBluetooth.Droid.Resource.Attribute.navigationIcon;
+			global::RoxVideo.Resource.Attribute.navigationMode = global::TrisBluetooth.Droid.Resource.Attribute.navigationMode;
+			global::RoxVideo.Resource.Attribute.overlapAnchor = global::TrisBluetooth.Droid.Resource.Attribute.overlapAnchor;
+			global::RoxVideo.Resource.Attribute.paddingEnd = global::TrisBluetooth.Droid.Resource.Attribute.paddingEnd;
+			global::RoxVideo.Resource.Attribute.paddingStart = global::TrisBluetooth.Droid.Resource.Attribute.paddingStart;
+			global::RoxVideo.Resource.Attribute.panelBackground = global::TrisBluetooth.Droid.Resource.Attribute.panelBackground;
+			global::RoxVideo.Resource.Attribute.panelMenuListTheme = global::TrisBluetooth.Droid.Resource.Attribute.panelMenuListTheme;
+			global::RoxVideo.Resource.Attribute.panelMenuListWidth = global::TrisBluetooth.Droid.Resource.Attribute.panelMenuListWidth;
+			global::RoxVideo.Resource.Attribute.popupMenuStyle = global::TrisBluetooth.Droid.Resource.Attribute.popupMenuStyle;
+			global::RoxVideo.Resource.Attribute.popupTheme = global::TrisBluetooth.Droid.Resource.Attribute.popupTheme;
+			global::RoxVideo.Resource.Attribute.popupWindowStyle = global::TrisBluetooth.Droid.Resource.Attribute.popupWindowStyle;
+			global::RoxVideo.Resource.Attribute.preserveIconSpacing = global::TrisBluetooth.Droid.Resource.Attribute.preserveIconSpacing;
+			global::RoxVideo.Resource.Attribute.pressedTranslationZ = global::TrisBluetooth.Droid.Resource.Attribute.pressedTranslationZ;
+			global::RoxVideo.Resource.Attribute.progressBarPadding = global::TrisBluetooth.Droid.Resource.Attribute.progressBarPadding;
+			global::RoxVideo.Resource.Attribute.progressBarStyle = global::TrisBluetooth.Droid.Resource.Attribute.progressBarStyle;
+			global::RoxVideo.Resource.Attribute.queryBackground = global::TrisBluetooth.Droid.Resource.Attribute.queryBackground;
+			global::RoxVideo.Resource.Attribute.queryHint = global::TrisBluetooth.Droid.Resource.Attribute.queryHint;
+			global::RoxVideo.Resource.Attribute.radioButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.radioButtonStyle;
+			global::RoxVideo.Resource.Attribute.ratingBarStyle = global::TrisBluetooth.Droid.Resource.Attribute.ratingBarStyle;
+			global::RoxVideo.Resource.Attribute.ratingBarStyleIndicator = global::TrisBluetooth.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::RoxVideo.Resource.Attribute.ratingBarStyleSmall = global::TrisBluetooth.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::RoxVideo.Resource.Attribute.reverseLayout = global::TrisBluetooth.Droid.Resource.Attribute.reverseLayout;
+			global::RoxVideo.Resource.Attribute.rippleColor = global::TrisBluetooth.Droid.Resource.Attribute.rippleColor;
+			global::RoxVideo.Resource.Attribute.searchHintIcon = global::TrisBluetooth.Droid.Resource.Attribute.searchHintIcon;
+			global::RoxVideo.Resource.Attribute.searchIcon = global::TrisBluetooth.Droid.Resource.Attribute.searchIcon;
+			global::RoxVideo.Resource.Attribute.searchViewStyle = global::TrisBluetooth.Droid.Resource.Attribute.searchViewStyle;
+			global::RoxVideo.Resource.Attribute.seekBarStyle = global::TrisBluetooth.Droid.Resource.Attribute.seekBarStyle;
+			global::RoxVideo.Resource.Attribute.selectableItemBackground = global::TrisBluetooth.Droid.Resource.Attribute.selectableItemBackground;
+			global::RoxVideo.Resource.Attribute.selectableItemBackgroundBorderless = global::TrisBluetooth.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::RoxVideo.Resource.Attribute.showAsAction = global::TrisBluetooth.Droid.Resource.Attribute.showAsAction;
+			global::RoxVideo.Resource.Attribute.showDividers = global::TrisBluetooth.Droid.Resource.Attribute.showDividers;
+			global::RoxVideo.Resource.Attribute.showText = global::TrisBluetooth.Droid.Resource.Attribute.showText;
+			global::RoxVideo.Resource.Attribute.singleChoiceItemLayout = global::TrisBluetooth.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::RoxVideo.Resource.Attribute.spanCount = global::TrisBluetooth.Droid.Resource.Attribute.spanCount;
+			global::RoxVideo.Resource.Attribute.spinBars = global::TrisBluetooth.Droid.Resource.Attribute.spinBars;
+			global::RoxVideo.Resource.Attribute.spinnerDropDownItemStyle = global::TrisBluetooth.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::RoxVideo.Resource.Attribute.spinnerStyle = global::TrisBluetooth.Droid.Resource.Attribute.spinnerStyle;
+			global::RoxVideo.Resource.Attribute.splitTrack = global::TrisBluetooth.Droid.Resource.Attribute.splitTrack;
+			global::RoxVideo.Resource.Attribute.srcCompat = global::TrisBluetooth.Droid.Resource.Attribute.srcCompat;
+			global::RoxVideo.Resource.Attribute.stackFromEnd = global::TrisBluetooth.Droid.Resource.Attribute.stackFromEnd;
+			global::RoxVideo.Resource.Attribute.state_above_anchor = global::TrisBluetooth.Droid.Resource.Attribute.state_above_anchor;
+			global::RoxVideo.Resource.Attribute.statusBarBackground = global::TrisBluetooth.Droid.Resource.Attribute.statusBarBackground;
+			global::RoxVideo.Resource.Attribute.statusBarScrim = global::TrisBluetooth.Droid.Resource.Attribute.statusBarScrim;
+			global::RoxVideo.Resource.Attribute.submitBackground = global::TrisBluetooth.Droid.Resource.Attribute.submitBackground;
+			global::RoxVideo.Resource.Attribute.subtitle = global::TrisBluetooth.Droid.Resource.Attribute.subtitle;
+			global::RoxVideo.Resource.Attribute.subtitleTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::RoxVideo.Resource.Attribute.subtitleTextColor = global::TrisBluetooth.Droid.Resource.Attribute.subtitleTextColor;
+			global::RoxVideo.Resource.Attribute.subtitleTextStyle = global::TrisBluetooth.Droid.Resource.Attribute.subtitleTextStyle;
+			global::RoxVideo.Resource.Attribute.suggestionRowLayout = global::TrisBluetooth.Droid.Resource.Attribute.suggestionRowLayout;
+			global::RoxVideo.Resource.Attribute.switchMinWidth = global::TrisBluetooth.Droid.Resource.Attribute.switchMinWidth;
+			global::RoxVideo.Resource.Attribute.switchPadding = global::TrisBluetooth.Droid.Resource.Attribute.switchPadding;
+			global::RoxVideo.Resource.Attribute.switchStyle = global::TrisBluetooth.Droid.Resource.Attribute.switchStyle;
+			global::RoxVideo.Resource.Attribute.switchTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.switchTextAppearance;
+			global::RoxVideo.Resource.Attribute.tabBackground = global::TrisBluetooth.Droid.Resource.Attribute.tabBackground;
+			global::RoxVideo.Resource.Attribute.tabContentStart = global::TrisBluetooth.Droid.Resource.Attribute.tabContentStart;
+			global::RoxVideo.Resource.Attribute.tabGravity = global::TrisBluetooth.Droid.Resource.Attribute.tabGravity;
+			global::RoxVideo.Resource.Attribute.tabIndicatorColor = global::TrisBluetooth.Droid.Resource.Attribute.tabIndicatorColor;
+			global::RoxVideo.Resource.Attribute.tabIndicatorHeight = global::TrisBluetooth.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::RoxVideo.Resource.Attribute.tabMaxWidth = global::TrisBluetooth.Droid.Resource.Attribute.tabMaxWidth;
+			global::RoxVideo.Resource.Attribute.tabMinWidth = global::TrisBluetooth.Droid.Resource.Attribute.tabMinWidth;
+			global::RoxVideo.Resource.Attribute.tabMode = global::TrisBluetooth.Droid.Resource.Attribute.tabMode;
+			global::RoxVideo.Resource.Attribute.tabPadding = global::TrisBluetooth.Droid.Resource.Attribute.tabPadding;
+			global::RoxVideo.Resource.Attribute.tabPaddingBottom = global::TrisBluetooth.Droid.Resource.Attribute.tabPaddingBottom;
+			global::RoxVideo.Resource.Attribute.tabPaddingEnd = global::TrisBluetooth.Droid.Resource.Attribute.tabPaddingEnd;
+			global::RoxVideo.Resource.Attribute.tabPaddingStart = global::TrisBluetooth.Droid.Resource.Attribute.tabPaddingStart;
+			global::RoxVideo.Resource.Attribute.tabPaddingTop = global::TrisBluetooth.Droid.Resource.Attribute.tabPaddingTop;
+			global::RoxVideo.Resource.Attribute.tabSelectedTextColor = global::TrisBluetooth.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::RoxVideo.Resource.Attribute.tabTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.tabTextAppearance;
+			global::RoxVideo.Resource.Attribute.tabTextColor = global::TrisBluetooth.Droid.Resource.Attribute.tabTextColor;
+			global::RoxVideo.Resource.Attribute.textAllCaps = global::TrisBluetooth.Droid.Resource.Attribute.textAllCaps;
+			global::RoxVideo.Resource.Attribute.textAppearanceLargePopupMenu = global::TrisBluetooth.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::RoxVideo.Resource.Attribute.textAppearanceListItem = global::TrisBluetooth.Droid.Resource.Attribute.textAppearanceListItem;
+			global::RoxVideo.Resource.Attribute.textAppearanceListItemSmall = global::TrisBluetooth.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::RoxVideo.Resource.Attribute.textAppearanceSearchResultSubtitle = global::TrisBluetooth.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::RoxVideo.Resource.Attribute.textAppearanceSearchResultTitle = global::TrisBluetooth.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::RoxVideo.Resource.Attribute.textAppearanceSmallPopupMenu = global::TrisBluetooth.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::RoxVideo.Resource.Attribute.textColorAlertDialogListItem = global::TrisBluetooth.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::RoxVideo.Resource.Attribute.textColorError = global::TrisBluetooth.Droid.Resource.Attribute.textColorError;
+			global::RoxVideo.Resource.Attribute.textColorSearchUrl = global::TrisBluetooth.Droid.Resource.Attribute.textColorSearchUrl;
+			global::RoxVideo.Resource.Attribute.theme = global::TrisBluetooth.Droid.Resource.Attribute.theme;
+			global::RoxVideo.Resource.Attribute.thickness = global::TrisBluetooth.Droid.Resource.Attribute.thickness;
+			global::RoxVideo.Resource.Attribute.thumbTextPadding = global::TrisBluetooth.Droid.Resource.Attribute.thumbTextPadding;
+			global::RoxVideo.Resource.Attribute.title = global::TrisBluetooth.Droid.Resource.Attribute.title;
+			global::RoxVideo.Resource.Attribute.titleEnabled = global::TrisBluetooth.Droid.Resource.Attribute.titleEnabled;
+			global::RoxVideo.Resource.Attribute.titleMarginBottom = global::TrisBluetooth.Droid.Resource.Attribute.titleMarginBottom;
+			global::RoxVideo.Resource.Attribute.titleMarginEnd = global::TrisBluetooth.Droid.Resource.Attribute.titleMarginEnd;
+			global::RoxVideo.Resource.Attribute.titleMarginStart = global::TrisBluetooth.Droid.Resource.Attribute.titleMarginStart;
+			global::RoxVideo.Resource.Attribute.titleMarginTop = global::TrisBluetooth.Droid.Resource.Attribute.titleMarginTop;
+			global::RoxVideo.Resource.Attribute.titleMargins = global::TrisBluetooth.Droid.Resource.Attribute.titleMargins;
+			global::RoxVideo.Resource.Attribute.titleTextAppearance = global::TrisBluetooth.Droid.Resource.Attribute.titleTextAppearance;
+			global::RoxVideo.Resource.Attribute.titleTextColor = global::TrisBluetooth.Droid.Resource.Attribute.titleTextColor;
+			global::RoxVideo.Resource.Attribute.titleTextStyle = global::TrisBluetooth.Droid.Resource.Attribute.titleTextStyle;
+			global::RoxVideo.Resource.Attribute.toolbarId = global::TrisBluetooth.Droid.Resource.Attribute.toolbarId;
+			global::RoxVideo.Resource.Attribute.toolbarNavigationButtonStyle = global::TrisBluetooth.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::RoxVideo.Resource.Attribute.toolbarStyle = global::TrisBluetooth.Droid.Resource.Attribute.toolbarStyle;
+			global::RoxVideo.Resource.Attribute.track = global::TrisBluetooth.Droid.Resource.Attribute.track;
+			global::RoxVideo.Resource.Attribute.useCompatPadding = global::TrisBluetooth.Droid.Resource.Attribute.useCompatPadding;
+			global::RoxVideo.Resource.Attribute.voiceIcon = global::TrisBluetooth.Droid.Resource.Attribute.voiceIcon;
+			global::RoxVideo.Resource.Attribute.windowActionBar = global::TrisBluetooth.Droid.Resource.Attribute.windowActionBar;
+			global::RoxVideo.Resource.Attribute.windowActionBarOverlay = global::TrisBluetooth.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::RoxVideo.Resource.Attribute.windowActionModeOverlay = global::TrisBluetooth.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::RoxVideo.Resource.Attribute.windowFixedHeightMajor = global::TrisBluetooth.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::RoxVideo.Resource.Attribute.windowFixedHeightMinor = global::TrisBluetooth.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::RoxVideo.Resource.Attribute.windowFixedWidthMajor = global::TrisBluetooth.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::RoxVideo.Resource.Attribute.windowFixedWidthMinor = global::TrisBluetooth.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::RoxVideo.Resource.Attribute.windowMinWidthMajor = global::TrisBluetooth.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::RoxVideo.Resource.Attribute.windowMinWidthMinor = global::TrisBluetooth.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::RoxVideo.Resource.Attribute.windowNoTitle = global::TrisBluetooth.Droid.Resource.Attribute.windowNoTitle;
+			global::RoxVideo.Resource.Boolean.abc_action_bar_embed_tabs = global::TrisBluetooth.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::RoxVideo.Resource.Boolean.abc_allow_stacked_button_bar = global::TrisBluetooth.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::RoxVideo.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::TrisBluetooth.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::RoxVideo.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::TrisBluetooth.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::RoxVideo.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::TrisBluetooth.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::RoxVideo.Resource.Color.abc_background_cache_hint_selector_material_dark = global::TrisBluetooth.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::RoxVideo.Resource.Color.abc_background_cache_hint_selector_material_light = global::TrisBluetooth.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::RoxVideo.Resource.Color.abc_color_highlight_material = global::TrisBluetooth.Droid.Resource.Color.abc_color_highlight_material;
+			global::RoxVideo.Resource.Color.abc_input_method_navigation_guard = global::TrisBluetooth.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::RoxVideo.Resource.Color.abc_primary_text_disable_only_material_dark = global::TrisBluetooth.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::RoxVideo.Resource.Color.abc_primary_text_disable_only_material_light = global::TrisBluetooth.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::RoxVideo.Resource.Color.abc_primary_text_material_dark = global::TrisBluetooth.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::RoxVideo.Resource.Color.abc_primary_text_material_light = global::TrisBluetooth.Droid.Resource.Color.abc_primary_text_material_light;
+			global::RoxVideo.Resource.Color.abc_search_url_text = global::TrisBluetooth.Droid.Resource.Color.abc_search_url_text;
+			global::RoxVideo.Resource.Color.abc_search_url_text_normal = global::TrisBluetooth.Droid.Resource.Color.abc_search_url_text_normal;
+			global::RoxVideo.Resource.Color.abc_search_url_text_pressed = global::TrisBluetooth.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::RoxVideo.Resource.Color.abc_search_url_text_selected = global::TrisBluetooth.Droid.Resource.Color.abc_search_url_text_selected;
+			global::RoxVideo.Resource.Color.abc_secondary_text_material_dark = global::TrisBluetooth.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::RoxVideo.Resource.Color.abc_secondary_text_material_light = global::TrisBluetooth.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::RoxVideo.Resource.Color.accent_material_dark = global::TrisBluetooth.Droid.Resource.Color.accent_material_dark;
+			global::RoxVideo.Resource.Color.accent_material_light = global::TrisBluetooth.Droid.Resource.Color.accent_material_light;
+			global::RoxVideo.Resource.Color.background_floating_material_dark = global::TrisBluetooth.Droid.Resource.Color.background_floating_material_dark;
+			global::RoxVideo.Resource.Color.background_floating_material_light = global::TrisBluetooth.Droid.Resource.Color.background_floating_material_light;
+			global::RoxVideo.Resource.Color.background_material_dark = global::TrisBluetooth.Droid.Resource.Color.background_material_dark;
+			global::RoxVideo.Resource.Color.background_material_light = global::TrisBluetooth.Droid.Resource.Color.background_material_light;
+			global::RoxVideo.Resource.Color.bright_foreground_disabled_material_dark = global::TrisBluetooth.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::RoxVideo.Resource.Color.bright_foreground_disabled_material_light = global::TrisBluetooth.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::RoxVideo.Resource.Color.bright_foreground_inverse_material_dark = global::TrisBluetooth.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::RoxVideo.Resource.Color.bright_foreground_inverse_material_light = global::TrisBluetooth.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::RoxVideo.Resource.Color.bright_foreground_material_dark = global::TrisBluetooth.Droid.Resource.Color.bright_foreground_material_dark;
+			global::RoxVideo.Resource.Color.bright_foreground_material_light = global::TrisBluetooth.Droid.Resource.Color.bright_foreground_material_light;
+			global::RoxVideo.Resource.Color.button_material_dark = global::TrisBluetooth.Droid.Resource.Color.button_material_dark;
+			global::RoxVideo.Resource.Color.button_material_light = global::TrisBluetooth.Droid.Resource.Color.button_material_light;
+			global::RoxVideo.Resource.Color.cardview_dark_background = global::TrisBluetooth.Droid.Resource.Color.cardview_dark_background;
+			global::RoxVideo.Resource.Color.cardview_light_background = global::TrisBluetooth.Droid.Resource.Color.cardview_light_background;
+			global::RoxVideo.Resource.Color.cardview_shadow_end_color = global::TrisBluetooth.Droid.Resource.Color.cardview_shadow_end_color;
+			global::RoxVideo.Resource.Color.cardview_shadow_start_color = global::TrisBluetooth.Droid.Resource.Color.cardview_shadow_start_color;
+			global::RoxVideo.Resource.Color.design_fab_shadow_end_color = global::TrisBluetooth.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::RoxVideo.Resource.Color.design_fab_shadow_mid_color = global::TrisBluetooth.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::RoxVideo.Resource.Color.design_fab_shadow_start_color = global::TrisBluetooth.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::RoxVideo.Resource.Color.design_fab_stroke_end_inner_color = global::TrisBluetooth.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::RoxVideo.Resource.Color.design_fab_stroke_end_outer_color = global::TrisBluetooth.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::RoxVideo.Resource.Color.design_fab_stroke_top_inner_color = global::TrisBluetooth.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::RoxVideo.Resource.Color.design_fab_stroke_top_outer_color = global::TrisBluetooth.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::RoxVideo.Resource.Color.design_snackbar_background_color = global::TrisBluetooth.Droid.Resource.Color.design_snackbar_background_color;
+			global::RoxVideo.Resource.Color.dim_foreground_disabled_material_dark = global::TrisBluetooth.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::RoxVideo.Resource.Color.dim_foreground_disabled_material_light = global::TrisBluetooth.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::RoxVideo.Resource.Color.dim_foreground_material_dark = global::TrisBluetooth.Droid.Resource.Color.dim_foreground_material_dark;
+			global::RoxVideo.Resource.Color.dim_foreground_material_light = global::TrisBluetooth.Droid.Resource.Color.dim_foreground_material_light;
+			global::RoxVideo.Resource.Color.foreground_material_dark = global::TrisBluetooth.Droid.Resource.Color.foreground_material_dark;
+			global::RoxVideo.Resource.Color.foreground_material_light = global::TrisBluetooth.Droid.Resource.Color.foreground_material_light;
+			global::RoxVideo.Resource.Color.highlighted_text_material_dark = global::TrisBluetooth.Droid.Resource.Color.highlighted_text_material_dark;
+			global::RoxVideo.Resource.Color.highlighted_text_material_light = global::TrisBluetooth.Droid.Resource.Color.highlighted_text_material_light;
+			global::RoxVideo.Resource.Color.material_blue_grey_800 = global::TrisBluetooth.Droid.Resource.Color.material_blue_grey_800;
+			global::RoxVideo.Resource.Color.material_blue_grey_900 = global::TrisBluetooth.Droid.Resource.Color.material_blue_grey_900;
+			global::RoxVideo.Resource.Color.material_blue_grey_950 = global::TrisBluetooth.Droid.Resource.Color.material_blue_grey_950;
+			global::RoxVideo.Resource.Color.material_deep_teal_200 = global::TrisBluetooth.Droid.Resource.Color.material_deep_teal_200;
+			global::RoxVideo.Resource.Color.material_deep_teal_500 = global::TrisBluetooth.Droid.Resource.Color.material_deep_teal_500;
+			global::RoxVideo.Resource.Color.material_grey_100 = global::TrisBluetooth.Droid.Resource.Color.material_grey_100;
+			global::RoxVideo.Resource.Color.material_grey_300 = global::TrisBluetooth.Droid.Resource.Color.material_grey_300;
+			global::RoxVideo.Resource.Color.material_grey_50 = global::TrisBluetooth.Droid.Resource.Color.material_grey_50;
+			global::RoxVideo.Resource.Color.material_grey_600 = global::TrisBluetooth.Droid.Resource.Color.material_grey_600;
+			global::RoxVideo.Resource.Color.material_grey_800 = global::TrisBluetooth.Droid.Resource.Color.material_grey_800;
+			global::RoxVideo.Resource.Color.material_grey_850 = global::TrisBluetooth.Droid.Resource.Color.material_grey_850;
+			global::RoxVideo.Resource.Color.material_grey_900 = global::TrisBluetooth.Droid.Resource.Color.material_grey_900;
+			global::RoxVideo.Resource.Color.primary_dark_material_dark = global::TrisBluetooth.Droid.Resource.Color.primary_dark_material_dark;
+			global::RoxVideo.Resource.Color.primary_dark_material_light = global::TrisBluetooth.Droid.Resource.Color.primary_dark_material_light;
+			global::RoxVideo.Resource.Color.primary_material_dark = global::TrisBluetooth.Droid.Resource.Color.primary_material_dark;
+			global::RoxVideo.Resource.Color.primary_material_light = global::TrisBluetooth.Droid.Resource.Color.primary_material_light;
+			global::RoxVideo.Resource.Color.primary_text_default_material_dark = global::TrisBluetooth.Droid.Resource.Color.primary_text_default_material_dark;
+			global::RoxVideo.Resource.Color.primary_text_default_material_light = global::TrisBluetooth.Droid.Resource.Color.primary_text_default_material_light;
+			global::RoxVideo.Resource.Color.primary_text_disabled_material_dark = global::TrisBluetooth.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::RoxVideo.Resource.Color.primary_text_disabled_material_light = global::TrisBluetooth.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::RoxVideo.Resource.Color.ripple_material_dark = global::TrisBluetooth.Droid.Resource.Color.ripple_material_dark;
+			global::RoxVideo.Resource.Color.ripple_material_light = global::TrisBluetooth.Droid.Resource.Color.ripple_material_light;
+			global::RoxVideo.Resource.Color.secondary_text_default_material_dark = global::TrisBluetooth.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::RoxVideo.Resource.Color.secondary_text_default_material_light = global::TrisBluetooth.Droid.Resource.Color.secondary_text_default_material_light;
+			global::RoxVideo.Resource.Color.secondary_text_disabled_material_dark = global::TrisBluetooth.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::RoxVideo.Resource.Color.secondary_text_disabled_material_light = global::TrisBluetooth.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::RoxVideo.Resource.Color.switch_thumb_disabled_material_dark = global::TrisBluetooth.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::RoxVideo.Resource.Color.switch_thumb_disabled_material_light = global::TrisBluetooth.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::RoxVideo.Resource.Color.switch_thumb_material_dark = global::TrisBluetooth.Droid.Resource.Color.switch_thumb_material_dark;
+			global::RoxVideo.Resource.Color.switch_thumb_material_light = global::TrisBluetooth.Droid.Resource.Color.switch_thumb_material_light;
+			global::RoxVideo.Resource.Color.switch_thumb_normal_material_dark = global::TrisBluetooth.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::RoxVideo.Resource.Color.switch_thumb_normal_material_light = global::TrisBluetooth.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_content_inset_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_default_height_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_default_padding_end_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_default_padding_start_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_progress_bar_size = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_stacked_max_height = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::RoxVideo.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::RoxVideo.Resource.Dimension.abc_action_button_min_height_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::RoxVideo.Resource.Dimension.abc_action_button_min_width_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::RoxVideo.Resource.Dimension.abc_action_button_min_width_overflow_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::RoxVideo.Resource.Dimension.abc_alert_dialog_button_bar_height = global::TrisBluetooth.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::RoxVideo.Resource.Dimension.abc_button_inset_horizontal_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::RoxVideo.Resource.Dimension.abc_button_inset_vertical_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::RoxVideo.Resource.Dimension.abc_button_padding_horizontal_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::RoxVideo.Resource.Dimension.abc_button_padding_vertical_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::RoxVideo.Resource.Dimension.abc_config_prefDialogWidth = global::TrisBluetooth.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::RoxVideo.Resource.Dimension.abc_control_corner_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_control_corner_material;
+			global::RoxVideo.Resource.Dimension.abc_control_inset_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_control_inset_material;
+			global::RoxVideo.Resource.Dimension.abc_control_padding_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_control_padding_material;
+			global::RoxVideo.Resource.Dimension.abc_dialog_fixed_height_major = global::TrisBluetooth.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::RoxVideo.Resource.Dimension.abc_dialog_fixed_height_minor = global::TrisBluetooth.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::RoxVideo.Resource.Dimension.abc_dialog_fixed_width_major = global::TrisBluetooth.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::RoxVideo.Resource.Dimension.abc_dialog_fixed_width_minor = global::TrisBluetooth.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::RoxVideo.Resource.Dimension.abc_dialog_min_width_major = global::TrisBluetooth.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::RoxVideo.Resource.Dimension.abc_dialog_min_width_minor = global::TrisBluetooth.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::RoxVideo.Resource.Dimension.abc_dialog_padding_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::RoxVideo.Resource.Dimension.abc_dialog_padding_top_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::RoxVideo.Resource.Dimension.abc_disabled_alpha_material_dark = global::TrisBluetooth.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::RoxVideo.Resource.Dimension.abc_disabled_alpha_material_light = global::TrisBluetooth.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::RoxVideo.Resource.Dimension.abc_dropdownitem_icon_width = global::TrisBluetooth.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::RoxVideo.Resource.Dimension.abc_dropdownitem_text_padding_left = global::TrisBluetooth.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::RoxVideo.Resource.Dimension.abc_dropdownitem_text_padding_right = global::TrisBluetooth.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::RoxVideo.Resource.Dimension.abc_edit_text_inset_bottom_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::RoxVideo.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::RoxVideo.Resource.Dimension.abc_edit_text_inset_top_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::RoxVideo.Resource.Dimension.abc_floating_window_z = global::TrisBluetooth.Droid.Resource.Dimension.abc_floating_window_z;
+			global::RoxVideo.Resource.Dimension.abc_list_item_padding_horizontal_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::RoxVideo.Resource.Dimension.abc_panel_menu_list_width = global::TrisBluetooth.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::RoxVideo.Resource.Dimension.abc_search_view_preferred_width = global::TrisBluetooth.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::RoxVideo.Resource.Dimension.abc_seekbar_track_background_height_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::RoxVideo.Resource.Dimension.abc_seekbar_track_progress_height_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::RoxVideo.Resource.Dimension.abc_select_dialog_padding_start_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::RoxVideo.Resource.Dimension.abc_switch_padding = global::TrisBluetooth.Droid.Resource.Dimension.abc_switch_padding;
+			global::RoxVideo.Resource.Dimension.abc_text_size_body_1_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_body_2_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_button_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_caption_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_display_1_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_display_2_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_display_3_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_display_4_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_headline_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_large_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_medium_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_menu_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_small_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_subhead_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::RoxVideo.Resource.Dimension.abc_text_size_title_material = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::RoxVideo.Resource.Dimension.abc_text_size_title_material_toolbar = global::TrisBluetooth.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::RoxVideo.Resource.Dimension.cardview_compat_inset_shadow = global::TrisBluetooth.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::RoxVideo.Resource.Dimension.cardview_default_elevation = global::TrisBluetooth.Droid.Resource.Dimension.cardview_default_elevation;
+			global::RoxVideo.Resource.Dimension.cardview_default_radius = global::TrisBluetooth.Droid.Resource.Dimension.cardview_default_radius;
+			global::RoxVideo.Resource.Dimension.design_appbar_elevation = global::TrisBluetooth.Droid.Resource.Dimension.design_appbar_elevation;
+			global::RoxVideo.Resource.Dimension.design_bottom_sheet_modal_elevation = global::TrisBluetooth.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::RoxVideo.Resource.Dimension.design_fab_border_width = global::TrisBluetooth.Droid.Resource.Dimension.design_fab_border_width;
+			global::RoxVideo.Resource.Dimension.design_fab_elevation = global::TrisBluetooth.Droid.Resource.Dimension.design_fab_elevation;
+			global::RoxVideo.Resource.Dimension.design_fab_image_size = global::TrisBluetooth.Droid.Resource.Dimension.design_fab_image_size;
+			global::RoxVideo.Resource.Dimension.design_fab_size_mini = global::TrisBluetooth.Droid.Resource.Dimension.design_fab_size_mini;
+			global::RoxVideo.Resource.Dimension.design_fab_size_normal = global::TrisBluetooth.Droid.Resource.Dimension.design_fab_size_normal;
+			global::RoxVideo.Resource.Dimension.design_fab_translation_z_pressed = global::TrisBluetooth.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::RoxVideo.Resource.Dimension.design_navigation_elevation = global::TrisBluetooth.Droid.Resource.Dimension.design_navigation_elevation;
+			global::RoxVideo.Resource.Dimension.design_navigation_icon_padding = global::TrisBluetooth.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::RoxVideo.Resource.Dimension.design_navigation_icon_size = global::TrisBluetooth.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::RoxVideo.Resource.Dimension.design_navigation_max_width = global::TrisBluetooth.Droid.Resource.Dimension.design_navigation_max_width;
+			global::RoxVideo.Resource.Dimension.design_navigation_padding_bottom = global::TrisBluetooth.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::RoxVideo.Resource.Dimension.design_navigation_separator_vertical_padding = global::TrisBluetooth.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::RoxVideo.Resource.Dimension.design_snackbar_action_inline_max_width = global::TrisBluetooth.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::RoxVideo.Resource.Dimension.design_snackbar_background_corner_radius = global::TrisBluetooth.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::RoxVideo.Resource.Dimension.design_snackbar_elevation = global::TrisBluetooth.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::RoxVideo.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::TrisBluetooth.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::RoxVideo.Resource.Dimension.design_snackbar_max_width = global::TrisBluetooth.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::RoxVideo.Resource.Dimension.design_snackbar_min_width = global::TrisBluetooth.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::RoxVideo.Resource.Dimension.design_snackbar_padding_horizontal = global::TrisBluetooth.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::RoxVideo.Resource.Dimension.design_snackbar_padding_vertical = global::TrisBluetooth.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::RoxVideo.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::TrisBluetooth.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::RoxVideo.Resource.Dimension.design_snackbar_text_size = global::TrisBluetooth.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::RoxVideo.Resource.Dimension.design_tab_max_width = global::TrisBluetooth.Droid.Resource.Dimension.design_tab_max_width;
+			global::RoxVideo.Resource.Dimension.design_tab_scrollable_min_width = global::TrisBluetooth.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::RoxVideo.Resource.Dimension.design_tab_text_size = global::TrisBluetooth.Droid.Resource.Dimension.design_tab_text_size;
+			global::RoxVideo.Resource.Dimension.design_tab_text_size_2line = global::TrisBluetooth.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::RoxVideo.Resource.Dimension.disabled_alpha_material_dark = global::TrisBluetooth.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::RoxVideo.Resource.Dimension.disabled_alpha_material_light = global::TrisBluetooth.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::RoxVideo.Resource.Dimension.highlight_alpha_material_colored = global::TrisBluetooth.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::RoxVideo.Resource.Dimension.highlight_alpha_material_dark = global::TrisBluetooth.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::RoxVideo.Resource.Dimension.highlight_alpha_material_light = global::TrisBluetooth.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::RoxVideo.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::TrisBluetooth.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::RoxVideo.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::TrisBluetooth.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::RoxVideo.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::TrisBluetooth.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::RoxVideo.Resource.Dimension.mr_controller_volume_group_list_item_height = global::TrisBluetooth.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::RoxVideo.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::TrisBluetooth.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::RoxVideo.Resource.Dimension.mr_controller_volume_group_list_max_height = global::TrisBluetooth.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::RoxVideo.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::TrisBluetooth.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::RoxVideo.Resource.Dimension.mr_dialog_fixed_width_major = global::TrisBluetooth.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::RoxVideo.Resource.Dimension.mr_dialog_fixed_width_minor = global::TrisBluetooth.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::RoxVideo.Resource.Dimension.notification_large_icon_height = global::TrisBluetooth.Droid.Resource.Dimension.notification_large_icon_height;
+			global::RoxVideo.Resource.Dimension.notification_large_icon_width = global::TrisBluetooth.Droid.Resource.Dimension.notification_large_icon_width;
+			global::RoxVideo.Resource.Dimension.notification_subtext_size = global::TrisBluetooth.Droid.Resource.Dimension.notification_subtext_size;
+			global::RoxVideo.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_action_bar_item_background_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::RoxVideo.Resource.Drawable.abc_btn_borderless_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::RoxVideo.Resource.Drawable.abc_btn_check_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_btn_check_material;
+			global::RoxVideo.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::TrisBluetooth.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::RoxVideo.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::TrisBluetooth.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::RoxVideo.Resource.Drawable.abc_btn_colored_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::RoxVideo.Resource.Drawable.abc_btn_default_mtrl_shape = global::TrisBluetooth.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::RoxVideo.Resource.Drawable.abc_btn_radio_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::RoxVideo.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::TrisBluetooth.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::RoxVideo.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::TrisBluetooth.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::RoxVideo.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::TrisBluetooth.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::RoxVideo.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::TrisBluetooth.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::RoxVideo.Resource.Drawable.abc_cab_background_internal_bg = global::TrisBluetooth.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::RoxVideo.Resource.Drawable.abc_cab_background_top_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::RoxVideo.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_control_background_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_control_background_material;
+			global::RoxVideo.Resource.Drawable.abc_edit_text_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_edit_text_material;
+			global::RoxVideo.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::RoxVideo.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::RoxVideo.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_ic_star_black_16dp = global::TrisBluetooth.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::RoxVideo.Resource.Drawable.abc_ic_star_black_36dp = global::TrisBluetooth.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::RoxVideo.Resource.Drawable.abc_ic_star_half_black_16dp = global::TrisBluetooth.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::RoxVideo.Resource.Drawable.abc_ic_star_half_black_36dp = global::TrisBluetooth.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::RoxVideo.Resource.Drawable.abc_item_background_holo_dark = global::TrisBluetooth.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::RoxVideo.Resource.Drawable.abc_item_background_holo_light = global::TrisBluetooth.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::RoxVideo.Resource.Drawable.abc_list_divider_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_list_focused_holo = global::TrisBluetooth.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::RoxVideo.Resource.Drawable.abc_list_longpressed_holo = global::TrisBluetooth.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::RoxVideo.Resource.Drawable.abc_list_pressed_holo_dark = global::TrisBluetooth.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::RoxVideo.Resource.Drawable.abc_list_pressed_holo_light = global::TrisBluetooth.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::RoxVideo.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::TrisBluetooth.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::RoxVideo.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::TrisBluetooth.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::RoxVideo.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::TrisBluetooth.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::RoxVideo.Resource.Drawable.abc_list_selector_disabled_holo_light = global::TrisBluetooth.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::RoxVideo.Resource.Drawable.abc_list_selector_holo_dark = global::TrisBluetooth.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::RoxVideo.Resource.Drawable.abc_list_selector_holo_light = global::TrisBluetooth.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::RoxVideo.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::TrisBluetooth.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::RoxVideo.Resource.Drawable.abc_popup_background_mtrl_mult = global::TrisBluetooth.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::RoxVideo.Resource.Drawable.abc_ratingbar_indicator_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::RoxVideo.Resource.Drawable.abc_ratingbar_small_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::RoxVideo.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::TrisBluetooth.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::RoxVideo.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::TrisBluetooth.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::RoxVideo.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_seekbar_thumb_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::RoxVideo.Resource.Drawable.abc_seekbar_track_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::RoxVideo.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::RoxVideo.Resource.Drawable.abc_spinner_textfield_background_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::RoxVideo.Resource.Drawable.abc_switch_thumb_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::RoxVideo.Resource.Drawable.abc_switch_track_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_tab_indicator_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::RoxVideo.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_text_cursor_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::RoxVideo.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::TrisBluetooth.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::RoxVideo.Resource.Drawable.abc_textfield_search_material = global::TrisBluetooth.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::RoxVideo.Resource.Drawable.design_fab_background = global::TrisBluetooth.Droid.Resource.Drawable.design_fab_background;
+			global::RoxVideo.Resource.Drawable.design_snackbar_background = global::TrisBluetooth.Droid.Resource.Drawable.design_snackbar_background;
+			global::RoxVideo.Resource.Drawable.ic_audiotrack_light = global::TrisBluetooth.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::RoxVideo.Resource.Drawable.mr_dialog_material_background_dark = global::TrisBluetooth.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::RoxVideo.Resource.Drawable.mr_dialog_material_background_light = global::TrisBluetooth.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::RoxVideo.Resource.Drawable.notification_template_icon_bg = global::TrisBluetooth.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::RoxVideo.Resource.Id.action0 = global::TrisBluetooth.Droid.Resource.Id.action0;
+			global::RoxVideo.Resource.Id.action_bar = global::TrisBluetooth.Droid.Resource.Id.action_bar;
+			global::RoxVideo.Resource.Id.action_bar_activity_content = global::TrisBluetooth.Droid.Resource.Id.action_bar_activity_content;
+			global::RoxVideo.Resource.Id.action_bar_container = global::TrisBluetooth.Droid.Resource.Id.action_bar_container;
+			global::RoxVideo.Resource.Id.action_bar_root = global::TrisBluetooth.Droid.Resource.Id.action_bar_root;
+			global::RoxVideo.Resource.Id.action_bar_spinner = global::TrisBluetooth.Droid.Resource.Id.action_bar_spinner;
+			global::RoxVideo.Resource.Id.action_bar_subtitle = global::TrisBluetooth.Droid.Resource.Id.action_bar_subtitle;
+			global::RoxVideo.Resource.Id.action_bar_title = global::TrisBluetooth.Droid.Resource.Id.action_bar_title;
+			global::RoxVideo.Resource.Id.action_context_bar = global::TrisBluetooth.Droid.Resource.Id.action_context_bar;
+			global::RoxVideo.Resource.Id.action_divider = global::TrisBluetooth.Droid.Resource.Id.action_divider;
+			global::RoxVideo.Resource.Id.action_menu_divider = global::TrisBluetooth.Droid.Resource.Id.action_menu_divider;
+			global::RoxVideo.Resource.Id.action_menu_presenter = global::TrisBluetooth.Droid.Resource.Id.action_menu_presenter;
+			global::RoxVideo.Resource.Id.action_mode_bar = global::TrisBluetooth.Droid.Resource.Id.action_mode_bar;
+			global::RoxVideo.Resource.Id.action_mode_bar_stub = global::TrisBluetooth.Droid.Resource.Id.action_mode_bar_stub;
+			global::RoxVideo.Resource.Id.action_mode_close_button = global::TrisBluetooth.Droid.Resource.Id.action_mode_close_button;
+			global::RoxVideo.Resource.Id.activity_chooser_view_content = global::TrisBluetooth.Droid.Resource.Id.activity_chooser_view_content;
+			global::RoxVideo.Resource.Id.alertTitle = global::TrisBluetooth.Droid.Resource.Id.alertTitle;
+			global::RoxVideo.Resource.Id.always = global::TrisBluetooth.Droid.Resource.Id.always;
+			global::RoxVideo.Resource.Id.beginning = global::TrisBluetooth.Droid.Resource.Id.beginning;
+			global::RoxVideo.Resource.Id.bottom = global::TrisBluetooth.Droid.Resource.Id.bottom;
+			global::RoxVideo.Resource.Id.buttonPanel = global::TrisBluetooth.Droid.Resource.Id.buttonPanel;
+			global::RoxVideo.Resource.Id.cancel_action = global::TrisBluetooth.Droid.Resource.Id.cancel_action;
+			global::RoxVideo.Resource.Id.center = global::TrisBluetooth.Droid.Resource.Id.center;
+			global::RoxVideo.Resource.Id.center_horizontal = global::TrisBluetooth.Droid.Resource.Id.center_horizontal;
+			global::RoxVideo.Resource.Id.center_vertical = global::TrisBluetooth.Droid.Resource.Id.center_vertical;
+			global::RoxVideo.Resource.Id.checkbox = global::TrisBluetooth.Droid.Resource.Id.checkbox;
+			global::RoxVideo.Resource.Id.chronometer = global::TrisBluetooth.Droid.Resource.Id.chronometer;
+			global::RoxVideo.Resource.Id.clip_horizontal = global::TrisBluetooth.Droid.Resource.Id.clip_horizontal;
+			global::RoxVideo.Resource.Id.clip_vertical = global::TrisBluetooth.Droid.Resource.Id.clip_vertical;
+			global::RoxVideo.Resource.Id.collapseActionView = global::TrisBluetooth.Droid.Resource.Id.collapseActionView;
+			global::RoxVideo.Resource.Id.contentPanel = global::TrisBluetooth.Droid.Resource.Id.contentPanel;
+			global::RoxVideo.Resource.Id.custom = global::TrisBluetooth.Droid.Resource.Id.custom;
+			global::RoxVideo.Resource.Id.customPanel = global::TrisBluetooth.Droid.Resource.Id.customPanel;
+			global::RoxVideo.Resource.Id.decor_content_parent = global::TrisBluetooth.Droid.Resource.Id.decor_content_parent;
+			global::RoxVideo.Resource.Id.default_activity_button = global::TrisBluetooth.Droid.Resource.Id.default_activity_button;
+			global::RoxVideo.Resource.Id.design_bottom_sheet = global::TrisBluetooth.Droid.Resource.Id.design_bottom_sheet;
+			global::RoxVideo.Resource.Id.design_menu_item_action_area = global::TrisBluetooth.Droid.Resource.Id.design_menu_item_action_area;
+			global::RoxVideo.Resource.Id.design_menu_item_action_area_stub = global::TrisBluetooth.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::RoxVideo.Resource.Id.design_menu_item_text = global::TrisBluetooth.Droid.Resource.Id.design_menu_item_text;
+			global::RoxVideo.Resource.Id.design_navigation_view = global::TrisBluetooth.Droid.Resource.Id.design_navigation_view;
+			global::RoxVideo.Resource.Id.disableHome = global::TrisBluetooth.Droid.Resource.Id.disableHome;
+			global::RoxVideo.Resource.Id.edit_query = global::TrisBluetooth.Droid.Resource.Id.edit_query;
+			global::RoxVideo.Resource.Id.end = global::TrisBluetooth.Droid.Resource.Id.end;
+			global::RoxVideo.Resource.Id.end_padder = global::TrisBluetooth.Droid.Resource.Id.end_padder;
+			global::RoxVideo.Resource.Id.enterAlways = global::TrisBluetooth.Droid.Resource.Id.enterAlways;
+			global::RoxVideo.Resource.Id.enterAlwaysCollapsed = global::TrisBluetooth.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::RoxVideo.Resource.Id.exitUntilCollapsed = global::TrisBluetooth.Droid.Resource.Id.exitUntilCollapsed;
+			global::RoxVideo.Resource.Id.expand_activities_button = global::TrisBluetooth.Droid.Resource.Id.expand_activities_button;
+			global::RoxVideo.Resource.Id.expanded_menu = global::TrisBluetooth.Droid.Resource.Id.expanded_menu;
+			global::RoxVideo.Resource.Id.fill = global::TrisBluetooth.Droid.Resource.Id.fill;
+			global::RoxVideo.Resource.Id.fill_horizontal = global::TrisBluetooth.Droid.Resource.Id.fill_horizontal;
+			global::RoxVideo.Resource.Id.fill_vertical = global::TrisBluetooth.Droid.Resource.Id.fill_vertical;
+			global::RoxVideo.Resource.Id.@fixed = global::TrisBluetooth.Droid.Resource.Id.@fixed;
+			global::RoxVideo.Resource.Id.home = global::TrisBluetooth.Droid.Resource.Id.home;
+			global::RoxVideo.Resource.Id.homeAsUp = global::TrisBluetooth.Droid.Resource.Id.homeAsUp;
+			global::RoxVideo.Resource.Id.icon = global::TrisBluetooth.Droid.Resource.Id.icon;
+			global::RoxVideo.Resource.Id.ifRoom = global::TrisBluetooth.Droid.Resource.Id.ifRoom;
+			global::RoxVideo.Resource.Id.image = global::TrisBluetooth.Droid.Resource.Id.image;
+			global::RoxVideo.Resource.Id.info = global::TrisBluetooth.Droid.Resource.Id.info;
+			global::RoxVideo.Resource.Id.item_touch_helper_previous_elevation = global::TrisBluetooth.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::RoxVideo.Resource.Id.left = global::TrisBluetooth.Droid.Resource.Id.left;
+			global::RoxVideo.Resource.Id.line1 = global::TrisBluetooth.Droid.Resource.Id.line1;
+			global::RoxVideo.Resource.Id.line3 = global::TrisBluetooth.Droid.Resource.Id.line3;
+			global::RoxVideo.Resource.Id.listMode = global::TrisBluetooth.Droid.Resource.Id.listMode;
+			global::RoxVideo.Resource.Id.list_item = global::TrisBluetooth.Droid.Resource.Id.list_item;
+			global::RoxVideo.Resource.Id.media_actions = global::TrisBluetooth.Droid.Resource.Id.media_actions;
+			global::RoxVideo.Resource.Id.middle = global::TrisBluetooth.Droid.Resource.Id.middle;
+			global::RoxVideo.Resource.Id.mini = global::TrisBluetooth.Droid.Resource.Id.mini;
+			global::RoxVideo.Resource.Id.mr_art = global::TrisBluetooth.Droid.Resource.Id.mr_art;
+			global::RoxVideo.Resource.Id.mr_chooser_list = global::TrisBluetooth.Droid.Resource.Id.mr_chooser_list;
+			global::RoxVideo.Resource.Id.mr_chooser_route_desc = global::TrisBluetooth.Droid.Resource.Id.mr_chooser_route_desc;
+			global::RoxVideo.Resource.Id.mr_chooser_route_icon = global::TrisBluetooth.Droid.Resource.Id.mr_chooser_route_icon;
+			global::RoxVideo.Resource.Id.mr_chooser_route_name = global::TrisBluetooth.Droid.Resource.Id.mr_chooser_route_name;
+			global::RoxVideo.Resource.Id.mr_close = global::TrisBluetooth.Droid.Resource.Id.mr_close;
+			global::RoxVideo.Resource.Id.mr_control_divider = global::TrisBluetooth.Droid.Resource.Id.mr_control_divider;
+			global::RoxVideo.Resource.Id.mr_control_subtitle = global::TrisBluetooth.Droid.Resource.Id.mr_control_subtitle;
+			global::RoxVideo.Resource.Id.mr_control_title = global::TrisBluetooth.Droid.Resource.Id.mr_control_title;
+			global::RoxVideo.Resource.Id.mr_control_title_container = global::TrisBluetooth.Droid.Resource.Id.mr_control_title_container;
+			global::RoxVideo.Resource.Id.mr_custom_control = global::TrisBluetooth.Droid.Resource.Id.mr_custom_control;
+			global::RoxVideo.Resource.Id.mr_default_control = global::TrisBluetooth.Droid.Resource.Id.mr_default_control;
+			global::RoxVideo.Resource.Id.mr_dialog_area = global::TrisBluetooth.Droid.Resource.Id.mr_dialog_area;
+			global::RoxVideo.Resource.Id.mr_expandable_area = global::TrisBluetooth.Droid.Resource.Id.mr_expandable_area;
+			global::RoxVideo.Resource.Id.mr_group_expand_collapse = global::TrisBluetooth.Droid.Resource.Id.mr_group_expand_collapse;
+			global::RoxVideo.Resource.Id.mr_media_main_control = global::TrisBluetooth.Droid.Resource.Id.mr_media_main_control;
+			global::RoxVideo.Resource.Id.mr_name = global::TrisBluetooth.Droid.Resource.Id.mr_name;
+			global::RoxVideo.Resource.Id.mr_playback_control = global::TrisBluetooth.Droid.Resource.Id.mr_playback_control;
+			global::RoxVideo.Resource.Id.mr_title_bar = global::TrisBluetooth.Droid.Resource.Id.mr_title_bar;
+			global::RoxVideo.Resource.Id.mr_volume_control = global::TrisBluetooth.Droid.Resource.Id.mr_volume_control;
+			global::RoxVideo.Resource.Id.mr_volume_group_list = global::TrisBluetooth.Droid.Resource.Id.mr_volume_group_list;
+			global::RoxVideo.Resource.Id.mr_volume_item_icon = global::TrisBluetooth.Droid.Resource.Id.mr_volume_item_icon;
+			global::RoxVideo.Resource.Id.mr_volume_slider = global::TrisBluetooth.Droid.Resource.Id.mr_volume_slider;
+			global::RoxVideo.Resource.Id.multiply = global::TrisBluetooth.Droid.Resource.Id.multiply;
+			global::RoxVideo.Resource.Id.navigation_header_container = global::TrisBluetooth.Droid.Resource.Id.navigation_header_container;
+			global::RoxVideo.Resource.Id.never = global::TrisBluetooth.Droid.Resource.Id.never;
+			global::RoxVideo.Resource.Id.none = global::TrisBluetooth.Droid.Resource.Id.none;
+			global::RoxVideo.Resource.Id.normal = global::TrisBluetooth.Droid.Resource.Id.normal;
+			global::RoxVideo.Resource.Id.parallax = global::TrisBluetooth.Droid.Resource.Id.parallax;
+			global::RoxVideo.Resource.Id.parentPanel = global::TrisBluetooth.Droid.Resource.Id.parentPanel;
+			global::RoxVideo.Resource.Id.pin = global::TrisBluetooth.Droid.Resource.Id.pin;
+			global::RoxVideo.Resource.Id.progress_circular = global::TrisBluetooth.Droid.Resource.Id.progress_circular;
+			global::RoxVideo.Resource.Id.progress_horizontal = global::TrisBluetooth.Droid.Resource.Id.progress_horizontal;
+			global::RoxVideo.Resource.Id.radio = global::TrisBluetooth.Droid.Resource.Id.radio;
+			global::RoxVideo.Resource.Id.right = global::TrisBluetooth.Droid.Resource.Id.right;
+			global::RoxVideo.Resource.Id.screen = global::TrisBluetooth.Droid.Resource.Id.screen;
+			global::RoxVideo.Resource.Id.scroll = global::TrisBluetooth.Droid.Resource.Id.scroll;
+			global::RoxVideo.Resource.Id.scrollIndicatorDown = global::TrisBluetooth.Droid.Resource.Id.scrollIndicatorDown;
+			global::RoxVideo.Resource.Id.scrollIndicatorUp = global::TrisBluetooth.Droid.Resource.Id.scrollIndicatorUp;
+			global::RoxVideo.Resource.Id.scrollView = global::TrisBluetooth.Droid.Resource.Id.scrollView;
+			global::RoxVideo.Resource.Id.scrollable = global::TrisBluetooth.Droid.Resource.Id.scrollable;
+			global::RoxVideo.Resource.Id.search_badge = global::TrisBluetooth.Droid.Resource.Id.search_badge;
+			global::RoxVideo.Resource.Id.search_bar = global::TrisBluetooth.Droid.Resource.Id.search_bar;
+			global::RoxVideo.Resource.Id.search_button = global::TrisBluetooth.Droid.Resource.Id.search_button;
+			global::RoxVideo.Resource.Id.search_close_btn = global::TrisBluetooth.Droid.Resource.Id.search_close_btn;
+			global::RoxVideo.Resource.Id.search_edit_frame = global::TrisBluetooth.Droid.Resource.Id.search_edit_frame;
+			global::RoxVideo.Resource.Id.search_go_btn = global::TrisBluetooth.Droid.Resource.Id.search_go_btn;
+			global::RoxVideo.Resource.Id.search_mag_icon = global::TrisBluetooth.Droid.Resource.Id.search_mag_icon;
+			global::RoxVideo.Resource.Id.search_plate = global::TrisBluetooth.Droid.Resource.Id.search_plate;
+			global::RoxVideo.Resource.Id.search_src_text = global::TrisBluetooth.Droid.Resource.Id.search_src_text;
+			global::RoxVideo.Resource.Id.search_voice_btn = global::TrisBluetooth.Droid.Resource.Id.search_voice_btn;
+			global::RoxVideo.Resource.Id.select_dialog_listview = global::TrisBluetooth.Droid.Resource.Id.select_dialog_listview;
+			global::RoxVideo.Resource.Id.shortcut = global::TrisBluetooth.Droid.Resource.Id.shortcut;
+			global::RoxVideo.Resource.Id.showCustom = global::TrisBluetooth.Droid.Resource.Id.showCustom;
+			global::RoxVideo.Resource.Id.showHome = global::TrisBluetooth.Droid.Resource.Id.showHome;
+			global::RoxVideo.Resource.Id.showTitle = global::TrisBluetooth.Droid.Resource.Id.showTitle;
+			global::RoxVideo.Resource.Id.snackbar_action = global::TrisBluetooth.Droid.Resource.Id.snackbar_action;
+			global::RoxVideo.Resource.Id.snackbar_text = global::TrisBluetooth.Droid.Resource.Id.snackbar_text;
+			global::RoxVideo.Resource.Id.snap = global::TrisBluetooth.Droid.Resource.Id.snap;
+			global::RoxVideo.Resource.Id.spacer = global::TrisBluetooth.Droid.Resource.Id.spacer;
+			global::RoxVideo.Resource.Id.split_action_bar = global::TrisBluetooth.Droid.Resource.Id.split_action_bar;
+			global::RoxVideo.Resource.Id.src_atop = global::TrisBluetooth.Droid.Resource.Id.src_atop;
+			global::RoxVideo.Resource.Id.src_in = global::TrisBluetooth.Droid.Resource.Id.src_in;
+			global::RoxVideo.Resource.Id.src_over = global::TrisBluetooth.Droid.Resource.Id.src_over;
+			global::RoxVideo.Resource.Id.start = global::TrisBluetooth.Droid.Resource.Id.start;
+			global::RoxVideo.Resource.Id.status_bar_latest_event_content = global::TrisBluetooth.Droid.Resource.Id.status_bar_latest_event_content;
+			global::RoxVideo.Resource.Id.submit_area = global::TrisBluetooth.Droid.Resource.Id.submit_area;
+			global::RoxVideo.Resource.Id.tabMode = global::TrisBluetooth.Droid.Resource.Id.tabMode;
+			global::RoxVideo.Resource.Id.text = global::TrisBluetooth.Droid.Resource.Id.text;
+			global::RoxVideo.Resource.Id.text2 = global::TrisBluetooth.Droid.Resource.Id.text2;
+			global::RoxVideo.Resource.Id.textSpacerNoButtons = global::TrisBluetooth.Droid.Resource.Id.textSpacerNoButtons;
+			global::RoxVideo.Resource.Id.time = global::TrisBluetooth.Droid.Resource.Id.time;
+			global::RoxVideo.Resource.Id.title = global::TrisBluetooth.Droid.Resource.Id.title;
+			global::RoxVideo.Resource.Id.title_template = global::TrisBluetooth.Droid.Resource.Id.title_template;
+			global::RoxVideo.Resource.Id.top = global::TrisBluetooth.Droid.Resource.Id.top;
+			global::RoxVideo.Resource.Id.topPanel = global::TrisBluetooth.Droid.Resource.Id.topPanel;
+			global::RoxVideo.Resource.Id.touch_outside = global::TrisBluetooth.Droid.Resource.Id.touch_outside;
+			global::RoxVideo.Resource.Id.up = global::TrisBluetooth.Droid.Resource.Id.up;
+			global::RoxVideo.Resource.Id.useLogo = global::TrisBluetooth.Droid.Resource.Id.useLogo;
+			global::RoxVideo.Resource.Id.view_offset_helper = global::TrisBluetooth.Droid.Resource.Id.view_offset_helper;
+			global::RoxVideo.Resource.Id.volume_item_container = global::TrisBluetooth.Droid.Resource.Id.volume_item_container;
+			global::RoxVideo.Resource.Id.withText = global::TrisBluetooth.Droid.Resource.Id.withText;
+			global::RoxVideo.Resource.Id.wrap_content = global::TrisBluetooth.Droid.Resource.Id.wrap_content;
+			global::RoxVideo.Resource.Integer.abc_config_activityDefaultDur = global::TrisBluetooth.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::RoxVideo.Resource.Integer.abc_config_activityShortDur = global::TrisBluetooth.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::RoxVideo.Resource.Integer.bottom_sheet_slide_duration = global::TrisBluetooth.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::RoxVideo.Resource.Integer.cancel_button_image_alpha = global::TrisBluetooth.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::RoxVideo.Resource.Integer.design_snackbar_text_max_lines = global::TrisBluetooth.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::RoxVideo.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::TrisBluetooth.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::RoxVideo.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::TrisBluetooth.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::RoxVideo.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::TrisBluetooth.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::RoxVideo.Resource.Integer.status_bar_notification_info_maxnum = global::TrisBluetooth.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::RoxVideo.Resource.Interpolator.mr_fast_out_slow_in = global::TrisBluetooth.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::RoxVideo.Resource.Interpolator.mr_linear_out_slow_in = global::TrisBluetooth.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::RoxVideo.Resource.Layout.abc_action_bar_title_item = global::TrisBluetooth.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::RoxVideo.Resource.Layout.abc_action_bar_up_container = global::TrisBluetooth.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::RoxVideo.Resource.Layout.abc_action_menu_item_layout = global::TrisBluetooth.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::RoxVideo.Resource.Layout.abc_action_menu_layout = global::TrisBluetooth.Droid.Resource.Layout.abc_action_menu_layout;
+			global::RoxVideo.Resource.Layout.abc_action_mode_bar = global::TrisBluetooth.Droid.Resource.Layout.abc_action_mode_bar;
+			global::RoxVideo.Resource.Layout.abc_action_mode_close_item_material = global::TrisBluetooth.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::RoxVideo.Resource.Layout.abc_activity_chooser_view = global::TrisBluetooth.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::RoxVideo.Resource.Layout.abc_activity_chooser_view_list_item = global::TrisBluetooth.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::RoxVideo.Resource.Layout.abc_alert_dialog_button_bar_material = global::TrisBluetooth.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::RoxVideo.Resource.Layout.abc_alert_dialog_material = global::TrisBluetooth.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::RoxVideo.Resource.Layout.abc_dialog_title_material = global::TrisBluetooth.Droid.Resource.Layout.abc_dialog_title_material;
+			global::RoxVideo.Resource.Layout.abc_expanded_menu_layout = global::TrisBluetooth.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::RoxVideo.Resource.Layout.abc_list_menu_item_checkbox = global::TrisBluetooth.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::RoxVideo.Resource.Layout.abc_list_menu_item_icon = global::TrisBluetooth.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::RoxVideo.Resource.Layout.abc_list_menu_item_layout = global::TrisBluetooth.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::RoxVideo.Resource.Layout.abc_list_menu_item_radio = global::TrisBluetooth.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::RoxVideo.Resource.Layout.abc_popup_menu_item_layout = global::TrisBluetooth.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::RoxVideo.Resource.Layout.abc_screen_content_include = global::TrisBluetooth.Droid.Resource.Layout.abc_screen_content_include;
+			global::RoxVideo.Resource.Layout.abc_screen_simple = global::TrisBluetooth.Droid.Resource.Layout.abc_screen_simple;
+			global::RoxVideo.Resource.Layout.abc_screen_simple_overlay_action_mode = global::TrisBluetooth.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::RoxVideo.Resource.Layout.abc_screen_toolbar = global::TrisBluetooth.Droid.Resource.Layout.abc_screen_toolbar;
+			global::RoxVideo.Resource.Layout.abc_search_dropdown_item_icons_2line = global::TrisBluetooth.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::RoxVideo.Resource.Layout.abc_search_view = global::TrisBluetooth.Droid.Resource.Layout.abc_search_view;
+			global::RoxVideo.Resource.Layout.abc_select_dialog_material = global::TrisBluetooth.Droid.Resource.Layout.abc_select_dialog_material;
+			global::RoxVideo.Resource.Layout.design_bottom_sheet_dialog = global::TrisBluetooth.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::RoxVideo.Resource.Layout.design_layout_snackbar = global::TrisBluetooth.Droid.Resource.Layout.design_layout_snackbar;
+			global::RoxVideo.Resource.Layout.design_layout_snackbar_include = global::TrisBluetooth.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::RoxVideo.Resource.Layout.design_layout_tab_icon = global::TrisBluetooth.Droid.Resource.Layout.design_layout_tab_icon;
+			global::RoxVideo.Resource.Layout.design_layout_tab_text = global::TrisBluetooth.Droid.Resource.Layout.design_layout_tab_text;
+			global::RoxVideo.Resource.Layout.design_menu_item_action_area = global::TrisBluetooth.Droid.Resource.Layout.design_menu_item_action_area;
+			global::RoxVideo.Resource.Layout.design_navigation_item = global::TrisBluetooth.Droid.Resource.Layout.design_navigation_item;
+			global::RoxVideo.Resource.Layout.design_navigation_item_header = global::TrisBluetooth.Droid.Resource.Layout.design_navigation_item_header;
+			global::RoxVideo.Resource.Layout.design_navigation_item_separator = global::TrisBluetooth.Droid.Resource.Layout.design_navigation_item_separator;
+			global::RoxVideo.Resource.Layout.design_navigation_item_subheader = global::TrisBluetooth.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::RoxVideo.Resource.Layout.design_navigation_menu = global::TrisBluetooth.Droid.Resource.Layout.design_navigation_menu;
+			global::RoxVideo.Resource.Layout.design_navigation_menu_item = global::TrisBluetooth.Droid.Resource.Layout.design_navigation_menu_item;
+			global::RoxVideo.Resource.Layout.mr_chooser_dialog = global::TrisBluetooth.Droid.Resource.Layout.mr_chooser_dialog;
+			global::RoxVideo.Resource.Layout.mr_chooser_list_item = global::TrisBluetooth.Droid.Resource.Layout.mr_chooser_list_item;
+			global::RoxVideo.Resource.Layout.mr_controller_material_dialog_b = global::TrisBluetooth.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::RoxVideo.Resource.Layout.mr_controller_volume_item = global::TrisBluetooth.Droid.Resource.Layout.mr_controller_volume_item;
+			global::RoxVideo.Resource.Layout.mr_playback_control = global::TrisBluetooth.Droid.Resource.Layout.mr_playback_control;
+			global::RoxVideo.Resource.Layout.mr_volume_control = global::TrisBluetooth.Droid.Resource.Layout.mr_volume_control;
+			global::RoxVideo.Resource.Layout.notification_media_action = global::TrisBluetooth.Droid.Resource.Layout.notification_media_action;
+			global::RoxVideo.Resource.Layout.notification_media_cancel_action = global::TrisBluetooth.Droid.Resource.Layout.notification_media_cancel_action;
+			global::RoxVideo.Resource.Layout.notification_template_big_media = global::TrisBluetooth.Droid.Resource.Layout.notification_template_big_media;
+			global::RoxVideo.Resource.Layout.notification_template_big_media_narrow = global::TrisBluetooth.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::RoxVideo.Resource.Layout.notification_template_media = global::TrisBluetooth.Droid.Resource.Layout.notification_template_media;
+			global::RoxVideo.Resource.Layout.notification_template_part_chronometer = global::TrisBluetooth.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::RoxVideo.Resource.Layout.notification_template_part_time = global::TrisBluetooth.Droid.Resource.Layout.notification_template_part_time;
+			global::RoxVideo.Resource.Layout.select_dialog_item_material = global::TrisBluetooth.Droid.Resource.Layout.select_dialog_item_material;
+			global::RoxVideo.Resource.Layout.select_dialog_multichoice_material = global::TrisBluetooth.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::RoxVideo.Resource.Layout.select_dialog_singlechoice_material = global::TrisBluetooth.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::RoxVideo.Resource.Layout.support_simple_spinner_dropdown_item = global::TrisBluetooth.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::RoxVideo.Resource.String.ApplicationName = global::TrisBluetooth.Droid.Resource.String.ApplicationName;
+			global::RoxVideo.Resource.String.Hello = global::TrisBluetooth.Droid.Resource.String.Hello;
+			global::RoxVideo.Resource.String.abc_action_bar_home_description = global::TrisBluetooth.Droid.Resource.String.abc_action_bar_home_description;
+			global::RoxVideo.Resource.String.abc_action_bar_up_description = global::TrisBluetooth.Droid.Resource.String.abc_action_bar_up_description;
+			global::RoxVideo.Resource.String.abc_action_menu_overflow_description = global::TrisBluetooth.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::RoxVideo.Resource.String.abc_action_mode_done = global::TrisBluetooth.Droid.Resource.String.abc_action_mode_done;
+			global::RoxVideo.Resource.String.abc_activity_chooser_view_see_all = global::TrisBluetooth.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::RoxVideo.Resource.String.abc_activitychooserview_choose_application = global::TrisBluetooth.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::RoxVideo.Resource.String.abc_capital_off = global::TrisBluetooth.Droid.Resource.String.abc_capital_off;
+			global::RoxVideo.Resource.String.abc_capital_on = global::TrisBluetooth.Droid.Resource.String.abc_capital_on;
+			global::RoxVideo.Resource.String.abc_search_hint = global::TrisBluetooth.Droid.Resource.String.abc_search_hint;
+			global::RoxVideo.Resource.String.abc_searchview_description_clear = global::TrisBluetooth.Droid.Resource.String.abc_searchview_description_clear;
+			global::RoxVideo.Resource.String.abc_searchview_description_query = global::TrisBluetooth.Droid.Resource.String.abc_searchview_description_query;
+			global::RoxVideo.Resource.String.abc_searchview_description_search = global::TrisBluetooth.Droid.Resource.String.abc_searchview_description_search;
+			global::RoxVideo.Resource.String.abc_searchview_description_submit = global::TrisBluetooth.Droid.Resource.String.abc_searchview_description_submit;
+			global::RoxVideo.Resource.String.abc_searchview_description_voice = global::TrisBluetooth.Droid.Resource.String.abc_searchview_description_voice;
+			global::RoxVideo.Resource.String.abc_shareactionprovider_share_with = global::TrisBluetooth.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::RoxVideo.Resource.String.abc_shareactionprovider_share_with_application = global::TrisBluetooth.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::RoxVideo.Resource.String.abc_toolbar_collapse_description = global::TrisBluetooth.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::RoxVideo.Resource.String.appbar_scrolling_view_behavior = global::TrisBluetooth.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::RoxVideo.Resource.String.bottom_sheet_behavior = global::TrisBluetooth.Droid.Resource.String.bottom_sheet_behavior;
+			global::RoxVideo.Resource.String.character_counter_pattern = global::TrisBluetooth.Droid.Resource.String.character_counter_pattern;
+			global::RoxVideo.Resource.String.mr_button_content_description = global::TrisBluetooth.Droid.Resource.String.mr_button_content_description;
+			global::RoxVideo.Resource.String.mr_chooser_searching = global::TrisBluetooth.Droid.Resource.String.mr_chooser_searching;
+			global::RoxVideo.Resource.String.mr_chooser_title = global::TrisBluetooth.Droid.Resource.String.mr_chooser_title;
+			global::RoxVideo.Resource.String.mr_controller_casting_screen = global::TrisBluetooth.Droid.Resource.String.mr_controller_casting_screen;
+			global::RoxVideo.Resource.String.mr_controller_close_description = global::TrisBluetooth.Droid.Resource.String.mr_controller_close_description;
+			global::RoxVideo.Resource.String.mr_controller_collapse_group = global::TrisBluetooth.Droid.Resource.String.mr_controller_collapse_group;
+			global::RoxVideo.Resource.String.mr_controller_disconnect = global::TrisBluetooth.Droid.Resource.String.mr_controller_disconnect;
+			global::RoxVideo.Resource.String.mr_controller_expand_group = global::TrisBluetooth.Droid.Resource.String.mr_controller_expand_group;
+			global::RoxVideo.Resource.String.mr_controller_no_info_available = global::TrisBluetooth.Droid.Resource.String.mr_controller_no_info_available;
+			global::RoxVideo.Resource.String.mr_controller_no_media_selected = global::TrisBluetooth.Droid.Resource.String.mr_controller_no_media_selected;
+			global::RoxVideo.Resource.String.mr_controller_pause = global::TrisBluetooth.Droid.Resource.String.mr_controller_pause;
+			global::RoxVideo.Resource.String.mr_controller_play = global::TrisBluetooth.Droid.Resource.String.mr_controller_play;
+			global::RoxVideo.Resource.String.mr_controller_stop = global::TrisBluetooth.Droid.Resource.String.mr_controller_stop;
+			global::RoxVideo.Resource.String.mr_system_route_name = global::TrisBluetooth.Droid.Resource.String.mr_system_route_name;
+			global::RoxVideo.Resource.String.mr_user_route_category_name = global::TrisBluetooth.Droid.Resource.String.mr_user_route_category_name;
+			global::RoxVideo.Resource.String.status_bar_notification_info_overflow = global::TrisBluetooth.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::RoxVideo.Resource.Style.AlertDialog_AppCompat = global::TrisBluetooth.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::RoxVideo.Resource.Style.AlertDialog_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Animation_AppCompat_Dialog = global::TrisBluetooth.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::RoxVideo.Resource.Style.Animation_AppCompat_DropDownUp = global::TrisBluetooth.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::RoxVideo.Resource.Style.Animation_Design_BottomSheetDialog = global::TrisBluetooth.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::RoxVideo.Resource.Style.Base_AlertDialog_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::RoxVideo.Resource.Style.Base_AlertDialog_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Base_Animation_AppCompat_Dialog = global::TrisBluetooth.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::RoxVideo.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::TrisBluetooth.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::RoxVideo.Resource.Style.Base_CardView = global::TrisBluetooth.Droid.Resource.Style.Base_CardView;
+			global::RoxVideo.Resource.Style.Base_DialogWindowTitle_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::RoxVideo.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Button = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Large = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Small = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Title = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::RoxVideo.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::TrisBluetooth.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_Dialog = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::RoxVideo.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::TrisBluetooth.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::RoxVideo.Resource.Style.Base_ThemeOverlay_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::RoxVideo.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::TrisBluetooth.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::RoxVideo.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::TrisBluetooth.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::RoxVideo.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::TrisBluetooth.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::RoxVideo.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::TrisBluetooth.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::RoxVideo.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::TrisBluetooth.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::RoxVideo.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::TrisBluetooth.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::RoxVideo.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::TrisBluetooth.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::RoxVideo.Resource.Style.Base_V21_Theme_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::RoxVideo.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::TrisBluetooth.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::RoxVideo.Resource.Style.Base_V21_Theme_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::TrisBluetooth.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::RoxVideo.Resource.Style.Base_V22_Theme_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::RoxVideo.Resource.Style.Base_V22_Theme_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Base_V23_Theme_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::RoxVideo.Resource.Style.Base_V23_Theme_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Base_V7_Theme_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::RoxVideo.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::TrisBluetooth.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::RoxVideo.Resource.Style.Base_V7_Theme_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::TrisBluetooth.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::RoxVideo.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::TrisBluetooth.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::RoxVideo.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::TrisBluetooth.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ActionBar = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ActionButton = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ActionMode = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Button = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Button_Small = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_EditText = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ImageButton = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ListView = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_RatingBar = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_SearchView = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_SeekBar = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Spinner = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Toolbar = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::RoxVideo.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::RoxVideo.Resource.Style.Base_Widget_Design_TabLayout = global::TrisBluetooth.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::RoxVideo.Resource.Style.CardView = global::TrisBluetooth.Droid.Resource.Style.CardView;
+			global::RoxVideo.Resource.Style.CardView_Dark = global::TrisBluetooth.Droid.Resource.Style.CardView_Dark;
+			global::RoxVideo.Resource.Style.CardView_Light = global::TrisBluetooth.Droid.Resource.Style.CardView_Light;
+			global::RoxVideo.Resource.Style.Platform_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Platform_AppCompat;
+			global::RoxVideo.Resource.Style.Platform_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Platform_ThemeOverlay_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::RoxVideo.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::TrisBluetooth.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::RoxVideo.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Platform_V11_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::RoxVideo.Resource.Style.Platform_V11_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Platform_V14_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::RoxVideo.Resource.Style.Platform_V14_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Platform_Widget_AppCompat_Spinner = global::TrisBluetooth.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::RoxVideo.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::RoxVideo.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::RoxVideo.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::RoxVideo.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::RoxVideo.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::RoxVideo.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::RoxVideo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::RoxVideo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::RoxVideo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::RoxVideo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::RoxVideo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::RoxVideo.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::TrisBluetooth.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::RoxVideo.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::TrisBluetooth.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::RoxVideo.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::TrisBluetooth.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Body1 = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Body2 = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Button = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Caption = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Display1 = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Display2 = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Display3 = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Display4 = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Headline = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Inverse = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Large = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Medium = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Menu = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Small = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Subhead = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Title = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::RoxVideo.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::RoxVideo.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::RoxVideo.Resource.Style.TextAppearance_Design_Counter = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::RoxVideo.Resource.Style.TextAppearance_Design_Counter_Overflow = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::RoxVideo.Resource.Style.TextAppearance_Design_Error = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::RoxVideo.Resource.Style.TextAppearance_Design_Hint = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::RoxVideo.Resource.Style.TextAppearance_Design_Snackbar_Message = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::RoxVideo.Resource.Style.TextAppearance_Design_Tab = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::RoxVideo.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::RoxVideo.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::RoxVideo.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::TrisBluetooth.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::RoxVideo.Resource.Style.Theme_AppCompat = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_CompactMenu = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_DayNight = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_Dialog = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_Dialog_Alert = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_Light_Dialog = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::RoxVideo.Resource.Style.Theme_AppCompat_NoActionBar = global::TrisBluetooth.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::RoxVideo.Resource.Style.Theme_Design = global::TrisBluetooth.Droid.Resource.Style.Theme_Design;
+			global::RoxVideo.Resource.Style.Theme_Design_BottomSheetDialog = global::TrisBluetooth.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::RoxVideo.Resource.Style.Theme_Design_Light = global::TrisBluetooth.Droid.Resource.Style.Theme_Design_Light;
+			global::RoxVideo.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::TrisBluetooth.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::RoxVideo.Resource.Style.Theme_Design_Light_NoActionBar = global::TrisBluetooth.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::RoxVideo.Resource.Style.Theme_Design_NoActionBar = global::TrisBluetooth.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::RoxVideo.Resource.Style.Theme_MediaRouter = global::TrisBluetooth.Droid.Resource.Style.Theme_MediaRouter;
+			global::RoxVideo.Resource.Style.Theme_MediaRouter_Light = global::TrisBluetooth.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::RoxVideo.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::TrisBluetooth.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::RoxVideo.Resource.Style.Theme_MediaRouter_LightControlPanel = global::TrisBluetooth.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::RoxVideo.Resource.Style.ThemeOverlay_AppCompat = global::TrisBluetooth.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::RoxVideo.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::TrisBluetooth.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::RoxVideo.Resource.Style.ThemeOverlay_AppCompat_Dark = global::TrisBluetooth.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::RoxVideo.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::TrisBluetooth.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::RoxVideo.Resource.Style.ThemeOverlay_AppCompat_Light = global::TrisBluetooth.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ActionBar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ActionButton = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ActionMode = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ActivityChooserView = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Button = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Button_Borderless = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Button_Colored = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Button_Small = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ButtonBar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_EditText = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ImageButton = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionBar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionButton = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_SearchView = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ListPopupWindow = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ListView = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ListView_DropDown = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ListView_Menu = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_PopupMenu = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_PopupWindow = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ProgressBar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_RatingBar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_RatingBar_Small = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_SearchView = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_SeekBar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Spinner = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Toolbar = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::RoxVideo.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::TrisBluetooth.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::RoxVideo.Resource.Style.Widget_Design_AppBarLayout = global::TrisBluetooth.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::RoxVideo.Resource.Style.Widget_Design_BottomSheet_Modal = global::TrisBluetooth.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::RoxVideo.Resource.Style.Widget_Design_CollapsingToolbar = global::TrisBluetooth.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::RoxVideo.Resource.Style.Widget_Design_CoordinatorLayout = global::TrisBluetooth.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::RoxVideo.Resource.Style.Widget_Design_FloatingActionButton = global::TrisBluetooth.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::RoxVideo.Resource.Style.Widget_Design_NavigationView = global::TrisBluetooth.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::RoxVideo.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::TrisBluetooth.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::RoxVideo.Resource.Style.Widget_Design_Snackbar = global::TrisBluetooth.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::RoxVideo.Resource.Style.Widget_Design_TabLayout = global::TrisBluetooth.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::RoxVideo.Resource.Style.Widget_Design_TextInputLayout = global::TrisBluetooth.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::RoxVideo.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::TrisBluetooth.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::RoxVideo.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::TrisBluetooth.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::RoxVideo.Resource.Styleable.ActionBar = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar;
+			global::RoxVideo.Resource.Styleable.ActionBar_background = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_background;
+			global::RoxVideo.Resource.Styleable.ActionBar_backgroundSplit = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::RoxVideo.Resource.Styleable.ActionBar_backgroundStacked = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::RoxVideo.Resource.Styleable.ActionBar_contentInsetEnd = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::RoxVideo.Resource.Styleable.ActionBar_contentInsetLeft = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::RoxVideo.Resource.Styleable.ActionBar_contentInsetRight = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::RoxVideo.Resource.Styleable.ActionBar_contentInsetStart = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::RoxVideo.Resource.Styleable.ActionBar_customNavigationLayout = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::RoxVideo.Resource.Styleable.ActionBar_displayOptions = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::RoxVideo.Resource.Styleable.ActionBar_divider = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_divider;
+			global::RoxVideo.Resource.Styleable.ActionBar_elevation = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_elevation;
+			global::RoxVideo.Resource.Styleable.ActionBar_height = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_height;
+			global::RoxVideo.Resource.Styleable.ActionBar_hideOnContentScroll = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::RoxVideo.Resource.Styleable.ActionBar_homeAsUpIndicator = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::RoxVideo.Resource.Styleable.ActionBar_homeLayout = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::RoxVideo.Resource.Styleable.ActionBar_icon = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_icon;
+			global::RoxVideo.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::RoxVideo.Resource.Styleable.ActionBar_itemPadding = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::RoxVideo.Resource.Styleable.ActionBar_logo = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_logo;
+			global::RoxVideo.Resource.Styleable.ActionBar_navigationMode = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::RoxVideo.Resource.Styleable.ActionBar_popupTheme = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::RoxVideo.Resource.Styleable.ActionBar_progressBarPadding = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::RoxVideo.Resource.Styleable.ActionBar_progressBarStyle = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::RoxVideo.Resource.Styleable.ActionBar_subtitle = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::RoxVideo.Resource.Styleable.ActionBar_subtitleTextStyle = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::RoxVideo.Resource.Styleable.ActionBar_title = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_title;
+			global::RoxVideo.Resource.Styleable.ActionBar_titleTextStyle = global::TrisBluetooth.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::RoxVideo.Resource.Styleable.ActionBarLayout = global::TrisBluetooth.Droid.Resource.Styleable.ActionBarLayout;
+			global::RoxVideo.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::TrisBluetooth.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::RoxVideo.Resource.Styleable.ActionMenuItemView = global::TrisBluetooth.Droid.Resource.Styleable.ActionMenuItemView;
+			global::RoxVideo.Resource.Styleable.ActionMenuItemView_android_minWidth = global::TrisBluetooth.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::RoxVideo.Resource.Styleable.ActionMenuView = global::TrisBluetooth.Droid.Resource.Styleable.ActionMenuView;
+			global::RoxVideo.Resource.Styleable.ActionMode = global::TrisBluetooth.Droid.Resource.Styleable.ActionMode;
+			global::RoxVideo.Resource.Styleable.ActionMode_background = global::TrisBluetooth.Droid.Resource.Styleable.ActionMode_background;
+			global::RoxVideo.Resource.Styleable.ActionMode_backgroundSplit = global::TrisBluetooth.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::RoxVideo.Resource.Styleable.ActionMode_closeItemLayout = global::TrisBluetooth.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::RoxVideo.Resource.Styleable.ActionMode_height = global::TrisBluetooth.Droid.Resource.Styleable.ActionMode_height;
+			global::RoxVideo.Resource.Styleable.ActionMode_subtitleTextStyle = global::TrisBluetooth.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::RoxVideo.Resource.Styleable.ActionMode_titleTextStyle = global::TrisBluetooth.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::RoxVideo.Resource.Styleable.ActivityChooserView = global::TrisBluetooth.Droid.Resource.Styleable.ActivityChooserView;
+			global::RoxVideo.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::TrisBluetooth.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::RoxVideo.Resource.Styleable.ActivityChooserView_initialActivityCount = global::TrisBluetooth.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::RoxVideo.Resource.Styleable.AlertDialog = global::TrisBluetooth.Droid.Resource.Styleable.AlertDialog;
+			global::RoxVideo.Resource.Styleable.AlertDialog_android_layout = global::TrisBluetooth.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::RoxVideo.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::TrisBluetooth.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::RoxVideo.Resource.Styleable.AlertDialog_listItemLayout = global::TrisBluetooth.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::RoxVideo.Resource.Styleable.AlertDialog_listLayout = global::TrisBluetooth.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::RoxVideo.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::TrisBluetooth.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::RoxVideo.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::TrisBluetooth.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::RoxVideo.Resource.Styleable.AppBarLayout = global::TrisBluetooth.Droid.Resource.Styleable.AppBarLayout;
+			global::RoxVideo.Resource.Styleable.AppBarLayout_android_background = global::TrisBluetooth.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::RoxVideo.Resource.Styleable.AppBarLayout_elevation = global::TrisBluetooth.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::RoxVideo.Resource.Styleable.AppBarLayout_expanded = global::TrisBluetooth.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::RoxVideo.Resource.Styleable.AppCompatImageView = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatImageView;
+			global::RoxVideo.Resource.Styleable.AppCompatImageView_android_src = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::RoxVideo.Resource.Styleable.AppCompatImageView_srcCompat = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::RoxVideo.Resource.Styleable.AppCompatTextView = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTextView;
+			global::RoxVideo.Resource.Styleable.AppCompatTextView_android_textAppearance = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::RoxVideo.Resource.Styleable.AppCompatTextView_textAllCaps = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionBarDivider = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionBarSize = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionBarStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionBarTheme = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModeBackground = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModeStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_buttonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_checkboxStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_colorAccent = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_colorControlActivated = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_colorControlNormal = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_colorPrimary = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_controlBackground = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_dialogTheme = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_dividerVertical = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_editTextBackground = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_editTextColor = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_editTextStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_panelBackground = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_searchViewStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_seekBarStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_spinnerStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_switchStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_toolbarStyle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_windowActionBar = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::RoxVideo.Resource.Styleable.AppCompatTheme_windowNoTitle = global::TrisBluetooth.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::RoxVideo.Resource.Styleable.ButtonBarLayout = global::TrisBluetooth.Droid.Resource.Styleable.ButtonBarLayout;
+			global::RoxVideo.Resource.Styleable.ButtonBarLayout_allowStacking = global::TrisBluetooth.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::RoxVideo.Resource.Styleable.CardView = global::TrisBluetooth.Droid.Resource.Styleable.CardView;
+			global::RoxVideo.Resource.Styleable.CardView_android_minHeight = global::TrisBluetooth.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::RoxVideo.Resource.Styleable.CardView_android_minWidth = global::TrisBluetooth.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::RoxVideo.Resource.Styleable.CardView_cardBackgroundColor = global::TrisBluetooth.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::RoxVideo.Resource.Styleable.CardView_cardCornerRadius = global::TrisBluetooth.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::RoxVideo.Resource.Styleable.CardView_cardElevation = global::TrisBluetooth.Droid.Resource.Styleable.CardView_cardElevation;
+			global::RoxVideo.Resource.Styleable.CardView_cardMaxElevation = global::TrisBluetooth.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::RoxVideo.Resource.Styleable.CardView_cardPreventCornerOverlap = global::TrisBluetooth.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::RoxVideo.Resource.Styleable.CardView_cardUseCompatPadding = global::TrisBluetooth.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::RoxVideo.Resource.Styleable.CardView_contentPadding = global::TrisBluetooth.Droid.Resource.Styleable.CardView_contentPadding;
+			global::RoxVideo.Resource.Styleable.CardView_contentPaddingBottom = global::TrisBluetooth.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::RoxVideo.Resource.Styleable.CardView_contentPaddingLeft = global::TrisBluetooth.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::RoxVideo.Resource.Styleable.CardView_contentPaddingRight = global::TrisBluetooth.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::RoxVideo.Resource.Styleable.CardView_contentPaddingTop = global::TrisBluetooth.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_title = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::RoxVideo.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::TrisBluetooth.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::RoxVideo.Resource.Styleable.CompoundButton = global::TrisBluetooth.Droid.Resource.Styleable.CompoundButton;
+			global::RoxVideo.Resource.Styleable.CompoundButton_android_button = global::TrisBluetooth.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::RoxVideo.Resource.Styleable.CompoundButton_buttonTint = global::TrisBluetooth.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::RoxVideo.Resource.Styleable.CompoundButton_buttonTintMode = global::TrisBluetooth.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::RoxVideo.Resource.Styleable.CoordinatorLayout = global::TrisBluetooth.Droid.Resource.Styleable.CoordinatorLayout;
+			global::RoxVideo.Resource.Styleable.CoordinatorLayout_keylines = global::TrisBluetooth.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::RoxVideo.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::TrisBluetooth.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::RoxVideo.Resource.Styleable.DesignTheme = global::TrisBluetooth.Droid.Resource.Styleable.DesignTheme;
+			global::RoxVideo.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::TrisBluetooth.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::RoxVideo.Resource.Styleable.DesignTheme_bottomSheetStyle = global::TrisBluetooth.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::RoxVideo.Resource.Styleable.DesignTheme_textColorError = global::TrisBluetooth.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::RoxVideo.Resource.Styleable.DrawerArrowToggle = global::TrisBluetooth.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::RoxVideo.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::TrisBluetooth.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::RoxVideo.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::TrisBluetooth.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::RoxVideo.Resource.Styleable.DrawerArrowToggle_barLength = global::TrisBluetooth.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::RoxVideo.Resource.Styleable.DrawerArrowToggle_color = global::TrisBluetooth.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::RoxVideo.Resource.Styleable.DrawerArrowToggle_drawableSize = global::TrisBluetooth.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::RoxVideo.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::TrisBluetooth.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::RoxVideo.Resource.Styleable.DrawerArrowToggle_spinBars = global::TrisBluetooth.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::RoxVideo.Resource.Styleable.DrawerArrowToggle_thickness = global::TrisBluetooth.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::RoxVideo.Resource.Styleable.FloatingActionButton = global::TrisBluetooth.Droid.Resource.Styleable.FloatingActionButton;
+			global::RoxVideo.Resource.Styleable.FloatingActionButton_backgroundTint = global::TrisBluetooth.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::RoxVideo.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::TrisBluetooth.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::RoxVideo.Resource.Styleable.FloatingActionButton_borderWidth = global::TrisBluetooth.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::RoxVideo.Resource.Styleable.FloatingActionButton_elevation = global::TrisBluetooth.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::RoxVideo.Resource.Styleable.FloatingActionButton_fabSize = global::TrisBluetooth.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::RoxVideo.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::TrisBluetooth.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::RoxVideo.Resource.Styleable.FloatingActionButton_rippleColor = global::TrisBluetooth.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::RoxVideo.Resource.Styleable.FloatingActionButton_useCompatPadding = global::TrisBluetooth.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::RoxVideo.Resource.Styleable.ForegroundLinearLayout = global::TrisBluetooth.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::RoxVideo.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::TrisBluetooth.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::RoxVideo.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::TrisBluetooth.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::RoxVideo.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::TrisBluetooth.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_android_gravity = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_android_orientation = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_divider = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_showDividers = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_Layout = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::RoxVideo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::TrisBluetooth.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::RoxVideo.Resource.Styleable.ListPopupWindow = global::TrisBluetooth.Droid.Resource.Styleable.ListPopupWindow;
+			global::RoxVideo.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::TrisBluetooth.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::RoxVideo.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::TrisBluetooth.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::RoxVideo.Resource.Styleable.MediaRouteButton = global::TrisBluetooth.Droid.Resource.Styleable.MediaRouteButton;
+			global::RoxVideo.Resource.Styleable.MediaRouteButton_android_minHeight = global::TrisBluetooth.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::RoxVideo.Resource.Styleable.MediaRouteButton_android_minWidth = global::TrisBluetooth.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::RoxVideo.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::TrisBluetooth.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::RoxVideo.Resource.Styleable.MenuGroup = global::TrisBluetooth.Droid.Resource.Styleable.MenuGroup;
+			global::RoxVideo.Resource.Styleable.MenuGroup_android_checkableBehavior = global::TrisBluetooth.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::RoxVideo.Resource.Styleable.MenuGroup_android_enabled = global::TrisBluetooth.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::RoxVideo.Resource.Styleable.MenuGroup_android_id = global::TrisBluetooth.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::RoxVideo.Resource.Styleable.MenuGroup_android_menuCategory = global::TrisBluetooth.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::RoxVideo.Resource.Styleable.MenuGroup_android_orderInCategory = global::TrisBluetooth.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::RoxVideo.Resource.Styleable.MenuGroup_android_visible = global::TrisBluetooth.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::RoxVideo.Resource.Styleable.MenuItem = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem;
+			global::RoxVideo.Resource.Styleable.MenuItem_actionLayout = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::RoxVideo.Resource.Styleable.MenuItem_actionProviderClass = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::RoxVideo.Resource.Styleable.MenuItem_actionViewClass = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_checkable = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_checked = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_enabled = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_icon = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_id = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_id;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_menuCategory = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_numericShortcut = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_onClick = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_orderInCategory = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_title = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_title;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_titleCondensed = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::RoxVideo.Resource.Styleable.MenuItem_android_visible = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::RoxVideo.Resource.Styleable.MenuItem_showAsAction = global::TrisBluetooth.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::RoxVideo.Resource.Styleable.MenuView = global::TrisBluetooth.Droid.Resource.Styleable.MenuView;
+			global::RoxVideo.Resource.Styleable.MenuView_android_headerBackground = global::TrisBluetooth.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::RoxVideo.Resource.Styleable.MenuView_android_horizontalDivider = global::TrisBluetooth.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::RoxVideo.Resource.Styleable.MenuView_android_itemBackground = global::TrisBluetooth.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::RoxVideo.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::TrisBluetooth.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::RoxVideo.Resource.Styleable.MenuView_android_itemTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::RoxVideo.Resource.Styleable.MenuView_android_verticalDivider = global::TrisBluetooth.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::RoxVideo.Resource.Styleable.MenuView_android_windowAnimationStyle = global::TrisBluetooth.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::RoxVideo.Resource.Styleable.MenuView_preserveIconSpacing = global::TrisBluetooth.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::RoxVideo.Resource.Styleable.NavigationView = global::TrisBluetooth.Droid.Resource.Styleable.NavigationView;
+			global::RoxVideo.Resource.Styleable.NavigationView_android_background = global::TrisBluetooth.Droid.Resource.Styleable.NavigationView_android_background;
+			global::RoxVideo.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::TrisBluetooth.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::RoxVideo.Resource.Styleable.NavigationView_android_maxWidth = global::TrisBluetooth.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::RoxVideo.Resource.Styleable.NavigationView_elevation = global::TrisBluetooth.Droid.Resource.Styleable.NavigationView_elevation;
+			global::RoxVideo.Resource.Styleable.NavigationView_headerLayout = global::TrisBluetooth.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::RoxVideo.Resource.Styleable.NavigationView_itemBackground = global::TrisBluetooth.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::RoxVideo.Resource.Styleable.NavigationView_itemIconTint = global::TrisBluetooth.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::RoxVideo.Resource.Styleable.NavigationView_itemTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::RoxVideo.Resource.Styleable.NavigationView_itemTextColor = global::TrisBluetooth.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::RoxVideo.Resource.Styleable.NavigationView_menu = global::TrisBluetooth.Droid.Resource.Styleable.NavigationView_menu;
+			global::RoxVideo.Resource.Styleable.PopupWindow = global::TrisBluetooth.Droid.Resource.Styleable.PopupWindow;
+			global::RoxVideo.Resource.Styleable.PopupWindow_android_popupBackground = global::TrisBluetooth.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::RoxVideo.Resource.Styleable.PopupWindow_overlapAnchor = global::TrisBluetooth.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::RoxVideo.Resource.Styleable.PopupWindowBackgroundState = global::TrisBluetooth.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::RoxVideo.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::TrisBluetooth.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::RoxVideo.Resource.Styleable.RecyclerView = global::TrisBluetooth.Droid.Resource.Styleable.RecyclerView;
+			global::RoxVideo.Resource.Styleable.RecyclerView_android_orientation = global::TrisBluetooth.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::RoxVideo.Resource.Styleable.RecyclerView_layoutManager = global::TrisBluetooth.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::RoxVideo.Resource.Styleable.RecyclerView_reverseLayout = global::TrisBluetooth.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::RoxVideo.Resource.Styleable.RecyclerView_spanCount = global::TrisBluetooth.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::RoxVideo.Resource.Styleable.RecyclerView_stackFromEnd = global::TrisBluetooth.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::RoxVideo.Resource.Styleable.ScrimInsetsFrameLayout = global::TrisBluetooth.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::RoxVideo.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::TrisBluetooth.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::RoxVideo.Resource.Styleable.SearchView = global::TrisBluetooth.Droid.Resource.Styleable.SearchView;
+			global::RoxVideo.Resource.Styleable.SearchView_android_focusable = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::RoxVideo.Resource.Styleable.SearchView_android_imeOptions = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::RoxVideo.Resource.Styleable.SearchView_android_inputType = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::RoxVideo.Resource.Styleable.SearchView_android_maxWidth = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::RoxVideo.Resource.Styleable.SearchView_closeIcon = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::RoxVideo.Resource.Styleable.SearchView_commitIcon = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::RoxVideo.Resource.Styleable.SearchView_defaultQueryHint = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::RoxVideo.Resource.Styleable.SearchView_goIcon = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_goIcon;
+			global::RoxVideo.Resource.Styleable.SearchView_iconifiedByDefault = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::RoxVideo.Resource.Styleable.SearchView_layout = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_layout;
+			global::RoxVideo.Resource.Styleable.SearchView_queryBackground = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::RoxVideo.Resource.Styleable.SearchView_queryHint = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_queryHint;
+			global::RoxVideo.Resource.Styleable.SearchView_searchHintIcon = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::RoxVideo.Resource.Styleable.SearchView_searchIcon = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::RoxVideo.Resource.Styleable.SearchView_submitBackground = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::RoxVideo.Resource.Styleable.SearchView_suggestionRowLayout = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::RoxVideo.Resource.Styleable.SearchView_voiceIcon = global::TrisBluetooth.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::RoxVideo.Resource.Styleable.SnackbarLayout = global::TrisBluetooth.Droid.Resource.Styleable.SnackbarLayout;
+			global::RoxVideo.Resource.Styleable.SnackbarLayout_android_maxWidth = global::TrisBluetooth.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::RoxVideo.Resource.Styleable.SnackbarLayout_elevation = global::TrisBluetooth.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::RoxVideo.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::TrisBluetooth.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::RoxVideo.Resource.Styleable.Spinner = global::TrisBluetooth.Droid.Resource.Styleable.Spinner;
+			global::RoxVideo.Resource.Styleable.Spinner_android_dropDownWidth = global::TrisBluetooth.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::RoxVideo.Resource.Styleable.Spinner_android_entries = global::TrisBluetooth.Droid.Resource.Styleable.Spinner_android_entries;
+			global::RoxVideo.Resource.Styleable.Spinner_android_popupBackground = global::TrisBluetooth.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::RoxVideo.Resource.Styleable.Spinner_android_prompt = global::TrisBluetooth.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::RoxVideo.Resource.Styleable.Spinner_popupTheme = global::TrisBluetooth.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::RoxVideo.Resource.Styleable.SwitchCompat = global::TrisBluetooth.Droid.Resource.Styleable.SwitchCompat;
+			global::RoxVideo.Resource.Styleable.SwitchCompat_android_textOff = global::TrisBluetooth.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::RoxVideo.Resource.Styleable.SwitchCompat_android_textOn = global::TrisBluetooth.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::RoxVideo.Resource.Styleable.SwitchCompat_android_thumb = global::TrisBluetooth.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::RoxVideo.Resource.Styleable.SwitchCompat_showText = global::TrisBluetooth.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::RoxVideo.Resource.Styleable.SwitchCompat_splitTrack = global::TrisBluetooth.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::RoxVideo.Resource.Styleable.SwitchCompat_switchMinWidth = global::TrisBluetooth.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::RoxVideo.Resource.Styleable.SwitchCompat_switchPadding = global::TrisBluetooth.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::RoxVideo.Resource.Styleable.SwitchCompat_switchTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::RoxVideo.Resource.Styleable.SwitchCompat_thumbTextPadding = global::TrisBluetooth.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::RoxVideo.Resource.Styleable.SwitchCompat_track = global::TrisBluetooth.Droid.Resource.Styleable.SwitchCompat_track;
+			global::RoxVideo.Resource.Styleable.TabItem = global::TrisBluetooth.Droid.Resource.Styleable.TabItem;
+			global::RoxVideo.Resource.Styleable.TabItem_android_icon = global::TrisBluetooth.Droid.Resource.Styleable.TabItem_android_icon;
+			global::RoxVideo.Resource.Styleable.TabItem_android_layout = global::TrisBluetooth.Droid.Resource.Styleable.TabItem_android_layout;
+			global::RoxVideo.Resource.Styleable.TabItem_android_text = global::TrisBluetooth.Droid.Resource.Styleable.TabItem_android_text;
+			global::RoxVideo.Resource.Styleable.TabLayout = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabBackground = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabContentStart = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabGravity = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabIndicatorColor = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabIndicatorHeight = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabMaxWidth = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabMinWidth = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabMode = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabPadding = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabPaddingBottom = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabPaddingEnd = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabPaddingStart = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabPaddingTop = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabSelectedTextColor = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::RoxVideo.Resource.Styleable.TabLayout_tabTextColor = global::TrisBluetooth.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::RoxVideo.Resource.Styleable.TextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.TextAppearance;
+			global::RoxVideo.Resource.Styleable.TextAppearance_android_shadowColor = global::TrisBluetooth.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::RoxVideo.Resource.Styleable.TextAppearance_android_shadowDx = global::TrisBluetooth.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::RoxVideo.Resource.Styleable.TextAppearance_android_shadowDy = global::TrisBluetooth.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::RoxVideo.Resource.Styleable.TextAppearance_android_shadowRadius = global::TrisBluetooth.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::RoxVideo.Resource.Styleable.TextAppearance_android_textColor = global::TrisBluetooth.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::RoxVideo.Resource.Styleable.TextAppearance_android_textSize = global::TrisBluetooth.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::RoxVideo.Resource.Styleable.TextAppearance_android_textStyle = global::TrisBluetooth.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::RoxVideo.Resource.Styleable.TextAppearance_android_typeface = global::TrisBluetooth.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::RoxVideo.Resource.Styleable.TextAppearance_textAllCaps = global::TrisBluetooth.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::RoxVideo.Resource.Styleable.TextInputLayout = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout;
+			global::RoxVideo.Resource.Styleable.TextInputLayout_android_hint = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::RoxVideo.Resource.Styleable.TextInputLayout_android_textColorHint = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::RoxVideo.Resource.Styleable.TextInputLayout_counterEnabled = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::RoxVideo.Resource.Styleable.TextInputLayout_counterMaxLength = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::RoxVideo.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::RoxVideo.Resource.Styleable.TextInputLayout_counterTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::RoxVideo.Resource.Styleable.TextInputLayout_errorEnabled = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::RoxVideo.Resource.Styleable.TextInputLayout_errorTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::RoxVideo.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::RoxVideo.Resource.Styleable.TextInputLayout_hintEnabled = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::RoxVideo.Resource.Styleable.TextInputLayout_hintTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::RoxVideo.Resource.Styleable.Toolbar = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar;
+			global::RoxVideo.Resource.Styleable.Toolbar_android_gravity = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::RoxVideo.Resource.Styleable.Toolbar_android_minHeight = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::RoxVideo.Resource.Styleable.Toolbar_collapseContentDescription = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::RoxVideo.Resource.Styleable.Toolbar_collapseIcon = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::RoxVideo.Resource.Styleable.Toolbar_contentInsetEnd = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::RoxVideo.Resource.Styleable.Toolbar_contentInsetLeft = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::RoxVideo.Resource.Styleable.Toolbar_contentInsetRight = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::RoxVideo.Resource.Styleable.Toolbar_contentInsetStart = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::RoxVideo.Resource.Styleable.Toolbar_logo = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_logo;
+			global::RoxVideo.Resource.Styleable.Toolbar_logoDescription = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::RoxVideo.Resource.Styleable.Toolbar_maxButtonHeight = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::RoxVideo.Resource.Styleable.Toolbar_navigationContentDescription = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::RoxVideo.Resource.Styleable.Toolbar_navigationIcon = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::RoxVideo.Resource.Styleable.Toolbar_popupTheme = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::RoxVideo.Resource.Styleable.Toolbar_subtitle = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::RoxVideo.Resource.Styleable.Toolbar_subtitleTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::RoxVideo.Resource.Styleable.Toolbar_subtitleTextColor = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::RoxVideo.Resource.Styleable.Toolbar_title = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_title;
+			global::RoxVideo.Resource.Styleable.Toolbar_titleMarginBottom = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::RoxVideo.Resource.Styleable.Toolbar_titleMarginEnd = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::RoxVideo.Resource.Styleable.Toolbar_titleMarginStart = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::RoxVideo.Resource.Styleable.Toolbar_titleMarginTop = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::RoxVideo.Resource.Styleable.Toolbar_titleMargins = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::RoxVideo.Resource.Styleable.Toolbar_titleTextAppearance = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::RoxVideo.Resource.Styleable.Toolbar_titleTextColor = global::TrisBluetooth.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::RoxVideo.Resource.Styleable.View = global::TrisBluetooth.Droid.Resource.Styleable.View;
+			global::RoxVideo.Resource.Styleable.View_android_focusable = global::TrisBluetooth.Droid.Resource.Styleable.View_android_focusable;
+			global::RoxVideo.Resource.Styleable.View_android_theme = global::TrisBluetooth.Droid.Resource.Styleable.View_android_theme;
+			global::RoxVideo.Resource.Styleable.View_paddingEnd = global::TrisBluetooth.Droid.Resource.Styleable.View_paddingEnd;
+			global::RoxVideo.Resource.Styleable.View_paddingStart = global::TrisBluetooth.Droid.Resource.Styleable.View_paddingStart;
+			global::RoxVideo.Resource.Styleable.View_theme = global::TrisBluetooth.Droid.Resource.Styleable.View_theme;
+			global::RoxVideo.Resource.Styleable.ViewBackgroundHelper = global::TrisBluetooth.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::RoxVideo.Resource.Styleable.ViewBackgroundHelper_android_background = global::TrisBluetooth.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::RoxVideo.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::TrisBluetooth.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::RoxVideo.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::TrisBluetooth.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::RoxVideo.Resource.Styleable.ViewStubCompat = global::TrisBluetooth.Droid.Resource.Styleable.ViewStubCompat;
+			global::RoxVideo.Resource.Styleable.ViewStubCompat_android_id = global::TrisBluetooth.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::RoxVideo.Resource.Styleable.ViewStubCompat_android_inflatedId = global::TrisBluetooth.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::RoxVideo.Resource.Styleable.ViewStubCompat_android_layout = global::TrisBluetooth.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::TrisBluetooth.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -2342,680 +3967,728 @@ namespace TrisBluetooth.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02012f
-			public const int avd_hide_password_1 = 2130837807;
+			// aapt resource value: 0x7f02013f
+			public const int avd_hide_password_1 = 2130837823;
 			
-			// aapt resource value: 0x7f020130
-			public const int avd_hide_password_2 = 2130837808;
+			// aapt resource value: 0x7f020140
+			public const int avd_hide_password_2 = 2130837824;
 			
-			// aapt resource value: 0x7f020131
-			public const int avd_hide_password_3 = 2130837809;
+			// aapt resource value: 0x7f020141
+			public const int avd_hide_password_3 = 2130837825;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020132
-			public const int avd_show_password_1 = 2130837810;
+			// aapt resource value: 0x7f020142
+			public const int avd_show_password_1 = 2130837826;
 			
-			// aapt resource value: 0x7f020133
-			public const int avd_show_password_2 = 2130837811;
+			// aapt resource value: 0x7f020143
+			public const int avd_show_password_2 = 2130837827;
 			
-			// aapt resource value: 0x7f020134
-			public const int avd_show_password_3 = 2130837812;
+			// aapt resource value: 0x7f020144
+			public const int avd_show_password_3 = 2130837828;
 			
 			// aapt resource value: 0x7f020055
-			public const int design_bottom_navigation_item_background = 2130837589;
+			public const int background1 = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int design_fab_background = 2130837590;
+			public const int background2 = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int design_ic_visibility = 2130837591;
+			public const int background3 = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int design_ic_visibility_off = 2130837592;
+			public const int backgroundbumper = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int design_password_eye = 2130837593;
+			public const int backgroundbumper1 = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_snackbar_background = 2130837594;
+			public const int bluetoothconnection = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_audiotrack_dark = 2130837595;
+			public const int button = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_audiotrack_light = 2130837596;
+			public const int cerchio = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_dialog_close_dark = 2130837597;
+			public const int design_bottom_navigation_item_background = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_dialog_close_light = 2130837598;
+			public const int design_fab_background = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_group_collapse_00 = 2130837599;
+			public const int design_ic_visibility = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_group_collapse_01 = 2130837600;
+			public const int design_ic_visibility_off = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_group_collapse_02 = 2130837601;
+			public const int design_password_eye = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_group_collapse_03 = 2130837602;
+			public const int design_snackbar_background = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_04 = 2130837603;
+			public const int griglia = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_05 = 2130837604;
+			public const int ic_audiotrack_dark = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_06 = 2130837605;
+			public const int ic_audiotrack_light = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_07 = 2130837606;
+			public const int ic_dialog_close_dark = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_08 = 2130837607;
+			public const int ic_dialog_close_light = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_09 = 2130837608;
+			public const int ic_group_collapse_00 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_10 = 2130837609;
+			public const int ic_group_collapse_01 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_11 = 2130837610;
+			public const int ic_group_collapse_02 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_12 = 2130837611;
+			public const int ic_group_collapse_03 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_13 = 2130837612;
+			public const int ic_group_collapse_04 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_14 = 2130837613;
+			public const int ic_group_collapse_05 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_15 = 2130837614;
+			public const int ic_group_collapse_06 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_expand_00 = 2130837615;
+			public const int ic_group_collapse_07 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_expand_01 = 2130837616;
+			public const int ic_group_collapse_08 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_expand_02 = 2130837617;
+			public const int ic_group_collapse_09 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_expand_03 = 2130837618;
+			public const int ic_group_collapse_10 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_04 = 2130837619;
+			public const int ic_group_collapse_11 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_05 = 2130837620;
+			public const int ic_group_collapse_12 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_06 = 2130837621;
+			public const int ic_group_collapse_13 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_07 = 2130837622;
+			public const int ic_group_collapse_14 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_08 = 2130837623;
+			public const int ic_group_collapse_15 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_09 = 2130837624;
+			public const int ic_group_expand_00 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_10 = 2130837625;
+			public const int ic_group_expand_01 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_11 = 2130837626;
+			public const int ic_group_expand_02 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_12 = 2130837627;
+			public const int ic_group_expand_03 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_13 = 2130837628;
+			public const int ic_group_expand_04 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_14 = 2130837629;
+			public const int ic_group_expand_05 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_15 = 2130837630;
+			public const int ic_group_expand_06 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_media_pause_dark = 2130837631;
+			public const int ic_group_expand_07 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_pause_light = 2130837632;
+			public const int ic_group_expand_08 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_play_dark = 2130837633;
+			public const int ic_group_expand_09 = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_play_light = 2130837634;
+			public const int ic_group_expand_10 = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_stop_dark = 2130837635;
+			public const int ic_group_expand_11 = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_stop_light = 2130837636;
+			public const int ic_group_expand_12 = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_mr_button_connected_00_dark = 2130837637;
+			public const int ic_group_expand_13 = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_mr_button_connected_00_light = 2130837638;
+			public const int ic_group_expand_14 = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_mr_button_connected_01_dark = 2130837639;
+			public const int ic_group_expand_15 = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_mr_button_connected_01_light = 2130837640;
+			public const int ic_launcher_background = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_02_dark = 2130837641;
+			public const int ic_media_pause_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_02_light = 2130837642;
+			public const int ic_media_pause_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_03_dark = 2130837643;
+			public const int ic_media_play_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_03_light = 2130837644;
+			public const int ic_media_play_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_04_dark = 2130837645;
+			public const int ic_media_stop_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_04_light = 2130837646;
+			public const int ic_media_stop_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_05_dark = 2130837647;
+			public const int ic_mr_button_connected_00_dark = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_05_light = 2130837648;
+			public const int ic_mr_button_connected_00_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_06_dark = 2130837649;
+			public const int ic_mr_button_connected_01_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_06_light = 2130837650;
+			public const int ic_mr_button_connected_01_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_07_dark = 2130837651;
+			public const int ic_mr_button_connected_02_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_07_light = 2130837652;
+			public const int ic_mr_button_connected_02_light = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_08_dark = 2130837653;
+			public const int ic_mr_button_connected_03_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_08_light = 2130837654;
+			public const int ic_mr_button_connected_03_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_09_dark = 2130837655;
+			public const int ic_mr_button_connected_04_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_09_light = 2130837656;
+			public const int ic_mr_button_connected_04_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_10_dark = 2130837657;
+			public const int ic_mr_button_connected_05_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_10_light = 2130837658;
+			public const int ic_mr_button_connected_05_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_11_dark = 2130837659;
+			public const int ic_mr_button_connected_06_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_11_light = 2130837660;
+			public const int ic_mr_button_connected_06_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_12_dark = 2130837661;
+			public const int ic_mr_button_connected_07_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_12_light = 2130837662;
+			public const int ic_mr_button_connected_07_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_13_dark = 2130837663;
+			public const int ic_mr_button_connected_08_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_13_light = 2130837664;
+			public const int ic_mr_button_connected_08_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_14_dark = 2130837665;
+			public const int ic_mr_button_connected_09_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_14_light = 2130837666;
+			public const int ic_mr_button_connected_09_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_15_dark = 2130837667;
+			public const int ic_mr_button_connected_10_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_15_light = 2130837668;
+			public const int ic_mr_button_connected_10_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_16_dark = 2130837669;
+			public const int ic_mr_button_connected_11_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_16_light = 2130837670;
+			public const int ic_mr_button_connected_11_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_17_dark = 2130837671;
+			public const int ic_mr_button_connected_12_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_17_light = 2130837672;
+			public const int ic_mr_button_connected_12_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_18_dark = 2130837673;
+			public const int ic_mr_button_connected_13_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_18_light = 2130837674;
+			public const int ic_mr_button_connected_13_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_19_dark = 2130837675;
+			public const int ic_mr_button_connected_14_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_19_light = 2130837676;
+			public const int ic_mr_button_connected_14_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_20_dark = 2130837677;
+			public const int ic_mr_button_connected_15_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_20_light = 2130837678;
+			public const int ic_mr_button_connected_15_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_21_dark = 2130837679;
+			public const int ic_mr_button_connected_16_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_21_light = 2130837680;
+			public const int ic_mr_button_connected_16_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_22_dark = 2130837681;
+			public const int ic_mr_button_connected_17_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_22_light = 2130837682;
+			public const int ic_mr_button_connected_17_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_23_dark = 2130837683;
+			public const int ic_mr_button_connected_18_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_23_light = 2130837684;
+			public const int ic_mr_button_connected_18_light = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_24_dark = 2130837685;
+			public const int ic_mr_button_connected_19_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_24_light = 2130837686;
+			public const int ic_mr_button_connected_19_light = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_25_dark = 2130837687;
+			public const int ic_mr_button_connected_20_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_25_light = 2130837688;
+			public const int ic_mr_button_connected_20_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_26_dark = 2130837689;
+			public const int ic_mr_button_connected_21_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_26_light = 2130837690;
+			public const int ic_mr_button_connected_21_light = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_27_dark = 2130837691;
+			public const int ic_mr_button_connected_22_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_27_light = 2130837692;
+			public const int ic_mr_button_connected_22_light = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_28_dark = 2130837693;
+			public const int ic_mr_button_connected_23_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_28_light = 2130837694;
+			public const int ic_mr_button_connected_23_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_29_dark = 2130837695;
+			public const int ic_mr_button_connected_24_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_29_light = 2130837696;
+			public const int ic_mr_button_connected_24_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_30_dark = 2130837697;
+			public const int ic_mr_button_connected_25_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_30_light = 2130837698;
+			public const int ic_mr_button_connected_25_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connecting_00_dark = 2130837699;
+			public const int ic_mr_button_connected_26_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connecting_00_light = 2130837700;
+			public const int ic_mr_button_connected_26_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connecting_01_dark = 2130837701;
+			public const int ic_mr_button_connected_27_dark = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connecting_01_light = 2130837702;
+			public const int ic_mr_button_connected_27_light = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_02_dark = 2130837703;
+			public const int ic_mr_button_connected_28_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_02_light = 2130837704;
+			public const int ic_mr_button_connected_28_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_03_dark = 2130837705;
+			public const int ic_mr_button_connected_29_dark = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_03_light = 2130837706;
+			public const int ic_mr_button_connected_29_light = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_04_dark = 2130837707;
+			public const int ic_mr_button_connected_30_dark = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_04_light = 2130837708;
+			public const int ic_mr_button_connected_30_light = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_05_dark = 2130837709;
+			public const int ic_mr_button_connecting_00_dark = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_05_light = 2130837710;
+			public const int ic_mr_button_connecting_00_light = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_06_dark = 2130837711;
+			public const int ic_mr_button_connecting_01_dark = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_06_light = 2130837712;
+			public const int ic_mr_button_connecting_01_light = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_07_dark = 2130837713;
+			public const int ic_mr_button_connecting_02_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_07_light = 2130837714;
+			public const int ic_mr_button_connecting_02_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_08_dark = 2130837715;
+			public const int ic_mr_button_connecting_03_dark = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_08_light = 2130837716;
+			public const int ic_mr_button_connecting_03_light = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_09_dark = 2130837717;
+			public const int ic_mr_button_connecting_04_dark = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_09_light = 2130837718;
+			public const int ic_mr_button_connecting_04_light = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_10_dark = 2130837719;
+			public const int ic_mr_button_connecting_05_dark = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_10_light = 2130837720;
+			public const int ic_mr_button_connecting_05_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_11_dark = 2130837721;
+			public const int ic_mr_button_connecting_06_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_11_light = 2130837722;
+			public const int ic_mr_button_connecting_06_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_12_dark = 2130837723;
+			public const int ic_mr_button_connecting_07_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_12_light = 2130837724;
+			public const int ic_mr_button_connecting_07_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_13_dark = 2130837725;
+			public const int ic_mr_button_connecting_08_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_13_light = 2130837726;
+			public const int ic_mr_button_connecting_08_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_14_dark = 2130837727;
+			public const int ic_mr_button_connecting_09_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_14_light = 2130837728;
+			public const int ic_mr_button_connecting_09_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_15_dark = 2130837729;
+			public const int ic_mr_button_connecting_10_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connecting_15_light = 2130837730;
+			public const int ic_mr_button_connecting_10_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connecting_16_dark = 2130837731;
+			public const int ic_mr_button_connecting_11_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connecting_16_light = 2130837732;
+			public const int ic_mr_button_connecting_11_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connecting_17_dark = 2130837733;
+			public const int ic_mr_button_connecting_12_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connecting_17_light = 2130837734;
+			public const int ic_mr_button_connecting_12_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connecting_18_dark = 2130837735;
+			public const int ic_mr_button_connecting_13_dark = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connecting_18_light = 2130837736;
+			public const int ic_mr_button_connecting_13_light = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_19_dark = 2130837737;
+			public const int ic_mr_button_connecting_14_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_19_light = 2130837738;
+			public const int ic_mr_button_connecting_14_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_20_dark = 2130837739;
+			public const int ic_mr_button_connecting_15_dark = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_20_light = 2130837740;
+			public const int ic_mr_button_connecting_15_light = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_21_dark = 2130837741;
+			public const int ic_mr_button_connecting_16_dark = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_21_light = 2130837742;
+			public const int ic_mr_button_connecting_16_light = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_22_dark = 2130837743;
+			public const int ic_mr_button_connecting_17_dark = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_22_light = 2130837744;
+			public const int ic_mr_button_connecting_17_light = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_23_dark = 2130837745;
+			public const int ic_mr_button_connecting_18_dark = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_23_light = 2130837746;
+			public const int ic_mr_button_connecting_18_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_24_dark = 2130837747;
+			public const int ic_mr_button_connecting_19_dark = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_24_light = 2130837748;
+			public const int ic_mr_button_connecting_19_light = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_25_dark = 2130837749;
+			public const int ic_mr_button_connecting_20_dark = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_25_light = 2130837750;
+			public const int ic_mr_button_connecting_20_light = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_26_dark = 2130837751;
+			public const int ic_mr_button_connecting_21_dark = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_26_light = 2130837752;
+			public const int ic_mr_button_connecting_21_light = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_27_dark = 2130837753;
+			public const int ic_mr_button_connecting_22_dark = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_27_light = 2130837754;
+			public const int ic_mr_button_connecting_22_light = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_28_dark = 2130837755;
+			public const int ic_mr_button_connecting_23_dark = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_28_light = 2130837756;
+			public const int ic_mr_button_connecting_23_light = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_29_dark = 2130837757;
+			public const int ic_mr_button_connecting_24_dark = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_29_light = 2130837758;
+			public const int ic_mr_button_connecting_24_light = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_30_dark = 2130837759;
+			public const int ic_mr_button_connecting_25_dark = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_30_light = 2130837760;
+			public const int ic_mr_button_connecting_25_light = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_disabled_dark = 2130837761;
+			public const int ic_mr_button_connecting_26_dark = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_disabled_light = 2130837762;
+			public const int ic_mr_button_connecting_26_light = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_disconnected_dark = 2130837763;
+			public const int ic_mr_button_connecting_27_dark = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_disconnected_light = 2130837764;
+			public const int ic_mr_button_connecting_27_light = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_grey = 2130837765;
+			public const int ic_mr_button_connecting_28_dark = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_vol_type_speaker_dark = 2130837766;
+			public const int ic_mr_button_connecting_28_light = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_vol_type_speaker_group_dark = 2130837767;
+			public const int ic_mr_button_connecting_29_dark = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_vol_type_speaker_group_light = 2130837768;
+			public const int ic_mr_button_connecting_29_light = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_vol_type_speaker_light = 2130837769;
+			public const int ic_mr_button_connecting_30_dark = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_vol_type_tv_dark = 2130837770;
+			public const int ic_mr_button_connecting_30_light = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_vol_type_tv_light = 2130837771;
+			public const int ic_mr_button_disabled_dark = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int mr_button_connected_dark = 2130837772;
+			public const int ic_mr_button_disabled_light = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int mr_button_connected_light = 2130837773;
+			public const int ic_mr_button_disconnected_dark = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int mr_button_connecting_dark = 2130837774;
+			public const int ic_mr_button_disconnected_light = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int mr_button_connecting_light = 2130837775;
+			public const int ic_mr_button_grey = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int mr_button_dark = 2130837776;
+			public const int ic_vol_type_speaker_dark = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int mr_button_light = 2130837777;
+			public const int ic_vol_type_speaker_group_dark = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int mr_dialog_close_dark = 2130837778;
+			public const int ic_vol_type_speaker_group_light = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int mr_dialog_close_light = 2130837779;
+			public const int ic_vol_type_speaker_light = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int mr_dialog_material_background_dark = 2130837780;
+			public const int ic_vol_type_tv_dark = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int mr_dialog_material_background_light = 2130837781;
+			public const int ic_vol_type_tv_light = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int mr_group_collapse = 2130837782;
+			public const int info = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int mr_group_expand = 2130837783;
+			public const int logobumper = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int mr_media_pause_dark = 2130837784;
+			public const int mr_button_connected_dark = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int mr_media_pause_light = 2130837785;
+			public const int mr_button_connected_light = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int mr_media_play_dark = 2130837786;
+			public const int mr_button_connecting_dark = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int mr_media_play_light = 2130837787;
+			public const int mr_button_connecting_light = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int mr_media_stop_dark = 2130837788;
+			public const int mr_button_dark = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int mr_media_stop_light = 2130837789;
+			public const int mr_button_light = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int mr_vol_type_audiotrack_dark = 2130837790;
+			public const int mr_dialog_close_dark = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int mr_vol_type_audiotrack_light = 2130837791;
+			public const int mr_dialog_close_light = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int navigation_empty_icon = 2130837792;
+			public const int mr_dialog_material_background_dark = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int notification_action_background = 2130837793;
+			public const int mr_dialog_material_background_light = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int notification_bg = 2130837794;
+			public const int mr_group_collapse = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int notification_bg_low = 2130837795;
+			public const int mr_group_expand = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int notification_bg_low_normal = 2130837796;
+			public const int mr_media_pause_dark = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int notification_bg_low_pressed = 2130837797;
+			public const int mr_media_pause_light = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int notification_bg_normal = 2130837798;
+			public const int mr_media_play_dark = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int notification_bg_normal_pressed = 2130837799;
+			public const int mr_media_play_light = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int notification_icon_background = 2130837800;
-			
-			// aapt resource value: 0x7f02012d
-			public const int notification_template_icon_bg = 2130837805;
-			
-			// aapt resource value: 0x7f02012e
-			public const int notification_template_icon_low_bg = 2130837806;
+			public const int mr_media_stop_dark = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int notification_tile_bg = 2130837801;
+			public const int mr_media_stop_light = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int notify_panel_notification_icon_bg = 2130837802;
+			public const int mr_vol_type_audiotrack_dark = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int tooltip_frame_dark = 2130837803;
+			public const int mr_vol_type_audiotrack_light = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int tooltip_frame_light = 2130837804;
+			public const int navigation_empty_icon = 2130837804;
+			
+			// aapt resource value: 0x7f02012d
+			public const int notification_action_background = 2130837805;
+			
+			// aapt resource value: 0x7f02012e
+			public const int notification_bg = 2130837806;
+			
+			// aapt resource value: 0x7f02012f
+			public const int notification_bg_low = 2130837807;
+			
+			// aapt resource value: 0x7f020130
+			public const int notification_bg_low_normal = 2130837808;
+			
+			// aapt resource value: 0x7f020131
+			public const int notification_bg_low_pressed = 2130837809;
+			
+			// aapt resource value: 0x7f020132
+			public const int notification_bg_normal = 2130837810;
+			
+			// aapt resource value: 0x7f020133
+			public const int notification_bg_normal_pressed = 2130837811;
+			
+			// aapt resource value: 0x7f020134
+			public const int notification_icon_background = 2130837812;
+			
+			// aapt resource value: 0x7f02013d
+			public const int notification_template_icon_bg = 2130837821;
+			
+			// aapt resource value: 0x7f02013e
+			public const int notification_template_icon_low_bg = 2130837822;
+			
+			// aapt resource value: 0x7f020135
+			public const int notification_tile_bg = 2130837813;
+			
+			// aapt resource value: 0x7f020136
+			public const int notify_panel_notification_icon_bg = 2130837814;
+			
+			// aapt resource value: 0x7f020137
+			public const int o = 2130837815;
+			
+			// aapt resource value: 0x7f020138
+			public const int rounded_button = 2130837816;
+			
+			// aapt resource value: 0x7f020139
+			public const int tooltip_frame_dark = 2130837817;
+			
+			// aapt resource value: 0x7f02013a
+			public const int tooltip_frame_light = 2130837818;
+			
+			// aapt resource value: 0x7f02013b
+			public const int trasparente = 2130837819;
+			
+			// aapt resource value: 0x7f02013c
+			public const int x = 2130837820;
 			
 			static Drawable()
 			{
@@ -3947,7 +5620,10 @@ namespace TrisBluetooth.Droid
 			public const int icon_round = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int launcher_foreground = 2130903042;
+			public const int icona = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int launcher_foreground = 2130903043;
 			
 			static Mipmap()
 			{
@@ -3961,6 +5637,12 @@ namespace TrisBluetooth.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f0a003d
+			public const int ApplicationName = 2131361853;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int Hello = 2131361852;
 			
 			// aapt resource value: 0x7f0a0015
 			public const int abc_action_bar_home_description = 2131361813;

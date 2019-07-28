@@ -134,7 +134,8 @@ namespace TrisBluetooth.Droid
                         System.Console.WriteLine("Richiesta  di Server");
                         server = new AcceptThread();
                         server.run();
-                    } else
+                    }
+                    else
                     {
                         System.Console.WriteLine("Richiesta  di Client");
                         client = new ConnectThread(Bth.serverDevice, MY_UUID);
@@ -157,7 +158,7 @@ namespace TrisBluetooth.Droid
 
 
         //Classe per Gestire il Client
-        public class ConnectThread: Java.Lang.Thread
+        public class ConnectThread : Java.Lang.Thread
         {
             private readonly BluetoothSocket mmSocket;
             private readonly BluetoothDevice mmDevice;

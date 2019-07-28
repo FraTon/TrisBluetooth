@@ -2,36 +2,94 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:TrisBluetooth"
-             x:Class="TrisBluetooth.MainPage">
+             x:Class="TrisBluetooth.MainPage"
+             NavigationPage.HasNavigationBar="false"
+             BackgroundImage="background3">
 
+    <StackLayout Margin="10">
+        <Grid>
+            <Image Source="info" 
+               Aspect="AspectFit" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="End"
+               WidthRequest="40"
+                HeightRequest="40"/>
 
-    <StackLayout>
-
-        <Button Text="Cerca"
+            <Button HorizontalOptions="End"
                 VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center"
-                Clicked="Cerca" />
+                BackgroundColor="Transparent"
+                WidthRequest="40"
+                HeightRequest="40"
+                Clicked="Info"/>
+        </Grid>
         
-        <ListView x:Name="MainListView"  
+        <Grid>
+            
+
+            <Image Source="button" 
+               Aspect="AspectFit" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"
+               WidthRequest="110"
+                HeightRequest="50"/>
+
+            <Button VerticalOptions="CenterAndExpand"
+                TextColor="Red"
+                Text="Cerca"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                BackgroundColor="Transparent"
+                WidthRequest="110"
+                HeightRequest="50"
+                Clicked="Cerca"/>
+        </Grid>
+
+                <ListView x:Name="MainListView"  
              HasUnevenRows="True"  
              ItemTapped="MainListView_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Vertical">
-                            <Label Text="{Binding Name}" />
-                            <Label Text="{Binding Mac}" />
+                            <Grid>
+                                <Label Text="{Binding Name}" 
+                                       TextColor="White" 
+                                       VerticalOptions="CenterAndExpand"
+                                       HorizontalOptions="Start"
+                                       WidthRequest="110"
+                                       HeightRequest="50"/>
+                            <Label Text="{Binding Mac}" 
+                                   TextColor="White" 
+                                   VerticalOptions="CenterAndExpand"
+                                   HorizontalOptions="End"/>
+                            </Grid>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        
-        <Button Text="Gioca"
+
+        <Grid>
+            <Image x:Name="giocaImage"
+               Source="button" 
+               Aspect="AspectFit" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"
+               WidthRequest="110"
+               HeightRequest="50"
+               IsVisible="False"/>
+
+            <Button x:Name="gioca"
+                Text="Gioca"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
-                IsVisible="False"
-                Clicked="Gioca" />
+                TextColor="Red"
+                BackgroundColor="Transparent"
+                WidthRequest="110"
+                HeightRequest="50"
+                Clicked="Gioca" 
+                IsVisible="False"/>
+        </Grid>
     </StackLayout>
 
 </ContentPage>
