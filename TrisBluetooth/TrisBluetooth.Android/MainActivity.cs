@@ -152,7 +152,8 @@ namespace TrisBluetooth.Droid
                 (sender, arg) =>
                 {
                     System.Console.WriteLine("Richiesta rivincita");
-                    mConnectedThread.write(arg);
+                    byte[] message = Encoding.ASCII.GetBytes(arg);
+                    mConnectedThread.write(message);
                 });
 
         }
@@ -338,6 +339,7 @@ namespace TrisBluetooth.Droid
                 }
                 catch (System.IO.IOException e)
                 {
+                    System.Console.WriteLine("Errore: " + e);
                 }
                 try
                 {
@@ -345,6 +347,7 @@ namespace TrisBluetooth.Droid
                 }
                 catch (Java.IO.IOException e)
                 {
+                    System.Console.WriteLine("Errore: " + e);
                 }
 
                 mmInStream = tmpIn;
@@ -370,6 +373,7 @@ namespace TrisBluetooth.Droid
                     }
                     catch (Java.IO.IOException e)
                     {
+                        System.Console.WriteLine("Errore: " + e);
                         break;
                     }
                 }
@@ -387,6 +391,7 @@ namespace TrisBluetooth.Droid
                 }
                 catch (Java.IO.IOException e)
                 {
+                    System.Console.WriteLine("Errore: " + e);
                     //reset();
                 }
 
@@ -400,7 +405,8 @@ namespace TrisBluetooth.Droid
                     }
                     catch (Java.IO.IOException e)
                     {
-                    }
+                    System.Console.WriteLine("Errore: " + e);
+                }
                 }
             }
 
