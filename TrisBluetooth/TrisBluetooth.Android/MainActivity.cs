@@ -52,12 +52,7 @@ namespace TrisBluetooth.Droid
                     MessagingCenter.Send<Object, String[]>(this, "SaveDevices", Description);
                 } else if(action == BluetoothDevice.ActionAclConnected)
                 {
-                    System.Console.WriteLine(action);
-                    if (!ruolo)
-                    {
-                        server = new AcceptThread();
-                        server.Start();
-                    }
+
                 } else if(action == BluetoothDevice.ActionAclDisconnected)
                 {
                     System.Console.WriteLine(action);
