@@ -34,7 +34,7 @@ namespace TrisBluetooth
 
         public void Rivincita(object sender, EventArgs args)
         {
-            MessagingCenter.Send<Object, String>(this, "message", "Droga");
+            MessagingCenter.Send<Object, String>(this, "message", "00");
         }
     }
 }

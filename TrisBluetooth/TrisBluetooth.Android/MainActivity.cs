@@ -138,13 +138,13 @@ namespace TrisBluetooth.Droid
                     {
                         System.Console.WriteLine("Richiesta  di Server");
                         server = new AcceptThread();
-                        server.run();
+                        server.Start();
                     }
                     else
                     {
                         System.Console.WriteLine("Richiesta  di Client");
                         client = new ConnectThread(Bth.serverDevice, MY_UUID);
-                        client.run();
+                        client.Start();
                     }
                 });
 
@@ -153,7 +153,7 @@ namespace TrisBluetooth.Droid
                 {
                     System.Console.WriteLine("Richiesta rivincita");
                     byte[] message = Encoding.ASCII.GetBytes(arg);
-                    mConnectedThread.write(message);
+                    mConnectedThread.Write(message);
                 });
 
         }
@@ -197,7 +197,8 @@ namespace TrisBluetooth.Droid
                 mmSocket = tmp;
             }
 
-            public void run()
+            override
+            public void Run()
             {
                 // Cancel discovery because it otherwise slows down the connection.
                 Bth.mBluetoothAdapter.CancelDiscovery();
@@ -235,7 +236,7 @@ namespace TrisBluetooth.Droid
             }
 
             // Closes the client socket and causes the thread to finish.
-            public void cancel()
+            public void Cancel()
             {
                 try
                 {
@@ -272,7 +273,8 @@ namespace TrisBluetooth.Droid
                 mmServerSocket = tmp;
             }
 
-            public void run()
+            override
+            public void Run()
             {
                 BluetoothSocket socket = null;
                 // Keep listening until exception occurs or a socket is returned.
@@ -296,12 +298,13 @@ namespace TrisBluetooth.Droid
                     {
                         mConnectedThread = new ConnectedThread(socket);
                         mConnectedThread.Start();
+                        break;
                     }
                 }
             }
 
             // Closes the connect socket and causes the thread to finish.
-            public void cancel()
+            public void Cancel()
             {
                 try
                 {
@@ -315,7 +318,7 @@ namespace TrisBluetooth.Droid
 
         }
         //questa classe gestisce lo scambio di messaggi
-        private class ConnectedThread : Java.Lang.Thread
+        private class ConnectedThread: Java.Lang.Thread 
         {
             private Handler handler;
 
@@ -354,8 +357,8 @@ namespace TrisBluetooth.Droid
                 mmOutStream = tmpOut;
             }
 
-
-            public void run()
+            override
+            public void Run()
             {
                 mmBuffer = new byte[1024];
                 int numBytes; // bytes returned from read()
@@ -369,7 +372,8 @@ namespace TrisBluetooth.Droid
                         numBytes = mmInStream.Read(mmBuffer);
                         // Send the obtained bytes to the UI activity.
                         string message = Encoding.UTF8.GetString(mmBuffer, 0, numBytes);
-                        System.Console.WriteLine(message);
+                        System.Console.WriteLine("Messagio: " + message);
+
                     }
                     catch (Java.IO.IOException e)
                     {
@@ -382,7 +386,7 @@ namespace TrisBluetooth.Droid
 
 
             // Call this from the main activity to send data to the remote device.
-            public void write(byte[] bytes)
+            public void Write(byte[] bytes)
             {
                 string text = System.Text.Encoding.Default.GetString(bytes);
                 try
@@ -397,18 +401,18 @@ namespace TrisBluetooth.Droid
 
             }
                 // Call this method from the main activity to shut down the connection.
-                public void cancel()
+            public void Cancel()
+            {
+                try
                 {
-                    try
-                    {
-                        mmSocket.Close();
-                    }
-                    catch (Java.IO.IOException e)
-                    {
-                    System.Console.WriteLine("Errore: " + e);
+                    mmSocket.Close();
                 }
+                catch (Java.IO.IOException e)
+                {
+                System.Console.WriteLine("Errore: " + e);
                 }
             }
+        }
 
     }
 
