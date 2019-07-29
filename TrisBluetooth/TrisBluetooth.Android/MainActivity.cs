@@ -25,12 +25,15 @@ namespace TrisBluetooth.Droid
     [Activity(Label = "TrisBluetooth", Icon = "@mipmap/icona", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
+        // thread per gestire lo scambio di messaggi
+        private static ConnectedThread mConnectedThread;
 
-        static ConnectedThread mConnectedThread;
+        // ruolo gestito dal dispositivo nella connessione bluetooth (true client, false server)
+        private static bool ruolo = false;
 
         // Broadcast receiver per quando si scoprono nuovi dispositivi
-        private DeviceDiscoveredReceiver receiver = new DeviceDiscoveredReceiver();
-        public class DeviceDiscoveredReceiver : BroadcastReceiver
+        private BluetoothReceiver receiver = new BluetoothReceiver();
+        private class BluetoothReceiver : BroadcastReceiver
         {
 
             public override void OnReceive(Context context, Intent intent)
@@ -40,26 +43,41 @@ namespace TrisBluetooth.Droid
                 // When discovery finds a device send a messagge containing the description of the device
                 if (action == BluetoothDevice.ActionFound)
                 {
+                    System.Console.WriteLine(action);
                     // Get the BluetoothDevice object from the Intent
                     BluetoothDevice device = (BluetoothDevice)intent.GetParcelableExtra(BluetoothDevice.ExtraDevice);
-                    System.Console.WriteLine("Trovato: " + device.Name + "   " + device.Address);
+                    System.Console.WriteLine("Trovato: " + device.Name + " " + device.Address);
                     devices.Add(device);
                     String[] Description = { device.Name, device.Address };
                     MessagingCenter.Send<Object, String[]>(this, "SaveDevices", Description);
+                } else if(action == BluetoothDevice.ActionAclConnected)
+                {
+                    System.Console.WriteLine(action);
+                    if (!ruolo)
+                    {
+                        server = new AcceptThread();
+                        server.Start();
+                    }
+                } else if(action == BluetoothDevice.ActionAclDisconnected)
+                {
+                    System.Console.WriteLine(action);
+                    reset();
                 }
 
             }
         }
 
+
+
         //Array list che contiene i Device trovati
         public static System.Collections.ArrayList devices = new System.Collections.ArrayList();
 
         // Thread per gestire la connessione
-        AcceptThread server;
-        ConnectThread client;
+        private static AcceptThread server;
+        private static ConnectThread client;
 
         // UUID con cui fare la connessione
-        static readonly UUID MY_UUID =
+        private static readonly UUID MY_UUID =
     UUID.FromString("8ce255c0-200a-11e0-ac64-0800200c9a66");
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -80,6 +98,34 @@ namespace TrisBluetooth.Droid
             setMailBoxes();
 
 
+        }
+
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            System.Console.WriteLine("OnDestroy called");
+            reset();
+        }
+
+        private static void reset()
+        {
+            System.Console.WriteLine("Reset Chiamata");
+
+            if (mConnectedThread != null)
+            {
+                mConnectedThread.Cancel();
+                mConnectedThread = null;
+            }
+            if (client != null)
+            {
+                client.Cancel();
+                client = null;
+            }
+            if (server != null)
+            {
+                server.Cancel();
+                server = null;
+            }
         }
 
         private void checkPermission()
@@ -111,7 +157,7 @@ namespace TrisBluetooth.Droid
         private void registerReceivers()
         {
             // Register for broadcasts when a device is discovered
-            receiver = new DeviceDiscoveredReceiver();
+            receiver = new BluetoothReceiver();
             var filter = new IntentFilter(BluetoothDevice.ActionFound);
             RegisterReceiver(receiver, filter);
 
@@ -132,16 +178,18 @@ namespace TrisBluetooth.Droid
             MessagingCenter.Subscribe<Object, String>(this, "C-S",
                 (sender, arg) =>
                 {
-                    String ruolo = arg;
+                    String role = arg;
 
-                    if (ruolo.Equals("Server"))
+                    if (role.Equals("Server"))
                     {
+                        ruolo = false;
                         System.Console.WriteLine("Richiesta  di Server");
                         server = new AcceptThread();
                         server.Start();
                     }
                     else
                     {
+                        ruolo = true;
                         System.Console.WriteLine("Richiesta  di Client");
                         client = new ConnectThread(Bth.serverDevice, MY_UUID);
                         client.Start();
@@ -171,7 +219,7 @@ namespace TrisBluetooth.Droid
 
 
         //Classe per Gestire il Client
-        public class ConnectThread : Java.Lang.Thread
+        private class ConnectThread : Java.Lang.Thread
         {
             private readonly BluetoothSocket mmSocket;
             private readonly BluetoothDevice mmDevice;
@@ -250,7 +298,7 @@ namespace TrisBluetooth.Droid
         }
 
         //classe per gestire il Server
-        public class AcceptThread : Java.Lang.Thread
+        private class AcceptThread : Java.Lang.Thread
         {
             private readonly BluetoothServerSocket mmServerSocket;
 
