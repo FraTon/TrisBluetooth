@@ -52,7 +52,7 @@ namespace TrisBluetooth.Droid
                     MessagingCenter.Send<Object, String[]>(this, "SaveDevices", Description);
                 } else if(action == BluetoothDevice.ActionAclConnected)
                 {
-
+                    MessagingCenter.Send<Object, String>(this, "OutgoingMessage", "Connected");
                 } else if(action == BluetoothDevice.ActionAclDisconnected)
                 {
                     System.Console.WriteLine(action);
@@ -163,38 +163,40 @@ namespace TrisBluetooth.Droid
 
         private void setMailBoxes()
         {
-            MessagingCenter.Subscribe<Object, char>(this, "setDiscoverability",
+
+            MessagingCenter.Subscribe<Object, String>(this, "Request",
                 (sender, arg) =>
                 {
-                    System.Console.WriteLine("Richiesta  di Discoverability");
-                    AbilitaDiscoverabilty();
-                });
+                    String request = arg;
 
-            MessagingCenter.Subscribe<Object, String>(this, "C-S",
-                (sender, arg) =>
-                {
-                    String role = arg;
-
-                    if (role.Equals("Server"))
+                    if (request.Equals("Server"))
                     {
                         ruolo = false;
-                        System.Console.WriteLine("Richiesta  di Server");
+                        System.Console.WriteLine("Richiesta di Server");
                         server = new AcceptThread();
                         server.Start();
                     }
-                    else
+                    else if (request.Equals("Client"))
                     {
                         ruolo = true;
-                        System.Console.WriteLine("Richiesta  di Client");
+                        System.Console.WriteLine("Richiesta di Client");
                         client = new ConnectThread(Bth.serverDevice, MY_UUID);
                         client.Start();
+                    } else if(request.Equals("Discovery"))
+                    {
+                        System.Console.WriteLine("Richiesta di Discoverability");
+                        AbilitaDiscoverabilty();
+                    } else if (request.Equals("Reset"))
+                    {
+                        System.Console.WriteLine("Richiesta di Reset");
+                        reset();
                     }
                 });
 
-            MessagingCenter.Subscribe<Object, string>(this, "message",
+            MessagingCenter.Subscribe<Object, string>(this, "IncomingMessage",
                 (sender, arg) =>
                 {
-                    System.Console.WriteLine("Richiesta rivincita");
+                    System.Console.WriteLine("posizione cliccata: " + arg);
                     byte[] message = Encoding.ASCII.GetBytes(arg);
                     mConnectedThread.Write(message);
                 });
@@ -416,6 +418,7 @@ namespace TrisBluetooth.Droid
                         // Send the obtained bytes to the UI activity.
                         string message = Encoding.UTF8.GetString(mmBuffer, 0, numBytes);
                         System.Console.WriteLine("Messagio: " + message);
+                        MessagingCenter.Send<Object, String>(this, "OutgoingMessage", message);
 
                     }
                     catch (Java.IO.IOException e)

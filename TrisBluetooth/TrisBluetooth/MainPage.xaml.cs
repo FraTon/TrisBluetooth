@@ -36,7 +36,7 @@ namespace TrisBluetooth
         
         async void Cerca(object sender, EventArgs args)
         {
-            MessagingCenter.Send<Object, char>(this, "setDiscoverability", 'd');
+            MessagingCenter.Send<Object, String>(this, "Request", "Discovery");
             DependencyService.Get<IBluetooth>().StartDiscovery();
         }
 

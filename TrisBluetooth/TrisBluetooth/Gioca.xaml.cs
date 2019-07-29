@@ -15,7 +15,13 @@ namespace TrisBluetooth
 		public Gioca ()
 		{
 			InitializeComponent ();
-		}
+
+            MessagingCenter.Subscribe<Object, String>(this, "OutgoingMessage",
+            (sender, arg) =>
+            {
+                ButtonClicked(arg);
+            });
+        }
 
         public void Info(object sender, EventArgs e)
         {
@@ -24,17 +30,22 @@ namespace TrisBluetooth
 
         public void Client(object sender, EventArgs args)
         {
-            MessagingCenter.Send<Object, String>(this, "C-S", "Client");
+            MessagingCenter.Send<Object, String>(this, "Request", "Client");
         }
 
         public void Server(object sender, EventArgs args)
         {
-            MessagingCenter.Send<Object, String>(this, "C-S", "Server");
+            MessagingCenter.Send<Object, String>(this, "Request", "Server");
         }
 
         public void Rivincita(object sender, EventArgs args)
         {
-            MessagingCenter.Send<Object, String>(this, "message", "00");
+            MessagingCenter.Send<Object, String>(this, "Request", "Reset");
+        }
+
+        public void ButtonClicked(string position)
+        {
+            //TODO
         }
     }
 }
