@@ -23,7 +23,7 @@ using Java.Nio.Charset;
 namespace TrisBluetooth.Droid
 {
     [Activity(Label = "TrisBluetooth", Icon = "@mipmap/icona", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
+    public class MainActivity : global:: Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         // thread per gestire lo scambio di messaggi
         private static ConnectedThread mConnectedThread;

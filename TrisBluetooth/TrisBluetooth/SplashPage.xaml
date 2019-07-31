@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:roxv="clr-namespace:Rox;assembly=Rox.Xamarin.Video.Portable"
+             x:Class="TrisBluetooth.SplashPage"
+             BackgroundImage="backgroundbumper"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Grid.Row="0" Grid.RowSpan="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <roxv:VideoView x:Name="video"  AutoPlay="True" Source="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"/> 
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -15,7 +15,7 @@
                WidthRequest="30"
                 HeightRequest="30"/>
                 
-                <Label Text="1:0"  
+                <Label x:Name="Punteggio"  
                  TextColor="White" 
                  XAlign="Center" 
                  VerticalOptions="EndAndExpand"
@@ -43,41 +43,41 @@
                     <ColumnDefinition Width="100" />
                     <ColumnDefinition Width="100" />
                 </Grid.ColumnDefinitions >
-                <Button  Grid.Row="0" Grid.Column="0" BackgroundColor="Transparent"/>
-                <Button  Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent"/>
-                <Button  Grid.Row="0" Grid.Column="2" BackgroundColor="Transparent"/>
-                <Button  Grid.Row="1" Grid.Column="0" BackgroundColor="Transparent"/>
-                <Button  Grid.Row="1" Grid.Column="1" BackgroundColor="Transparent"/>
-                <Button  Grid.Row="1" Grid.Column="2" BackgroundColor="Transparent"/>
-                <Button  Grid.Row="2" Grid.Column="0" BackgroundColor="Transparent"/>
-                <Button  Grid.Row="2" Grid.Column="1" BackgroundColor="Transparent"/>
-                <Button  Grid.Row="2" Grid.Column="2" BackgroundColor="Transparent"/>
-                    <Image Source="o" Grid.Row="0" Grid.Column="0" Aspect="AspectFit" IsVisible="False"/>
-                    <Image Source="o" Grid.Row="0" Grid.Column="1" Aspect="AspectFit" IsVisible="False"/>
-                    <Image Source="o" Grid.Row="0" Grid.Column="2" Aspect="AspectFit" IsVisible="False"/>
-                    <Image Source="o" Grid.Row="1" Grid.Column="0" Aspect="AspectFit" IsVisible="False"/>
-                    <Image Source="o" Grid.Row="1" Grid.Column="1" Aspect="AspectFit" IsVisible="False"/>
-                    <Image Source="o" Grid.Row="1" Grid.Column="2" Aspect="AspectFit" IsVisible="False"/>
-                    <Image Source="o" Grid.Row="2" Grid.Column="0" Aspect="AspectFit" IsVisible="False"/>
-                    <Image Source="o" Grid.Row="2" Grid.Column="1" Aspect="AspectFit" IsVisible="False"/>
-                    <Image Source="o" Grid.Row="2" Grid.Column="2" Aspect="AspectFit" IsVisible="False"/>
-                    <Image Source="x" Grid.Row="0" Grid.Column="0" Aspect="AspectFit" IsVisible="True"/>
-                    <Image Source="x" Grid.Row="0" Grid.Column="1" Aspect="AspectFit" IsVisible="True"/>
-                    <Image Source="x" Grid.Row="0" Grid.Column="2" Aspect="AspectFit" IsVisible="True"/>
-                    <Image Source="x" Grid.Row="1" Grid.Column="0" Aspect="AspectFit" IsVisible="True"/>
-                    <Image Source="x" Grid.Row="1" Grid.Column="1" Aspect="AspectFit" IsVisible="True"/>
-                    <Image Source="x" Grid.Row="1" Grid.Column="2" Aspect="AspectFit" IsVisible="True"/>
-                    <Image Source="x" Grid.Row="2" Grid.Column="0" Aspect="AspectFit" IsVisible="True"/>
-                    <Image Source="x" Grid.Row="2" Grid.Column="1" Aspect="AspectFit" IsVisible="True"/>
-                    <Image Source="x" Grid.Row="2" Grid.Column="2" Aspect="AspectFit" IsVisible="True"/>
+                    <Button x:Name="cella0" Grid.Row="0" Grid.Column="0" BackgroundColor="Transparent"/>
+                    <Button x:Name="cella1" Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent"/>
+                    <Button x:Name="cella2" Grid.Row="0" Grid.Column="2" BackgroundColor="Transparent"/>
+                    <Button x:Name="cella3" Grid.Row="1" Grid.Column="0" BackgroundColor="Transparent"/>
+                    <Button x:Name="cella4" Grid.Row="1" Grid.Column="1" BackgroundColor="Transparent"/>
+                    <Button x:Name="cella5" Grid.Row="1" Grid.Column="2" BackgroundColor="Transparent"/>
+                    <Button x:Name="cella6" Grid.Row="2" Grid.Column="0" BackgroundColor="Transparent"/>
+                    <Button x:Name="cella7" Grid.Row="2" Grid.Column="1" BackgroundColor="Transparent"/>
+                    <Button x:Name="cella8" Grid.Row="2" Grid.Column="2" BackgroundColor="Transparent"/>
+                    <Image x:Name="OImg0" Source="o" Grid.Row="0" Grid.Column="0" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="OImg1" Source="o" Grid.Row="0" Grid.Column="1" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="OImg2" Source="o" Grid.Row="0" Grid.Column="2" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="OImg3" Source="o" Grid.Row="1" Grid.Column="0" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="OImg4" Source="o" Grid.Row="1" Grid.Column="1" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="OImg5" Source="o" Grid.Row="1" Grid.Column="2" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="OImg6" Source="o" Grid.Row="2" Grid.Column="0" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="OImg7" Source="o" Grid.Row="2" Grid.Column="1" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="OImg8" Source="o" Grid.Row="2" Grid.Column="2" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="XImg0" Source="x" Grid.Row="0" Grid.Column="0" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="XImg1" Source="x" Grid.Row="0" Grid.Column="1" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="XImg2" Source="x" Grid.Row="0" Grid.Column="2" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="XImg3" Source="x" Grid.Row="1" Grid.Column="0" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="XImg4" Source="x" Grid.Row="1" Grid.Column="1" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="XImg5" Source="x" Grid.Row="1" Grid.Column="2" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="XImg6" Source="x" Grid.Row="2" Grid.Column="0" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="XImg7" Source="x" Grid.Row="2" Grid.Column="1" Aspect="AspectFit" IsVisible="False"/>
+                    <Image x:Name="XImg8" Source="x" Grid.Row="2" Grid.Column="2" Aspect="AspectFit" IsVisible="False"/>
                 </Grid>
-                <!--<roxv:VideoView AutoPlay="True"
+                <roxv:VideoView AutoPlay="True"
                     FullScreen="True"
                     Source="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"
-                                IsVisible="False"/>-->
+                                IsVisible="False"/>
             </Grid>
             <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="End">
-            <Label Text="Scegli il simbolo"  TextColor="White" XAlign="Center"/>
+            <Label x:Name="Display" TextColor="White" XAlign="Center"/>
             </Grid>
             <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" BackgroundColor="Transparent">
                 
@@ -90,12 +90,12 @@
                     <ColumnDefinition Width="80" />
                 </Grid.ColumnDefinitions>
                 
-                <Image Source="cerchio" Grid.Row="0" Grid.Column="0" Aspect="AspectFit" />
-                <Button Text="X"  Grid.Row="0" Grid.Column="0" TextColor="White" BackgroundColor="Transparent" Clicked="Client"/>
-                <Image Source="button" Grid.Row="0" Grid.Column="1" Aspect="AspectFit"/>
-                <Button Text="Rivincita"  Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent" TextColor="Black" Clicked="Rivincita"/>
-                <Image Source="cerchio" Grid.Row="0" Grid.Column="2" Aspect="AspectFit"/>
-                <Button Text="O"  Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="Transparent" Clicked="Server"/>
+                <Image x:Name="XImage" Source="cerchio" Grid.Row="0" Grid.Column="0" Aspect="AspectFit" />
+                <Button x:Name="X" Text="X"  Grid.Row="0" Grid.Column="0" TextColor="White" BackgroundColor="Transparent" Clicked="Client"/>
+                <Image  x:Name="RivincitaImage" Grid.Row="0" Grid.Column="1" Aspect="AspectFit"/>
+                <Button x:Name="Revenge" Text="Rivincita"  Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent" TextColor="Black" Clicked="Rivincita"/>
+                <Image x:Name="OImage" Source="cerchio" Grid.Row="0" Grid.Column="2" Aspect="AspectFit"/>
+                <Button x:Name="O" Text="O"  Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="Transparent" Clicked="Server"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

@@ -11,7 +11,7 @@ namespace TrisBluetooth
         {
             InitializeComponent();
             
-            var navigationPage = new NavigationPage(new MainPage());
+            var navigationPage = new NavigationPage(new SplashPage());
             MainPage = navigationPage;
           
         }
@@ -28,7 +28,8 @@ namespace TrisBluetooth
 
         protected override void OnResume()
         {
-            // Handle when your app resumes
+            var navigationPage = new NavigationPage(new MainPage());
+            MainPage = navigationPage;
         }
     }
 }
