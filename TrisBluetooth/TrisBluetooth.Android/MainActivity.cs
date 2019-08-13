@@ -418,8 +418,14 @@ namespace TrisBluetooth.Droid
                         System.Console.WriteLine(numBytes);
                         String message = Encoding.Unicode.GetString(mmBuffer, 0, numBytes);
                         System.Console.WriteLine("Messaggio: " + message);
-                        MessagingCenter.Send<Object, String>(this, "OutgoingMessage", message);
-                        break;
+                        try {
+                            MessagingCenter.Send<Object, String>(this, "OutgoingMessage", message);
+
+                        } catch (Exception e)
+                        {
+                            System.Console.WriteLine("Droga");
+                        }
+
                     }
                     catch (Java.IO.IOException e)
                     {

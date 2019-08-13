@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Forms.Xaml;
 using Xamarin.Forms;
 
 namespace TrisBluetooth
@@ -14,7 +15,7 @@ namespace TrisBluetooth
         public ObservableCollection<ListViewTemplate> data = new ObservableCollection<ListViewTemplate>();
         Button play;
         Image playImage;
-        private Gioca page = new Gioca();
+        public Gioca page = new Gioca();
 
         public MainPage()
         {
