@@ -191,12 +191,12 @@ namespace TrisBluetooth.Droid
                     }
                 });
 
-            MessagingCenter.Subscribe<Object, int>(this, "IncomingMessage",
+            MessagingCenter.Subscribe<Object, string>(this, "IncomingMessage",
                 (sender, arg) =>
                 {
-                    System.Console.WriteLine("posizione cliccata: " + arg);
-                    string messaggio =  arg.ToString();
-                    byte[] bytes = Encoding.Unicode.GetBytes(messaggio);
+                    System.Console.WriteLine("posizione cliccata: " + arg[0]);
+                    System.Console.WriteLine("esito: " + arg[1]);
+                    byte[] bytes = Encoding.Unicode.GetBytes(arg);
                     mConnectedThread.Write(bytes);
                 });
 

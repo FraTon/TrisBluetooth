@@ -108,7 +108,6 @@ namespace TrisBluetooth
             cellButton[8].Clicked += (sender, args) => { ButtonClicked(8); };
 
             reset();
-            
         }
 
         // alert per istruzioni gioco
@@ -149,7 +148,29 @@ namespace TrisBluetooth
             occupati[position] = true;
             if (master) cellImageX[position].IsVisible = true;
             else cellImageO[position].IsVisible = true;
-            MessagingCenter.Send<Object, int>(this, "IncomingMessage", position);
+
+            int esito = 0;
+
+            if (victory())
+            {
+                esito = 1;
+                display.Text = "Hai Vinto!";
+
+                mioPunteggio++;
+                punteggio.Text = mioPunteggio.ToString() + " : " + suoPunteggio.ToString();
+
+                riv.IsEnabled = true;
+                rivincitaImage.IsVisible = true;
+            } else if (draw())
+            {
+                esito = 2;
+                display.Text = "Pareggio!";
+
+                riv.IsEnabled = true;
+                rivincitaImage.IsVisible = true;
+            }
+
+            MessagingCenter.Send<Object, string>(this, "IncomingMessage", position + esito.ToString());
         }
 
         //invocata ogni volta che si inizia la partitra
@@ -164,7 +185,8 @@ namespace TrisBluetooth
                 cliccati[i] = false;
                 occupati[i] = false;
             }
-
+            riv.IsEnabled = false;
+            rivincitaImage.IsVisible = false;
             xoisEnable(true);
         }
 
@@ -226,19 +248,41 @@ namespace TrisBluetooth
 
         public void messageReceived(String arg)
         {
+            string positionString = arg[0].ToString();
+            string esitoString = arg[1].ToString();
+
+            Int32.TryParse(positionString, out int position);
+            Int32.TryParse(esitoString, out int esito);
 
             Device.BeginInvokeOnMainThread(() => {
-                Thread.CurrentThread.IsBackground = true;
-                Int32.TryParse(arg, out int position);
-                System.Diagnostics.Debug.WriteLine("is visible");
                 if (master) cellImageO[position].IsVisible = true;
                 else cellImageX[position].IsVisible = true;
-                System.Diagnostics.Debug.WriteLine("occupati = true");
                 occupati[position] = true;
-                System.Diagnostics.Debug.WriteLine("Button Click");
-                ButtonClick(true);
-                System.Diagnostics.Debug.WriteLine("display text");
-                display.Text = "Tocca a te";
+
+                switch (esito)
+                {
+                    case 0:
+                        {
+                            display.Text = "Tocca a te";
+                            ButtonClick(true);
+                        }
+                        break;
+                    case 1:
+                        {
+                            display.Text = "Hai Perso!";
+                            riv.IsEnabled = true;
+                            rivincitaImage.IsVisible = true;
+                        }
+                        break;
+                    case 2:
+                        {
+                            display.Text = "Pareggio!";
+                            riv.IsEnabled = true;
+                            rivincitaImage.IsVisible = true;
+                        }
+                        break;
+                }
+
             });
 
         }
