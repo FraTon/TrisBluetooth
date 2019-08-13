@@ -70,18 +70,6 @@ namespace TrisBluetooth
             cellButton[7].Clicked += (sender, args) => { ButtonClicked(7); };
             cellButton[8].Clicked += (sender, args) => { ButtonClicked(8); };
             reset();
-
-            MessagingCenter.Subscribe<Object, String>(this, "OutgoingMessage",
-            (sender, arg) =>
-            {
-                Int32.TryParse(arg, out int position);
-                occupati[position] = true;
-                ButtonClick(true);
-                if (master) cellImageO[position].IsVisible = true;
-                else cellImageX[position].IsVisible = true;
-                display.Text = "Tocca a te";
-            });
-
             
         }
 
@@ -199,5 +187,16 @@ namespace TrisBluetooth
             }
             return true;
         }
+
+        public void messageReceived(String arg)
+        {
+            Int32.TryParse(arg, out int position);
+            occupati[position] = true;
+            ButtonClick(true);
+            if (master) cellImageO[position].IsVisible = true;
+            else cellImageX[position].IsVisible = true;
+            display.Text = "Tocca a te";
+        }
+        
     }
 }

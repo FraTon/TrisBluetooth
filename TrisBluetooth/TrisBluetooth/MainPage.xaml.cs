@@ -14,6 +14,7 @@ namespace TrisBluetooth
         public ObservableCollection<ListViewTemplate> data = new ObservableCollection<ListViewTemplate>();
         Button play;
         Image playImage;
+        private Gioca page = new Gioca();
 
         public MainPage()
         {
@@ -30,6 +31,13 @@ namespace TrisBluetooth
                 data.Add(new ListViewTemplate(name, mac));
                 MainListView.ItemsSource = data;
             });
+
+            MessagingCenter.Subscribe<Object, String>(this, "OutgoingMessage",
+            (sender, arg) =>
+            {
+                page.messageReceived(arg);
+            });
+
             play = FindByName("gioca") as Button;
             playImage = FindByName("giocaImage") as Image;
         }
@@ -51,7 +59,6 @@ namespace TrisBluetooth
 
         private void Gioca(object sender, EventArgs e)
         {
-            var page = new Gioca();
             Navigation.PushAsync(page);
         }
 
