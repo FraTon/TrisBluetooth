@@ -192,10 +192,10 @@ namespace TrisBluetooth
         {
             Int32.TryParse(arg, out int position);
             occupati[position] = true;
-            ButtonClick(true);
             if (master) cellImageO[position].IsVisible = true;
             else cellImageX[position].IsVisible = true;
-            display.Text = "Tocca a te";
+            //ButtonClick(true);
+            //display.Text = "Tocca a te";
         }
         
     }
