@@ -52,7 +52,6 @@ namespace TrisBluetooth.Droid
                     MessagingCenter.Send<Object, String[]>(this, "SaveDevices", Description);
                 } else if(action == BluetoothDevice.ActionAclConnected)
                 {
-                    MessagingCenter.Send<Object, String>(this, "OutgoingMessage", "Connected");
                 } else if(action == BluetoothDevice.ActionAclDisconnected)
                 {
                     System.Console.WriteLine(action);
@@ -91,8 +90,7 @@ namespace TrisBluetooth.Droid
 
             //Questa funzione registra le caselle per lo scambio di messaggi fra la parte android e cross-platform
             setMailBoxes();
-
-
+   
         }
 
         protected override void OnDestroy()
@@ -418,10 +416,10 @@ namespace TrisBluetooth.Droid
                         numBytes = mmInStream.Read(mmBuffer);
                         // Send the obtained bytes to the UI activity.
                         System.Console.WriteLine(numBytes);
-                        string message = Encoding.Unicode.GetString(mmBuffer, 0, numBytes);
+                        String message = Encoding.Unicode.GetString(mmBuffer, 0, numBytes);
                         System.Console.WriteLine("Messaggio: " + message);
-                        MessagingCenter.Send<Object, string>(this, "OutgoingMessage", message);
-
+                        MainActivity send = new MainActivity();
+                        send.sendMessage(message);
                     }
                     catch (Java.IO.IOException e)
                     {
@@ -431,7 +429,6 @@ namespace TrisBluetooth.Droid
                 }
 
             }
-
 
             // Call this from the main activity to send data to the remote device.
             public void Write(byte[] bytes)
@@ -462,6 +459,10 @@ namespace TrisBluetooth.Droid
             }
         }
 
+        private void sendMessage(string message)
+        {
+            MessagingCenter.Send<Object, String>(this, "OutgoingMessage", message);
+        }
     }
 
 

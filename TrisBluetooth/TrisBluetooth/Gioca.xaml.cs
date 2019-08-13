@@ -71,7 +71,7 @@ namespace TrisBluetooth
             cellButton[8].Clicked += (sender, args) => { ButtonClicked(8); };
             reset();
 
-            MessagingCenter.Subscribe<Object, string>(this, "OutgoingMessage",
+            MessagingCenter.Subscribe<Object, String>(this, "OutgoingMessage",
             (sender, arg) =>
             {
                 Int32.TryParse(arg, out int position);
@@ -140,6 +140,8 @@ namespace TrisBluetooth
                 cliccati[i] = false;
                 occupati[i] = false;
             }
+
+            xoisEnable(true);
         }
 
         //cambia isEnable dei bottoni della griglia 
