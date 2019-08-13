@@ -43,15 +43,15 @@
                     <ColumnDefinition Width="100" />
                     <ColumnDefinition Width="100" />
                 </Grid.ColumnDefinitions >
-                    <Button x:Name="cella0" Grid.Row="0" Grid.Column="0" BackgroundColor="Transparent"/>
-                    <Button x:Name="cella1" Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent"/>
-                    <Button x:Name="cella2" Grid.Row="0" Grid.Column="2" BackgroundColor="Transparent"/>
-                    <Button x:Name="cella3" Grid.Row="1" Grid.Column="0" BackgroundColor="Transparent"/>
-                    <Button x:Name="cella4" Grid.Row="1" Grid.Column="1" BackgroundColor="Transparent"/>
-                    <Button x:Name="cella5" Grid.Row="1" Grid.Column="2" BackgroundColor="Transparent"/>
-                    <Button x:Name="cella6" Grid.Row="2" Grid.Column="0" BackgroundColor="Transparent"/>
-                    <Button x:Name="cella7" Grid.Row="2" Grid.Column="1" BackgroundColor="Transparent"/>
-                    <Button x:Name="cella8" Grid.Row="2" Grid.Column="2" BackgroundColor="Transparent"/>
+                    <Button x:Name="cella0" Grid.Row="0" Grid.Column="0" BackgroundColor="Transparent" />
+                    <Button x:Name="cella1" Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent" />
+                    <Button x:Name="cella2" Grid.Row="0" Grid.Column="2" BackgroundColor="Transparent" />
+                    <Button x:Name="cella3" Grid.Row="1" Grid.Column="0" BackgroundColor="Transparent" />
+                    <Button x:Name="cella4" Grid.Row="1" Grid.Column="1" BackgroundColor="Transparent" />
+                    <Button x:Name="cella5" Grid.Row="1" Grid.Column="2" BackgroundColor="Transparent" />
+                    <Button x:Name="cella6" Grid.Row="2" Grid.Column="0" BackgroundColor="Transparent" />
+                    <Button x:Name="cella7" Grid.Row="2" Grid.Column="1" BackgroundColor="Transparent" />
+                    <Button x:Name="cella8" Grid.Row="2" Grid.Column="2" BackgroundColor="Transparent" />
                     <Image x:Name="OImg0" Source="o" Grid.Row="0" Grid.Column="0" Aspect="AspectFit" IsVisible="False"/>
                     <Image x:Name="OImg1" Source="o" Grid.Row="0" Grid.Column="1" Aspect="AspectFit" IsVisible="False"/>
                     <Image x:Name="OImg2" Source="o" Grid.Row="0" Grid.Column="2" Aspect="AspectFit" IsVisible="False"/>

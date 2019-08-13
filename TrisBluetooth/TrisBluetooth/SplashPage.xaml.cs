@@ -14,19 +14,19 @@ namespace TrisBluetooth
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class SplashPage : ContentPage
 	{
-        VideoView bumper;
+        //VideoView bumper;
         public SplashPage ()
 		{
 			InitializeComponent ();
-            bumper = FindByName("video") as VideoView;
+           // bumper = FindByName("video") as VideoView;
             // bumper.Source = "android.resource://com.example.progettoandroid/" +  Resource.logobumper;
-            bumper.Start();
+            //bumper.Start();
             Handler h = new Handler();
             Action start = () =>
               {
                   var page = new MainPage();
                   Navigation.PushAsync(page);
-                  bumper.Stop();
+                //  bumper.Stop();
               };
             h.PostDelayed(start, 10000);
             
@@ -36,7 +36,7 @@ namespace TrisBluetooth
         {
             //bumper.VideoState
             
-            bumper.Stop();
+           // bumper.Stop();
         }
     }
 }

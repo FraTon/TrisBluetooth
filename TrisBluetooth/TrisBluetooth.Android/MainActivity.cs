@@ -193,11 +193,13 @@ namespace TrisBluetooth.Droid
                     }
                 });
 
-            MessagingCenter.Subscribe<Object, string>(this, "IncomingMessage",
+            MessagingCenter.Subscribe<Object, int>(this, "IncomingMessage",
                 (sender, arg) =>
                 {
                     System.Console.WriteLine("posizione cliccata: " + arg);
-                    byte[] message = Encoding.ASCII.GetBytes(arg);
+                    byte[] messageReverse = BitConverter.GetBytes(arg);
+                    Array.Reverse(messageReverse);
+                    byte[] message = messageReverse;
                     mConnectedThread.Write(message);
                 });
 
@@ -416,8 +418,9 @@ namespace TrisBluetooth.Droid
                         // Read from the InputStream.
                         numBytes = mmInStream.Read(mmBuffer);
                         // Send the obtained bytes to the UI activity.
+                        System.Console.WriteLine(numBytes);
                         string message = Encoding.UTF8.GetString(mmBuffer, 0, numBytes);
-                        System.Console.WriteLine("Messagio: " + message);
+                        System.Console.WriteLine("Messaggio: " + message);
                         MessagingCenter.Send<Object, String>(this, "OutgoingMessage", message);
 
                     }

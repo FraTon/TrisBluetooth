@@ -57,17 +57,23 @@ namespace TrisBluetooth
             {
                 String elemento = i.ToString();
                 cellButton[i] = FindByName("cella" + elemento) as Button;
-                cellButton[i].Clicked += (sender, arg) => { ButtonClicked(i.ToString()); };
                 cellImageX[i] = FindByName("XImg" + elemento) as Image;
                 cellImageO[i] = FindByName("OImg" + elemento) as Image;
             }
-
+            cellButton[0].Clicked += (sender, args) => { ButtonClicked(0); };
+            cellButton[1].Clicked += (sender, args) => { ButtonClicked(1); };
+            cellButton[2].Clicked += (sender, args) => { ButtonClicked(2); };
+            cellButton[3].Clicked += (sender, args) => { ButtonClicked(3); };
+            cellButton[4].Clicked += (sender, args) => { ButtonClicked(4); };
+            cellButton[5].Clicked += (sender, args) => { ButtonClicked(5); };
+            cellButton[6].Clicked += (sender, args) => { ButtonClicked(6); };
+            cellButton[7].Clicked += (sender, args) => { ButtonClicked(7); };
+            cellButton[8].Clicked += (sender, args) => { ButtonClicked(8); };
             reset();
 
-            MessagingCenter.Subscribe<Object, String>(this, "OutgoingMessage",
+            MessagingCenter.Subscribe<Object, string>(this, "OutgoingMessage",
             (sender, arg) =>
             {
-                ButtonClicked(arg);
                 int i = 0;
                 Int32.TryParse(arg, out i);
                 occupati[i] = true;
@@ -110,19 +116,17 @@ namespace TrisBluetooth
             xoisEnable(true);
         }
 
-        public void ButtonClicked(String position)
+        public void ButtonClicked(int position)
         {
             ButtonEnable(false);
             display.Text = "Attendi...";
-            int i = 0;
             //trasforma da string ad int position; il TryParse non genera un'eccezione se la conversione non riesce
-            Int32.TryParse(position, out i);
-            cliccati[i] = true;
-            occupati[i] = true;
-            ButtonClick(false);
-            MessagingCenter.Send<Object, String>(this, "IncomingMessage", position);
-            if (master) cellImageX[i].IsVisible = true;
-            else cellImageO[i].IsVisible = true;
+            //Int32.TryParse(position, out i);
+            cliccati[position] = true;
+            occupati[position] = true;
+            MessagingCenter.Send<Object, int>(this, "IncomingMessage", position);
+            if (master) cellImageX[position].IsVisible = true;
+            else cellImageO[position].IsVisible = true;
         }
 
         //invocata ogni volta che si inizia la partitra
