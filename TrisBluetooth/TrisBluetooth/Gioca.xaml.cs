@@ -74,12 +74,11 @@ namespace TrisBluetooth
             MessagingCenter.Subscribe<Object, string>(this, "OutgoingMessage",
             (sender, arg) =>
             {
-                int i = 0;
-                Int32.TryParse(arg, out i);
-                occupati[i] = true;
+                Int32.TryParse(arg, out int position);
+                occupati[position] = true;
                 ButtonClick(true);
-                if (master) cellImageO[i].IsVisible = true;
-                else cellImageX[i].IsVisible = true;
+                if (master) cellImageO[position].IsVisible = true;
+                else cellImageX[position].IsVisible = true;
                 display.Text = "Tocca a te";
             });
 
@@ -124,14 +123,15 @@ namespace TrisBluetooth
             //Int32.TryParse(position, out i);
             cliccati[position] = true;
             occupati[position] = true;
-            MessagingCenter.Send<Object, int>(this, "IncomingMessage", position);
             if (master) cellImageX[position].IsVisible = true;
             else cellImageO[position].IsVisible = true;
+            MessagingCenter.Send<Object, int>(this, "IncomingMessage", position);
         }
 
         //invocata ogni volta che si inizia la partitra
         public void reset()
         {
+            master = false;
             for (int i = 0; i < 9; i++)
             {
                 cellButton[i].IsEnabled = false;

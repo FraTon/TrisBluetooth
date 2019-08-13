@@ -1,4 +1,4 @@
-﻿using Android.OS;
+﻿//using Android.OS;
 using Rox;
 using System;
 using System.Collections.Generic;
@@ -14,6 +14,7 @@ namespace TrisBluetooth
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class SplashPage : ContentPage
 	{
+        /*
         //VideoView bumper;
         public SplashPage ()
 		{
@@ -31,7 +32,7 @@ namespace TrisBluetooth
             h.PostDelayed(start, 10000);
             
         }
-
+        */
         public void OnRestart()
         {
             //bumper.VideoState

@@ -197,10 +197,9 @@ namespace TrisBluetooth.Droid
                 (sender, arg) =>
                 {
                     System.Console.WriteLine("posizione cliccata: " + arg);
-                    byte[] messageReverse = BitConverter.GetBytes(arg);
-                    Array.Reverse(messageReverse);
-                    byte[] message = messageReverse;
-                    mConnectedThread.Write(message);
+                    string messaggio =  arg.ToString();
+                    byte[] bytes = Encoding.Unicode.GetBytes(messaggio);
+                    mConnectedThread.Write(bytes);
                 });
 
         }
@@ -419,9 +418,9 @@ namespace TrisBluetooth.Droid
                         numBytes = mmInStream.Read(mmBuffer);
                         // Send the obtained bytes to the UI activity.
                         System.Console.WriteLine(numBytes);
-                        string message = Encoding.UTF8.GetString(mmBuffer, 0, numBytes);
+                        string message = Encoding.Unicode.GetString(mmBuffer, 0, numBytes);
                         System.Console.WriteLine("Messaggio: " + message);
-                        MessagingCenter.Send<Object, String>(this, "OutgoingMessage", message);
+                        MessagingCenter.Send<Object, string>(this, "OutgoingMessage", message);
 
                     }
                     catch (Java.IO.IOException e)
