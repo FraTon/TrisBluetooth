@@ -50,7 +50,7 @@ namespace TrisBluetooth
 
             //rivincita = FindByName("Rivincita") as Button;
             punteggio.Text = mioPunteggio.ToString() + " : " + suoPunteggio.ToString();
-            display.Text = "Scegli il tuo simbolo...";
+            display.Text = "Scegli il tuo simbolo";
 
             //assegna agli array le immagini e i bottoni della griglia
 
@@ -188,6 +188,8 @@ namespace TrisBluetooth
             riv.IsEnabled = false;
             rivincitaImage.IsVisible = false;
             xoisEnable(true);
+
+            display.Text = "Scegli il tuo simbolo";
         }
 
         //cambia isEnable dei bottoni della griglia 
